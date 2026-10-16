@@ -1,0 +1,10 @@
+{
+  // SABI PREICFES CENTEC · preicfes.sabicentec.com
+  // Worker que sirve los archivos estáticos de este repositorio.
+  "name": "sabi-preicfes-centec",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "single-page-application"
+  }
+}

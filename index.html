@@ -1,37 +1,885 @@
-<!DOCTYPE html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SABI PREICFES CENTEC</title>
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>SABI PREICFES CENTEC</title>
+<meta name="description" content="Entrenador PREICFES de CENTEC Córdoba (Cali): simulacros tipo Saber 11 para 9°, 10° y 11°, por competencias, DBA y lineamientos, con Ruta del Error.">
+<meta name="theme-color" content="#1A2D7A">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
 <style>
-:root{--azul:#073B8E;--azul2:#0A57C9;--amarillo:#FFC928;--naranja:#F28C28;--blanco:#fff;--gris:#eef3fb;--texto:#10233f;--verde:#0e9f6e;--rojo:#d93025}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(135deg,#eef5ff,#fff8df);color:var(--texto)}button,input,select{font:inherit}.app{min-height:100vh;display:flex;flex-direction:column}.top{background:linear-gradient(90deg,var(--azul),var(--azul2));color:white;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:900}.brand img{width:42px;height:42px;object-fit:contain;background:white;border-radius:10px;padding:3px}.tag{font-size:12px;opacity:.94}.page{width:min(1180px,94vw);margin:22px auto;flex:1}.hero{display:grid;grid-template-columns:1fr 1.15fr .9fr;gap:18px}.card{background:white;border-radius:24px;box-shadow:0 12px 35px rgba(7,59,142,.12);border:1px solid rgba(7,59,142,.09);padding:22px}.left{background:linear-gradient(160deg,var(--azul),#0b62d9);color:white;text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;overflow:hidden}.left:before,.left:after{display:none!important;content:none!important}.avatar{width:min(315px,84%);max-height:335px;object-fit:contain;display:block;margin:0 auto 10px;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}.left h2{margin:4px 0;font-size:26px}.quote{background:rgba(255,255,255,.14);padding:12px;border-radius:16px;margin-top:12px;font-weight:800}.center h1{font-size:clamp(34px,5vw,58px);line-height:.95;margin:0 0 10px;color:var(--azul);letter-spacing:-1.5px}.center h3{color:var(--naranja);font-size:24px;margin:4px 0 14px}.sabiMeaning{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}.pill{border:2px solid #e5edf9;border-radius:16px;padding:12px;background:#fbfdff}.pill b{color:var(--azul);font-size:22px}.notice{background:#fff3c4;border-left:6px solid var(--amarillo);padding:14px;border-radius:14px;font-weight:800}.login h2{color:var(--azul);margin-top:0}.field{margin:14px 0}.field label{font-weight:900;display:block;margin-bottom:7px}input,select{width:100%;padding:13px 14px;border:2px solid #dbe6f7;border-radius:14px;background:#fbfdff}.btn{border:0;border-radius:16px;padding:14px 18px;background:linear-gradient(90deg,var(--naranja),var(--amarillo));color:#0b2340;font-weight:900;cursor:pointer;box-shadow:0 8px 20px rgba(242,140,40,.25)}.btn.secondary{background:#e9f1ff;color:var(--azul);box-shadow:none}.footer{margin-top:18px;display:flex;align-items:center;justify-content:space-between;gap:12px;background:white;border-radius:20px;padding:12px 16px;box-shadow:0 8px 22px rgba(7,59,142,.08)}.footer img{height:52px;object-fit:contain}.contact{font-size:13px;font-weight:800;color:#315073}.hidden{display:none!important}.dash{display:grid;grid-template-columns:260px 1fr;gap:18px}.side{background:var(--azul);color:white;border-radius:24px;padding:18px}.side button{width:100%;margin:7px 0;text-align:left}.studentBox{background:rgba(255,255,255,.12);border-radius:16px;padding:12px;margin-bottom:14px}.main{min-height:560px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.tile{background:white;border:1px solid #e3ebf8;border-radius:18px;padding:18px;cursor:pointer;box-shadow:0 8px 20px rgba(7,59,142,.08)}.tile h3{margin:0 0 8px;color:var(--azul)}.meta{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.badge{background:#edf4ff;border:1px solid #d9e8ff;color:var(--azul);border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}.badge.warn{background:#fff4d0;color:#8a5a00;border-color:#ffe09b}.badge.danger{background:#ffe9e7;color:#a32518;border-color:#ffc7c1}.question{font-size:20px;font-weight:900;line-height:1.32;margin:14px 0}.context{background:#f6f9ff;border-left:6px solid var(--azul2);border-radius:16px;padding:16px;margin:12px 0;line-height:1.55}.options{display:grid;gap:10px;margin:14px 0}.opt{padding:13px;border:2px solid #dbe6f7;border-radius:14px;background:white;text-align:left;cursor:pointer}.opt.selected{border-color:var(--azul2);background:#eaf3ff}.feedback{margin-top:14px;border-radius:16px;padding:16px}.feedback.ok{background:#e8fff5;border:1px solid #b9f4dc}.feedback.bad{background:#fff0ef;border:1px solid #ffd1cc}.bar{height:12px;background:#e5edf9;border-radius:999px;overflow:hidden}.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--azul2),var(--naranja));width:0}.timer{font-weight:900;color:var(--rojo)}
-/* UX compacto: entrenamiento sin scroll excesivo */
-.main{position:relative;padding-bottom:86px}.trainingHead{position:sticky;top:0;z-index:3;background:white;margin:-22px -22px 10px;padding:12px 18px;border-bottom:1px solid #e6eef9;border-radius:24px 24px 0 0}.trainingHead h2{margin:0;font-size:22px}.meta.compact{margin:6px 0;gap:5px}.meta.compact .badge{padding:4px 8px;font-size:11px}.context{max-height:155px;overflow:auto}.question{font-size:18px;margin:10px 0}.options{gap:8px;margin:10px 0}.opt{padding:10px 12px}.feedback{padding:12px;margin-top:10px}.feedback h3{margin:0 0 6px;font-size:18px}.feedback p{margin:5px 0}.feedback details{margin:6px 0;background:rgba(255,255,255,.55);border-radius:10px;padding:8px}.feedback summary{cursor:pointer;font-weight:900;color:var(--azul)}.nextDock{position:sticky;bottom:0;z-index:5;background:rgba(255,255,255,.96);border-top:1px solid #e6eef9;margin:12px -22px -86px;padding:10px 18px;border-radius:0 0 24px 24px;display:flex;justify-content:flex-end}.nextDock .btn{padding:12px 22px}
-@media(max-width:900px){.hero{grid-template-columns:1fr}.dash{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.footer{flex-direction:column;text-align:center}.center h1{font-size:38px}.top{flex-direction:column}.avatar{width:220px}.page{width:96vw;margin:10px auto}.card{padding:14px;border-radius:18px}.side{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:10px}.side button{margin:0;font-size:13px;padding:10px}.studentBox{grid-column:1/-1;margin-bottom:4px}.main{min-height:calc(100vh - 160px);padding-bottom:76px}.trainingHead{margin:-14px -14px 8px;padding:10px 12px;border-radius:18px 18px 0 0}.trainingHead h2{font-size:18px}.context{max-height:125px;font-size:14px;padding:10px}.question{font-size:16px}.opt{padding:9px 10px;font-size:14px}.feedback{font-size:14px}.nextDock{margin:10px -14px -76px;padding:9px 12px}.nextDock .btn{width:100%}}
-</style></head><body><div class="app"><header class="top"><div class="brand"><img src="assets/logo_centec.png" alt="Logo CENTEC"><div><div>SABI PREICFES CENTEC CALI</div><div class="tag">Banco Maestro SIESC · Competencias · Saber 11 · PISA · MEN/DBA</div></div></div><div class="tag" id="bankStatus">Cargando banco...</div></header><main class="page"><section id="landing" class="hero"><div class="card left"><img class="avatar" src="assets/avatar_sabi.png" alt="Avatar SABI CENTEC"><h2>Tu Amigo del Saber</h2><p><b>CENTEC</b></p><div class="quote" id="rotativo">El error no nos detiene, nos enseña, nos fortalece y nos hace crecer.</div></div><div class="card center"><h1>SABI PREICFES<br>CENTEC CALI</h1><h3>Entrenador inteligente de alto rendimiento</h3><p>Ahora trabaja con banco externo por competencias, memoria anti-repetición, niveles diferenciados para 9°, 10° y modo rígido Saber 11 para 11°.</p><div class="sabiMeaning"><div class="pill"><b>S</b> Saber</div><div class="pill"><b>A</b> Aprender</div><div class="pill"><b>B</b> Brillar</div><div class="pill"><b>I</b> Imaginar</div></div><div class="notice">Grado 11: exigencia tipo Saber 11 + PISA. Grados 9° y 10°: adaptación progresiva sobre el mismo banco maestro.</div></div><div class="card login"><h2>Identificación del estudiante</h2><div class="field"><label>Nombre y apellidos</label><input id="name" placeholder="Ej. Juan David Pérez"></div><div class="field"><label>Curso</label><select id="course"><option value="">Seleccione curso</option><option>9-1</option><option>9-2</option><option>9-3</option><option>9-4</option><option>10-1</option><option>10-2</option><option>10-3</option><option>10-4</option><option>11-1</option><option>11-2</option><option>11-3</option><option>11-4</option></select></div><button class="btn" onclick="login()">INGRESAR A SABI</button><p class="tag" style="color:#38506f;margin-top:12px">Sin contraseña para estudiantes. Acceso docente/directivo en fase posterior.</p></div></section><footer class="footer"><img src="assets/logo_centec.png" alt="Logo CENTEC"><div><b>Siempre vigilantes, siempre contigo.</b></div><div class="contact">Facebook: @colegiocentecoficial · Instagram: @colegiocentec · Calle 54 # 41E3-57 Cali</div></footer><section id="dashboard" class="dash hidden"><aside class="side"><div class="studentBox"><b id="studentName"></b><br><span id="studentCourse"></span><br><span id="studentMode"></span><br><span id="xpBox"></span></div><button class="btn secondary" onclick="homeDash()">Inicio</button><button class="btn secondary" onclick="startDiagnostic()">Diagnóstico 5 áreas</button><button class="btn secondary" onclick="showAreas()">Práctica por áreas</button><button class="btn secondary" onclick="startExam()">Simulacro</button><button class="btn secondary" onclick="showProgress()">Mi progreso</button><button class="btn secondary" onclick="clearSeen()">Reiniciar memoria</button></aside><section class="card main" id="main"></section></section></main></div>
+:root{
+  --navy:#1A2D7A; --navy-ink:#0f1f3d; --orange:#F47C20; --gold:#F5C518;
+  --bg:#f4f6fb; --surface:#ffffff; --surface-2:#eef1f9; --line:#d7ddec;
+  --fg:#16203d; --muted:#56607e; --accent:var(--navy); --accent-fg:#ffffff;
+  --ok:#1b8a4b; --ok-bg:#e3f5ea; --bad:#c2410c; --bad-bg:#fdeee3; --warn-bg:#fff6d6;
+  --c1:#1A2D7A; --c2:#F47C20; --c3:#13866f; --c4:#b8860b; --c5:#8a3ffc;
+  --font:"Nunito","Nunito Sans","Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1328; --surface:#141d3a; --surface-2:#1b2648; --line:#2b3863;
+  --fg:#e8ecf8; --muted:#a3acc8; --accent:#6f86e8; --accent-fg:#0c1328;
+  --ok:#5fd394; --ok-bg:#12352a; --bad:#ff9a5c; --bad-bg:#3a2216; --warn-bg:#3a3214;
+  --c1:#8ea2ff; --c2:#ff9a4d; --c3:#4fd1b0; --c4:#f5c518; --c5:#c4a1ff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1328; --surface:#141d3a; --surface-2:#1b2648; --line:#2b3863;
+  --fg:#e8ecf8; --muted:#a3acc8; --accent:#6f86e8; --accent-fg:#0c1328;
+  --ok:#5fd394; --ok-bg:#12352a; --bad:#ff9a5c; --bad-bg:#3a2216; --warn-bg:#3a3214;
+  --c1:#8ea2ff; --c2:#ff9a4d; --c3:#4fd1b0; --c4:#f5c518; --c5:#c4a1ff; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:16px;line-height:1.55}
+.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--orange);position:sticky;top:0;z-index:5}
+.top .in{max-width:820px;margin:0 auto;padding-block:8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brand{font-weight:900;letter-spacing:.04em;font-size:1.02rem;line-height:1.15}
+.brand small{display:block;font-weight:600;letter-spacing:.02em;font-size:.72rem;color:var(--gold)}
+.top .sp{flex:1}
+.top button{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4);padding:7px 12px;font-size:.88rem}
+@media (max-width:480px){.brand small{display:none}.top button{padding:6px 9px;font-size:.8rem}.top .in{gap:6px}}
+.offline{background:var(--gold);color:#1b1402;text-align:center;font-weight:800;font-size:.85rem;padding:4px 10px}
+main{max-width:820px;margin:0 auto;padding-block:20px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:18px}
+h1,h2,h3{text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:1.7rem;font-weight:900}
+h2{font-size:1.28rem;font-weight:800}
+h3{font-size:1.04rem;font-weight:800}
+p{margin:0}
+ul,ol{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}
+.muted{color:var(--muted)}
+.small{font-size:.88rem}
+.eyebrow{font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
+button,.btn{font:inherit;font-weight:800;cursor:pointer;border-radius:10px;padding:10px 16px;border:1px solid var(--line);background:var(--surface);color:var(--fg);text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+button.primary,.btn.primary{background:var(--orange);border-color:var(--orange);color:#1b0f02}
+button.navy{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+button.link{background:none;border:none;padding:0;color:var(--accent);text-decoration:underline;font-weight:800}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,label.opt:focus-within,a:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+button:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.between{justify-content:space-between}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.card.hl{border:2px solid var(--orange)}
+.avatar{display:block;width:100%;height:auto;border-radius:14px}
+.avwrap{width:100%;max-width:230px}
+.face{border-radius:50%;object-fit:cover;border:2px solid var(--gold);background:#fff;flex:none}
+.hero{display:grid;grid-template-columns:210px 1fr;gap:20px;align-items:center}
+@media (max-width:600px){.hero{grid-template-columns:1fr;justify-items:center;text-align:center}}
+.motto{border-left:4px solid var(--gold);padding:8px 14px;background:var(--warn-bg);border-radius:0 10px 10px 0;font-weight:700;font-style:italic}
+label.f{display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:.9rem}
+input,select,textarea{font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);width:100%}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:600px){.grid2,.grid3{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media (max-width:600px){.tiles{grid-template-columns:1fr}}
+.tile{display:flex;flex-direction:column;gap:6px;text-align:left;padding:16px;border-radius:14px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font:inherit;color:var(--fg)}
+.tile b{font-size:1.02rem}
+.tile span{font-weight:600;font-size:.88rem;color:var(--muted)}
+.tile:hover{border-color:var(--orange)}
+.tile .ic{font-size:1.5rem;line-height:1}
+.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+@media (max-width:600px){.modes{grid-template-columns:1fr 1fr}}
+.mode{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:10px;padding:10px;cursor:pointer;font-weight:700;font-size:.9rem}
+.mode input{width:auto}
+.mode:has(input:checked){border-color:var(--orange);background:var(--warn-bg)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:.74rem;font-weight:800;padding:3px 9px;border-radius:999px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.chip.n1{background:var(--warn-bg);color:var(--fg)}
+.chip.n2{background:var(--surface-2);color:var(--fg)}
+.chip.n3{background:var(--ok-bg);color:var(--ok)}
+.chip.n4{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.ctx{background:var(--surface-2);border-radius:12px;padding:14px;white-space:pre-line;font-size:.97rem}
+.stem{font-weight:800;font-size:1.07rem;white-space:pre-line}
+.opts{display:flex;flex-direction:column;gap:8px}
+label.opt{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:start;border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer;background:var(--surface);position:relative}
+label.opt input{position:absolute;opacity:0;pointer-events:none}
+label.opt .L{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--line);font-weight:900}
+label.opt:has(input:checked){border-color:var(--accent);background:var(--surface-2)}
+label.opt:has(input:checked) .L{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+label.opt.is-ok{border-color:var(--ok);background:var(--ok-bg)}
+label.opt.is-bad{border-color:var(--bad);background:var(--bad-bg)}
+.prog{height:8px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--orange)}
+.dots{display:flex;gap:5px;flex-wrap:wrap;max-height:120px;overflow:auto}
+.dots button{width:34px;height:34px;padding:0;border-radius:8px;font-size:.8rem;justify-content:center}
+.dots button.ans{background:var(--surface-2);border-color:var(--accent)}
+.dots button.cur{outline:2px solid var(--orange)}
+.dots button.flag{border-color:var(--orange);border-style:dashed}
+details summary{cursor:pointer;font-weight:800;font-size:.86rem;color:var(--muted)}
+details .meta{font-size:.86rem;display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.score{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center}
+@media (max-width:600px){.score{grid-template-columns:1fr;text-align:center;justify-items:center}}
+.big{font-size:3.3rem;font-weight:900;line-height:1;font-variant-numeric:tabular-nums;color:var(--orange)}
+.bars{display:flex;flex-direction:column;gap:10px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) 130px 64px;gap:10px;align-items:center;font-size:.9rem}
+@media (max-width:600px){.bar{grid-template-columns:minmax(0,1fr) 80px 56px}}
+.bar .t{height:10px;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--accent)}
+.bar b{font-variant-numeric:tabular-nums;text-align:right}
+.errlist{display:flex;flex-direction:column;gap:8px}
+.erritem{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;text-align:left;width:100%;padding:12px 14px}
+.st{font-size:.72rem;font-weight:900;padding:3px 8px;border-radius:99px;white-space:nowrap}
+.st.p{background:var(--bad-bg);color:var(--bad)}
+.st.e{background:var(--warn-bg);color:var(--fg)}
+.st.f{background:var(--ok-bg);color:var(--ok)}
+.st.d{background:var(--surface-2);color:var(--muted)}
+.steps{display:flex;gap:6px}
+.steps span{flex:1;height:6px;border-radius:99px;background:var(--surface-2)}
+.steps span.on{background:var(--orange)}
+.box{border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.box.bad{background:var(--bad-bg)}
+.box.ok{background:var(--ok-bg)}
+.box.q{background:var(--warn-bg)}
+.box.n{background:var(--surface-2)}
+.pre{white-space:pre-line}
+.tt{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:600px){.tt{grid-template-columns:1fr}}
+.doubts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media (max-width:600px){.doubts{grid-template-columns:1fr}}
+.doubts button{text-align:left;font-weight:700}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.88rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.dtbl caption{caption-side:top;text-align:left;font-weight:800;font-size:.9rem;padding-bottom:6px}
+.dtbl{background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.fig{display:flex;justify-content:center;background:#fff;border-radius:12px;padding:10px;color:#16203d}
+.fig svg{max-width:100%;height:auto;max-height:340px}
+.chart{width:100%;height:auto}
+.chart text{fill:var(--fg);font-family:var(--font)}
+.chart .ax{stroke:var(--muted)}
+.chart .gr{stroke:var(--line)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.82rem;font-weight:700}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--surface-2);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:2px}
+.kpi b{font-size:1.6rem;font-variant-numeric:tabular-nums;line-height:1.1}
+.kpi span{font-size:.78rem;font-weight:700;color:var(--muted)}
+.timer{font-variant-numeric:tabular-nums;font-weight:900}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--navy-ink);color:#fff;padding:10px 16px;border-radius:10px;font-weight:700;z-index:9;max-width:90vw}
+.center{text-align:center;align-items:center}
+@media (prefers-reduced-motion:no-preference){.pop{animation:pop .45s ease}@keyframes pop{0%{transform:scale(.97);opacity:.6}100%{transform:none;opacity:1}}}
+</style>
+</head>
+<body>
+<div id="offline" class="offline" hidden>Sin conexión: SABI sigue funcionando con el banco guardado en este equipo.</div>
+<header class="top"><div class="in">
+  <img class="face" src="assets/sabi-face.jpg" alt="" width="38" height="38">
+  <div class="brand">SABI PREICFES CENTEC<small>Ruta del Error · Saber 11 · 9°, 10° y 11°</small></div>
+  <div class="sp"></div>
+  <button id="btnHome" type="button">Inicio</button>
+  <button id="btnGuia" type="button">Guía ICFES</button>
+  <button id="btnDocente" type="button">Docentes</button>
+</div></header>
+<main id="app"><section class="card center"><p class="muted">Cargando SABI…</p></section></main>
+<div id="toast" class="toast" hidden role="status"></div>
+
 <script>
-let BANK=[], student={}, session=null, stats=JSON.parse(localStorage.getItem('sabi_stats')||'{"xp":0,"done":0,"ok":0,"areas":{}}');
-const areas=['Lectura Crítica','Matemáticas','Ciencias Naturales','Sociales y Ciudadanas','Inglés'];
-const icons={'Lectura Crítica':'📘','Matemáticas':'📐','Ciencias Naturales':'🔬','Sociales y Ciudadanas':'🏛️','Inglés':'🌎'};
-const frases=['El error no nos detiene, nos enseña, nos fortalece y nos hace crecer.','En CENTEC tu presencia importa.','Aprender vale más que acertar.','Cada pregunta te acerca a tu meta.','Hoy entrenas, mañana destacas.'];let fi=0;setInterval(()=>{fi=(fi+1)%frases.length;let r=document.getElementById('rotativo');if(r)r.textContent=frases[fi]},3500);
-fetch('data/banco_siesc_11.json').then(r=>r.json()).then(d=>{BANK=d.reactivos||[];document.getElementById('bankStatus').textContent=`Banco cargado: ${BANK.length} reactivos base`;}).catch(e=>{document.getElementById('bankStatus').textContent='Banco no cargó. Revise carpeta data/';alert('No se pudo cargar data/banco_siesc_11.json. En Cloudflare suba index.html + assets/ + data/.');});
-function login(){let name=document.getElementById('name').value.trim(), course=document.getElementById('course').value;if(!name||!course){alert('Escribe nombre y selecciona curso.');return}let grade=course.startsWith('11')?11:course.startsWith('10')?10:9;student={name,course,grade,mode:grade===11?'Modo Élite Saber 11':grade===10?'Transición PreICFES MEN/DBA':'Fundamentos MEN/DBA + PISA inicial'};localStorage.setItem('sabi_student',JSON.stringify(student));document.getElementById('landing').classList.add('hidden');document.querySelector('.footer').classList.add('hidden');document.getElementById('dashboard').classList.remove('hidden');updateStudent();homeDash()}
-function updateStudent(){document.getElementById('studentName').textContent=student.name;document.getElementById('studentCourse').textContent=student.course;document.getElementById('studentMode').textContent=student.mode;updateXP()}
-function updateXP(){localStorage.setItem('sabi_stats',JSON.stringify(stats));let x=document.getElementById('xpBox');if(x)x.textContent=`XP: ${stats.xp||0}`}
-function homeDash(){document.getElementById('main').innerHTML=`<h2>Centro de entrenamiento SABI</h2><p>Banco Maestro activo. El sistema filtra por curso, nivel y memoria anti-repetición.</p><div class="grid"><div class="tile" onclick="startDiagnostic()"><h3>🧠 Diagnóstico</h3><p>5 preguntas, una por área.</p></div><div class="tile" onclick="showAreas()"><h3>🎯 Práctica por áreas</h3><p>Entrena competencias específicas.</p></div><div class="tile" onclick="startExam()"><h3>🏆 Simulacro</h3><p>Modo cronometrado.</p></div><div class="tile" onclick="showProgress()"><h3>📈 Mi progreso</h3><p>XP, aciertos y áreas.</p></div></div>`}
-function showAreas(){document.getElementById('main').innerHTML=`<h2>Práctica por áreas</h2><div class="grid">${areas.map(a=>`<div class="tile" onclick="startPractice('${a}')"><h3>${icons[a]} ${a}</h3><p>Competencias, explicación del error y técnica SABI/ICFES.</p></div>`).join('')}</div>`}
-function levelsForGrade(){return student.grade===11?[3,4,5]:student.grade===10?[2,3]:[1,2]}
-function seenKey(){return 'sabi_seen_'+(student.name||'demo').toLowerCase().replace(/\W+/g,'_')+'_'+student.course}
-function seen(){return JSON.parse(localStorage.getItem(seenKey())||'[]')}function saveSeen(ids){localStorage.setItem(seenKey(),JSON.stringify([...new Set([...seen(),...ids])].slice(-1500)))}
-function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function adaptQuestion(q){let copy=JSON.parse(JSON.stringify(q)); if(student.grade===9){copy.contexto=copy.contexto.replace('Contexto','Contexto guiado'); copy.pregunta+=' (Elige la opción que mejor se apoya en la información.)'} if(student.grade===10){copy.pregunta+=' (Responde usando la evidencia del contexto.)'} return copy;}
-function pick({area=null,count=5,mix=false}){let levels=levelsForGrade();let pool=BANK.filter(q=>levels.includes(q.nivel_siesc) && (!area||q.area===area));if(mix)pool=BANK.filter(q=>levels.includes(q.nivel_siesc));let s=new Set(seen());let fresh=pool.filter(q=>!s.has(q.id));if(fresh.length<count) fresh=pool;let selected=shuffle(fresh).slice(0,count).map(adaptQuestion).map(q=>({...q,opciones:shuffle(q.opciones)}));saveSeen(selected.map(q=>q.id));return selected}
-function startDiagnostic(){session={questions:areas.flatMap(a=>pick({area:a,count:1})),idx:0,score:0,answers:[],area:'Diagnóstico',kind:'diagnostic'};renderQ()}
-function startPractice(area){let count=student.grade===11?15:10;session={questions:pick({area,count}),idx:0,score:0,answers:[],area,kind:'practice'};renderQ()}
-function startExam(){let count=student.grade===11?35:student.grade===10?25:18;session={questions:pick({count,mix:true}),idx:0,score:0,answers:[],area:'Simulacro',kind:'exam',start:Date.now(),limit:(student.grade===11?50:35)*60};renderQ()}
-function renderQ(){let q=session.questions[session.idx];if(!q){finish();return}let progress=Math.round((session.idx/session.questions.length)*100);let timer=session.kind==='exam'?`<span class="timer" id="timer"></span>`:'';document.getElementById('main').innerHTML=`<div class="trainingHead"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><h2>${session.area}</h2>${timer}</div><div class="bar"><span style="width:${progress}%"></span></div><div class="meta compact"><span class="badge">${q.area}</span><span class="badge">${q.competencia}</span><span class="badge">${q.componente}</span><span class="badge ${q.nivel_siesc>=4?'danger':q.nivel_siesc===3?'warn':''}">Nivel ${q.nivel_siesc}</span><span class="badge">${q.marco}</span></div></div><div class="context">${q.contexto}</div><div class="question">${session.idx+1}. ${q.pregunta}</div><div class="options">${q.opciones.map((o,i)=>`<button class="opt" onclick="answer(${i})"><b>${String.fromCharCode(65+i)}.</b> ${o.texto}</button>`).join('')}</div>`;if(session.kind==='exam')tickTimer()}
-function tickTimer(){let el=document.getElementById('timer');if(!el)return;let left=session.limit-Math.floor((Date.now()-session.start)/1000);if(left<=0){finish();return}let m=Math.floor(left/60),s=left%60;el.textContent=`Tiempo: ${m}:${String(s).padStart(2,'0')}`;setTimeout(tickTimer,1000)}
-function answer(i){let q=session.questions[session.idx], o=q.opciones[i], ok=!!o.correcta;if(ok){session.score++;stats.xp=(stats.xp||0)+(q.nivel_siesc>=4?22:12);stats.ok=(stats.ok||0)+1}else stats.xp=(stats.xp||0)+5;stats.done=(stats.done||0)+1;stats.areas[q.area]=stats.areas[q.area]||{ok:0,total:0};stats.areas[q.area].total++;if(ok)stats.areas[q.area].ok++;updateXP();session.answers.push({id:q.id,area:q.area,ok,competencia:q.competencia,nivel:q.nivel_siesc});let correct=q.opciones.find(x=>x.correcta).texto;let div=document.createElement('div');div.className='feedback '+(ok?'ok':'bad');div.innerHTML=`<h3>${ok?'✅ Bien hecho':'Todavía no. Aquí empieza el entrenamiento real.'}</h3><p><b>Correcta:</b> ${correct}</p><p><b>Evaluaba:</b> ${q.competencia} · ${q.componente}</p><p><b>Explicación rápida:</b> ${q.explicacion}</p><details><summary>Ver distractores</summary><p>${q.distractores}</p></details><details><summary>Técnica SABI/ICFES</summary><p>${q.tecnica_icfes}</p></details><details><summary>Mini lección y reto</summary><p><b>Mini lección:</b> ${q.mini_leccion}</p><p><b>Mini reto:</b> ${q.mini_reto}</p></details><div class="nextDock"><button class="btn" onclick="nextQ()">Siguiente →</button></div>`;document.querySelectorAll('.opt').forEach(b=>b.disabled=true);document.getElementById('main').appendChild(div)}
-function nextQ(){session.idx++;renderQ()}
-function finish(){let pct=session.questions.length?Math.round(session.score/session.questions.length*100):0;let by={};session.answers.forEach(a=>{by[a.area]=by[a.area]||{ok:0,total:0};by[a.area].total++;if(a.ok)by[a.area].ok++});let risk=pct<45?'Alto':pct<70?'Medio':'Bajo';let puntaje=Math.round(180+pct*2.2+(student.grade===11?20:0));document.getElementById('main').innerHTML=`<h2>Informe SABI</h2><p><b>${student.name}</b> · ${student.course} · ${student.mode}</p><h1>${pct}%</h1><p>${session.score}/${session.questions.length} correctas · Riesgo: <b>${risk}</b> · Puntaje Saber estimado: <b>${puntaje}</b></p><div class="grid">${Object.entries(by).map(([a,v])=>`<div class="tile"><h3>${icons[a]} ${a}</h3><p>${v.ok}/${v.total} correctas</p><div class="bar"><span style="width:${Math.round(v.ok/v.total*100)}%"></span></div></div>`).join('')}</div><h3>Ruta sugerida</h3><p>${routeText(pct)}</p><button class="btn" onclick="showAreas()">Seguir entrenando</button> <button class="btn secondary" onclick="homeDash()">Volver al inicio</button>`}
-function routeText(p){if(student.grade===11){return p<60?'Modo rescate rígido: lectura estratégica, interpretación de gráficas, funciones, ciudadanía y ciencias con evidencia. 20 minutos diarios.':p<80?'Modo competitivo: simulacros por bloques, análisis de distractores y control de tiempo.':'Modo élite 350+: textos complejos, problemas integrados y simulacros cronometrados.'}return p<60?'Fortalecer bases MEN/DBA: comprensión, datos, proporcionalidad, ciudadanía y lectura contextual.':'Avanzar a transición PreICFES con preguntas por competencias y razonamiento tipo PISA.'}
-function showProgress(){let total=stats.done||0, ok=stats.ok||0, pct=total?Math.round(ok/total*100):0;document.getElementById('main').innerHTML=`<h2>Mi progreso</h2><p>XP acumulado: <b>${stats.xp||0}</b></p><p>Acierto global: <b>${pct}%</b> (${ok}/${total})</p><p>Preguntas vistas en este equipo: <b>${seen().length}</b></p><div class="grid">${areas.map(a=>{let v=stats.areas[a]||{ok:0,total:0};let p=v.total?Math.round(v.ok/v.total*100):0;return `<div class="tile"><h3>${icons[a]} ${a}</h3><p>${v.ok}/${v.total} · ${p}%</p><div class="bar"><span style="width:${p}%"></span></div></div>`}).join('')}</div>`}
-function clearSeen(){localStorage.removeItem(seenKey());alert('Memoria de preguntas reiniciada para este estudiante/curso.');}
-</script></body></html>
+(function(){
+"use strict";
+/* ============ CONFIGURACIÓN ============ */
+const MOTTO = "El error no nos detiene, nos enseña, nos fortalece y nos hace crecer.";
+const KEY = "sabi_preicfes_v3";
+const DOCENTE_CODE = "centec"; // candado de conveniencia para el panel docente en equipos compartidos (no es seguridad real)
+const AREAS = {matematicas:"Matemáticas",lectura:"Lectura Crítica",sociales:"Sociales y Ciudadanas",ciencias:"Ciencias Naturales",ingles:"Inglés"};
+const ORDER = ["matematicas","lectura","sociales","ciencias","ingles"];
+const SHORT = {matematicas:"Matemáticas",lectura:"Lectura",sociales:"Sociales",ciencias:"Ciencias",ingles:"Inglés"};
+/* Estructura real Saber 11 (número de preguntas por prueba) */
+const REAL = {matematicas:50,lectura:41,sociales:50,ciencias:58,ingles:55};
+const SIZES = {
+  completo:{label:"Simulacro completo",desc:"254 preguntas, como el examen real (2 sesiones de 4 h 30 min).",f:1},
+  medio:{label:"Simulacro medio",desc:"≈127 preguntas: la mitad del examen, misma proporción por prueba.",f:.5},
+  express:{label:"Simulacro express",desc:"50 preguntas: 10 por prueba. Ideal para una clase.",fixed:10}
+};
+/* Rangos oficiales de niveles de desempeño Saber 11 (puntaje 0–100 por prueba) */
+const NIVELES = {
+  matematicas:[[35,1],[50,2],[70,3],[100,4]],
+  lectura:[[35,1],[50,2],[65,3],[100,4]],
+  sociales:[[40,1],[55,2],[70,3],[100,4]],
+  ciencias:[[40,1],[55,2],[70,3],[100,4]],
+  ingles:[[36,"A-"],[57,"A1"],[70,"A2"],[79,"B1"],[100,"B+"]]
+};
+const COMPS = {
+  matematicas:["Interpretación y representación","Formulación y ejecución","Argumentación"],
+  lectura:["Identificar y entender contenidos locales","Comprender cómo se articulan las partes de un texto","Reflexionar a partir de un texto y evaluar su contenido"],
+  sociales:["Pensamiento social","Interpretación y análisis de perspectivas","Pensamiento reflexivo y sistémico"],
+  ciencias:["Uso comprensivo del conocimiento científico","Explicación de fenómenos","Indagación"],
+  ingles:["Lingüística","Pragmática","Sociolingüística"]
+};
+const W_NIVEL = {1:1,2:1.25,3:1.55,4:1.9}; // las preguntas más exigentes pesan más, como en la calificación por TRI del ICFES
+const SR_DAYS = [1,3,7,15,30]; // repaso espaciado del Cuaderno de errores
+
+/* ============ UTILIDADES ============ */
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/\s+/g," ").trim();
+const shuffle = a => {for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const DAY = 864e5, today = () => Math.floor(Date.now()/DAY);
+function toast(m){const t=$("#toast");t.textContent=m;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,3200)}
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{students:{},cur:null}}catch(e){return{students:{},cur:null}}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(DB,(k,v)=>k==="items"?undefined:v))}catch(e){toast("No se pudo guardar el progreso en este equipo (memoria llena).")}}
+let DB = load();
+const me = () => DB.cur && DB.students[DB.cur];
+const fmtTime = ms => {const s=Math.max(0,Math.round(ms/1000)),h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")};
+function nivelDe(area,p){for(const [lim,n] of NIVELES[area]) if(p<=lim) return n; return NIVELES[area].at(-1)[1]}
+const nivelTxt = (area,n) => area==="ingles"?n:("Nivel "+n);
+function globalScore(sc){ // fórmula ICFES: ponderación 3,3,3,3,1 sobre 13, escalada a 500
+  if(ORDER.some(a=>sc[a]==null)) return null;
+  return Math.round((3*(sc.matematicas+sc.lectura+sc.sociales+sc.ciencias)+sc.ingles)/13*5);
+}
+
+/* ============ BANCO (carga por grado, cacheado por el service worker) ============ */
+const BANK = {}; let INDEX = null;
+async function getIndex(){
+  if(INDEX) return INDEX;
+  try{INDEX = await (await fetch("banco/indice.json")).json()}catch(e){INDEX={grados:{}}}
+  return INDEX;
+}
+async function getBank(g){
+  if(BANK[g]) return BANK[g];
+  const r = await fetch(`banco/${g}.json`); if(!r.ok) throw new Error("banco");
+  BANK[g] = await r.json(); return BANK[g];
+}
+
+/* ============ SELECCIÓN SIN REPETIR, ADAPTATIVA Y POR TEXTO ============ */
+function units(items){ // agrupa preguntas que comparten un mismo texto (como en el ICFES)
+  const m=new Map();
+  items.forEach(q=>{const k=q.grupo?q.area+"|"+q.grupo:q.id;if(!m.has(k))m.set(k,[]);m.get(k).push(q)});
+  return [...m.values()];
+}
+function mastery(st,area){ // % de acierto reciente del estudiante en el área
+  const h=(st.hist||[]).slice(-8); let t=0,o=0;
+  h.forEach(x=>{const a=x.byArea&&x.byArea[area];if(a){t+=a.t;o+=a.o}});
+  return t>=6?o/t:null;
+}
+function pick(st,g,bank,area,k,opts={}){
+  st.seen=st.seen||{}; const key=g+"|"+area; let seen=new Set(st.seen[key]||[]); let cycle=false;
+  let all=bank.filter(q=>q.area===area&&(!opts.comp||q.competencia===opts.comp));
+  let pool=all.filter(q=>!seen.has(q.id));
+  if(pool.length<Math.min(k,all.length)){cycle=true;all.forEach(q=>seen.delete(q.id));pool=all.slice()}
+  // pesos por nivel: adaptativo en práctica, distribución tipo examen en simulacro
+  const m=mastery(st,area);
+  let wl={1:.2,2:.35,3:.3,4:.15};
+  if(opts.adapt&&m!=null) wl = m<.45?{1:.4,2:.4,3:.15,4:.05}: m<.7?{1:.15,2:.35,3:.35,4:.15}:{1:.05,2:.2,3:.4,4:.35};
+  if(opts.weak){ // prioriza la competencia más débil
+    const w=weakComp(st,area); if(w){const p2=pool.filter(q=>q.competencia===w); if(p2.length>=k/2) pool=p2.concat(shuffle(pool.filter(q=>q.competencia!==w)).slice(0,Math.ceil(k/2)));}
+  }
+  const us=shuffle(units(pool)); const out=[]; const cnt={1:0,2:0,3:0,4:0};
+  const want=l=>Math.max(1,Math.round(wl[l]*k));
+  // primera pasada respetando la distribución, segunda llenando
+  for(const pass of [0,1]){
+    for(let i=0;i<us.length&&out.length<k;i++){
+      const u=us[i]; if(!u) continue;
+      const l=u[0].nivel;
+      if(pass===0&&cnt[l]>=want(l)) continue;
+      if(out.length+u.length>k&&out.length>0&&pass===1&&u.length>1) continue;
+      u.forEach(q=>{out.push(q);cnt[q.nivel]++}); us[i]=null;
+    }
+  }
+  out.splice(k);
+  out.forEach(q=>seen.add(q.id)); st.seen[key]=[...seen];
+  return {items:out,cycle};
+}
+function weakComp(st,area){
+  const c={}; (st.hist||[]).slice(-10).forEach(h=>Object.entries(h.byComp||{}).forEach(([k,v])=>{if(v.area!==area)return;c[k]=c[k]||{t:0,o:0};c[k].t+=v.t;c[k].o+=v.o}));
+  const arr=Object.entries(c).filter(([,v])=>v.t>=3).sort((a,b)=>a[1].o/a[1].t-b[1].o/b[1].t);
+  return arr.length?arr[0][0]:null;
+}
+
+/* ============ RECURSOS VISUALES DEL ÍTEM ============ */
+function renderTable(t){
+  return `<div class="tbl"><table class="dtbl">${t.titulo?`<caption>${esc(t.titulo)}</caption>`:""}<thead><tr>${t.columnas.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${t.filas.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+}
+const COLORS=["var(--c1)","var(--c2)","var(--c3)","var(--c4)","var(--c5)"];
+const fmtN = v => typeof v==="number"? (Math.abs(v)>=1000? v.toLocaleString("es-CO"): String(+v.toFixed(2)).replace(".",",")) : esc(v);
+function niceMax(v){if(v<=0)return 1;const p=Math.pow(10,Math.floor(Math.log10(v)));const n=v/p;return (n<=1?1:n<=2?2:n<=2.5?2.5:n<=5?5:10)*p}
+function renderChart(g){
+  const W=600,H=320,ml=62,mr=16,mt=34,mb=58, iw=W-ml-mr, ih=H-mt-mb;
+  const title=g.titulo?`<text x="${W/2}" y="20" text-anchor="middle" font-weight="800" font-size="15">${esc(g.titulo)}</text>`:"";
+  const series=g.series||[];
+  if(g.tipo==="torta"){
+    const d=series[0].datos, tot=d.reduce((s,p)=>s+p[1],0)||1; let a=-Math.PI/2; const cx=170,cy=175,r=120;
+    const sl=d.map((p,i)=>{const a0=a,a1=a+p[1]/tot*2*Math.PI;a=a1;const large=a1-a0>Math.PI?1:0;
+      const x0=cx+r*Math.cos(a0),y0=cy+r*Math.sin(a0),x1=cx+r*Math.cos(a1),y1=cy+r*Math.sin(a1);
+      const mid=(a0+a1)/2, pct=Math.round(p[1]/tot*1000)/10;
+      return `<path d="M${cx},${cy} L${x0.toFixed(1)},${y0.toFixed(1)} A${r},${r} 0 ${large} 1 ${x1.toFixed(1)},${y1.toFixed(1)} Z" fill="${COLORS[i%5]}" stroke="var(--surface)" stroke-width="2"/>`
+      +(pct>=6?`<text x="${(cx+r*.62*Math.cos(mid)).toFixed(1)}" y="${(cy+r*.62*Math.sin(mid)).toFixed(1)}" text-anchor="middle" font-size="12" font-weight="800" style="fill:#fff">${String(pct).replace(".",",")} %</text>`:"")});
+    const leg=d.map((p,i)=>`<g transform="translate(330,${70+i*24})"><rect width="14" height="14" rx="3" fill="${COLORS[i%5]}"/><text x="22" y="12" font-size="13">${esc(p[0])}: ${fmtN(p[1])}</text></g>`).join("");
+    return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(g.titulo||"Gráfica circular")}">${title}${sl.join("")}${leg}</svg>`;
+  }
+  const xsRaw=[]; series.forEach(s=>s.datos.forEach(p=>{if(!xsRaw.some(x=>x===p[0]))xsRaw.push(p[0])}));
+  const numX = g.tipo!=="barras" && xsRaw.every(x=>typeof x==="number");
+  const ys=series.flatMap(s=>s.datos.map(p=>p[1]));
+  let ymin=Math.min(0,...ys), ymax=niceMax(Math.max(...ys,0)); if(ymin<0) ymin=-niceMax(-ymin);
+  const Y=v=>mt+ih-(v-ymin)/(ymax-ymin)*ih;
+  let X, xticks;
+  if(numX){const xmin=Math.min(...xsRaw),xmax=Math.max(...xsRaw);const span=(xmax-xmin)||1;X=v=>ml+(v-xmin)/span*iw;xticks=xsRaw.slice().sort((a,b)=>a-b);if(xticks.length>12){const st=Math.ceil(xticks.length/10);xticks=xticks.filter((_,i)=>i%st===0)}}
+  else{const n=xsRaw.length;const bw=iw/n;X=v=>ml+bw*(xsRaw.indexOf(v)+.5);xticks=xsRaw}
+  let grid="",yl="";
+  for(let i=0;i<=5;i++){const v=ymin+(ymax-ymin)*i/5,y=Y(v);grid+=`<line class="gr" x1="${ml}" x2="${W-mr}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}"/>`;yl+=`<text x="${ml-6}" y="${(y+4).toFixed(1)}" text-anchor="end" font-size="13">${fmtN(+v.toFixed(2))}</text>`}
+  const rot = !numX && xticks.some(x=>String(x).length>6) && xticks.length>4;
+  const xl=xticks.map(x=>`<text x="${X(x).toFixed(1)}" y="${H-mb+16}" text-anchor="${rot?"end":"middle"}" font-size="13" ${rot?`transform="rotate(-30 ${X(x).toFixed(1)} ${H-mb+16})"`:""}>${fmtN(x)}</text>`).join("");
+  let marks="";
+  if(g.tipo==="barras"){
+    const n=xsRaw.length,bw=iw/n*.75,sw=bw/series.length;
+    series.forEach((s,si)=>s.datos.forEach(p=>{const x=X(p[0])-bw/2+si*sw,y=Y(Math.max(p[1],0)),h=Math.abs(Y(p[1])-Y(0));
+      marks+=`<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${(sw-2).toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${COLORS[si%5]}"><title>${esc(s.nombre||"")} ${esc(p[0])}: ${fmtN(p[1])}</title></rect>`;
+      if(series.length===1&&n<=12) marks+=`<text x="${(x+sw/2-1).toFixed(1)}" y="${(y-4).toFixed(1)}" text-anchor="middle" font-size="13" font-weight="700">${fmtN(p[1])}</text>`;}));
+  } else {
+    series.forEach((s,si)=>{const pts=s.datos.slice().sort((a,b)=>numX?a[0]-b[0]:xsRaw.indexOf(a[0])-xsRaw.indexOf(b[0]));
+      if(g.tipo==="lineas") marks+=`<polyline fill="none" stroke="${COLORS[si%5]}" stroke-width="2.5" points="${pts.map(p=>X(p[0]).toFixed(1)+","+Y(p[1]).toFixed(1)).join(" ")}"/>`;
+      pts.forEach(p=>marks+=`<circle cx="${X(p[0]).toFixed(1)}" cy="${Y(p[1]).toFixed(1)}" r="4" fill="${COLORS[si%5]}"><title>${esc(s.nombre||"")} (${fmtN(p[0])}; ${fmtN(p[1])})</title></circle>`)});
+  }
+  const axes=`<line class="ax" x1="${ml}" x2="${W-mr}" y1="${Y(Math.max(0,ymin)).toFixed(1)}" y2="${Y(Math.max(0,ymin)).toFixed(1)}"/><line class="ax" x1="${ml}" x2="${ml}" y1="${mt}" y2="${mt+ih}"/>`;
+  const labs=`<text x="${ml+iw/2}" y="${H-6}" text-anchor="middle" font-size="12" font-weight="700">${esc(g.ejeX||"")}</text><text transform="translate(14 ${mt+ih/2}) rotate(-90)" text-anchor="middle" font-size="12" font-weight="700">${esc(g.ejeY||"")}</text>`;
+  const leg=series.length>1?`<div class="legend">${series.map((s,i)=>`<span><i style="background:${COLORS[i%5]}"></i>${esc(s.nombre)}</span>`).join("")}</div>`:"";
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(g.titulo||"Gráfica")}">${title}${grid}${axes}${marks}${yl}${xl}${labs}</svg>${leg}`;
+}
+function cleanSvg(src){
+  try{
+    const doc=new DOMParser().parseFromString(src,"image/svg+xml"); const svg=doc.documentElement;
+    if(svg.nodeName.toLowerCase()!=="svg") return "";
+    svg.querySelectorAll("script,foreignObject,image,iframe").forEach(n=>n.remove());
+    svg.querySelectorAll("*").forEach(n=>[...n.attributes].forEach(a=>{if(/^on/i.test(a.name)||/^(javascript|http|\/\/)/i.test(a.value.trim())&&/href/i.test(a.name))n.removeAttribute(a.name)}));
+    svg.setAttribute("role","img"); svg.removeAttribute("width"); svg.removeAttribute("height");
+    return new XMLSerializer().serializeToString(svg);
+  }catch(e){return ""}
+}
+function itemBody(q,showCtx=true){
+  return `${showCtx&&q.contexto?`<div class="ctx">${esc(q.contexto)}</div>`:""}
+  ${q.tabla?renderTable(q.tabla):""}
+  ${q.grafica?`<div>${renderChart(q.grafica)}</div>`:""}
+  ${q.figura?`<div class="fig">${cleanSvg(q.figura)}</div>`:""}
+  <p class="stem">${esc(q.enunciado)}</p>`;
+}
+function metaBlock(q){
+  return `<details><summary>Lo que evalúa esta pregunta (competencia, DBA y lineamiento)</summary><div class="meta">
+  <div><b>Prueba:</b> ${esc(q.prueba)}</div>
+  <div><b>Competencia:</b> ${esc(q.competencia)}</div>
+  <div><b>Componente:</b> ${esc(q.componente)}${q.contenido?` · contenido ${esc(q.contenido)}`:""}</div>
+  <div><b>Afirmación:</b> ${esc(q.afirmacion)}</div>
+  <div><b>Evidencia:</b> ${esc(q.evidencia)}</div>
+  <div><b>DBA:</b> ${esc(q.dba)}</div>
+  <div><b>Lineamiento / estándar:</b> ${esc(q.lineamiento)}</div>
+  ${q.mcer?`<div><b>Nivel MCER:</b> ${esc(q.mcer)}</div>`:""}</div></details>`;
+}
+/* Lectura en voz alta (funciona sin internet con las voces del dispositivo) */
+function speak(text,lang){
+  if(!("speechSynthesis" in window)){toast("Este dispositivo no tiene lectura en voz alta");return}
+  speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(text); u.lang=lang||"es-CO"; u.rate=.95;
+  const v=speechSynthesis.getVoices().find(v=>v.lang.startsWith(u.lang.slice(0,2))); if(v)u.voice=v;
+  speechSynthesis.speak(u);
+}
+
+/* ============ INGRESO DEL ESTUDIANTE ============ */
+async function login(){
+  const idx=await getIndex(); const tot=Object.values(idx.grados||{}).reduce((s,g)=>s+g.total,0);
+  const known=Object.values(DB.students).sort((a,b)=>(b.last||0)-(a.last||0)).slice(0,6);
+  app.innerHTML=`
+  <section class="card hero pop">
+    <div class="avwrap"><img class="avatar" src="assets/sabi.jpg" alt="SABI, tu amigo del saber CENTEC" width="520" height="650"></div>
+    <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+      <span class="eyebrow">Hola, soy SABI, tu entrenador PREICFES</span>
+      <h1>Entrena como en el Saber 11. Cada error se vuelve tu mejor maestro.</h1>
+      <p class="motto">“${MOTTO}”</p>
+      <p class="muted small">${tot?tot.toLocaleString("es-CO")+" preguntas tipo ICFES":"Banco de preguntas tipo ICFES"} para 9°, 10° y 11°, construidas por competencias, DBA y lineamientos del MEN. Funciona sin internet.</p>
+    </div>
+  </section>
+  ${known.length?`<section class="card"><h3>Continuar como…</h3><div class="row">${known.map(s=>`<button type="button" data-sid="${esc(s.id)}">${esc(s.name)} · ${s.grado}°${s.curso?" ("+esc(s.curso)+")":""}</button>`).join("")}</div></section>`:""}
+  <form class="card" id="fIn" novalidate>
+    <h2>¿Quién entrena hoy?</h2>
+    <div class="grid3">
+      <label class="f">Nombre y apellido<input id="inName" autocomplete="name" placeholder="Ej.: Valentina Mosquera"></label>
+      <label class="f">Grado<select id="inGrade">${[9,10,11].map(g=>`<option value="${g}" ${g===11?"selected":""}>${g}°</option>`).join("")}</select></label>
+      <label class="f">Curso<select id="inCurso"></select></label>
+    </div>
+    <p id="err" class="small" style="color:var(--bad)" hidden>Escribe tu nombre y apellido.</p>
+    <div class="row"><button class="primary" type="submit">Entrar</button></div>
+  </form>`;
+  const cursos=()=>{const g=$("#inGrade").value;$("#inCurso").innerHTML=[1,2,3,4].map(c=>`<option>${g}-${c}</option>`).join("")};
+  $("#inGrade").onchange=cursos; cursos();
+  app.querySelectorAll("[data-sid]").forEach(b=>b.onclick=()=>{DB.cur=b.dataset.sid;save();dash()});
+  $("#fIn").onsubmit=e=>{e.preventDefault();const name=$("#inName").value.trim();
+    if(name.split(/\s+/).length<2){$("#err").hidden=false;$("#inName").focus();return}
+    const g=+$("#inGrade").value, curso=$("#inCurso").value, id=norm(name)+"|"+g;
+    DB.students[id]=Object.assign(DB.students[id]||{id,hist:[],seen:{},cuaderno:{}},{name,grado:g,curso,last:Date.now()});
+    DB.cur=id; save(); dash();};
+}
+
+/* ============ TABLERO DEL ESTUDIANTE ============ */
+async function dash(){
+  const st=me(); if(!st) return login();
+  st.last=Date.now(); save();
+  let bank; try{bank=await getBank(st.grado)}catch(e){app.innerHTML=`<section class="card"><h2>No se pudo cargar el banco de ${st.grado}°</h2><p>Conéctate a internet una vez para descargarlo; después SABI funciona sin conexión.</p><div class="row"><button class="primary" id="re">Reintentar</button></div></section>`;$("#re").onclick=dash;return}
+  const due=dueList(st).length, H=st.hist||[], last=H.at(-1);
+  const lastSim=[...H].reverse().find(h=>h.global!=null);
+  const active=st.active&&!st.active.end;
+  app.innerHTML=`
+  <section class="card hero">
+    <div class="avwrap" style="max-width:150px"><img class="avatar" src="assets/sabi.jpg" alt="SABI" width="520" height="650"></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
+      <span class="eyebrow">${esc(st.grado)}° · ${esc(st.curso||"")}</span>
+      <h1>¡Hola, ${esc(st.name.split(" ")[0])}!</h1>
+      <p class="muted">${H.length?`Llevas ${H.length} entrenamiento(s).${lastSim?` Tu último puntaje global estimado fue <b>${lastSim.global}/500</b>.`:""}`:"Empieza con un diagnóstico: un simulacro express te muestra dónde estás."}</p>
+      <div class="row"><button class="link" id="chg" type="button">No soy ${esc(st.name.split(" ")[0])}</button><button class="link" id="spk" type="button">🔊 Escuchar a SABI</button></div>
+    </div>
+  </section>
+  ${active?`<section class="card hl"><span class="eyebrow">Tienes un entrenamiento en curso</span><h3>${esc(st.active.titulo)} · ${Object.keys(st.active.ans).length}/${st.active.ids.length} respondidas</h3><div class="row"><button class="primary" id="resume">Continuar donde quedé</button><button id="drop">Descartarlo</button></div></section>`:""}
+  ${due?`<section class="card hl"><span class="eyebrow">Cuaderno de errores</span><h3>Tienes ${due} pregunta(s) para repasar hoy.</h3><p class="small muted">Repasar justo cuando estás a punto de olvidar es lo que fija el aprendizaje.</p><div class="row"><button class="primary" id="goRep">Repasar ahora</button></div></section>`:""}
+  <section class="card">
+    <h2>¿Qué entrenamos hoy?</h2>
+    <div class="tiles">
+      <button class="tile" data-t="sim"><span class="ic">📝</span><b>Simulacro Saber 11</b><span>Las 5 pruebas como el examen real, con puntaje estimado 0–500 y nivel de desempeño.</span></button>
+      <button class="tile" data-t="area"><span class="ic">🎯</span><b>Práctica por prueba</b><span>12 preguntas adaptadas a tu nivel en la prueba que elijas.</span></button>
+      <button class="tile" data-t="comp"><span class="ic">🧠</span><b>Entrenar una competencia</b><span>Ataca la competencia que más te cuesta, con explicación paso a paso.</span></button>
+      <button class="tile" data-t="cuad"><span class="ic">📒</span><b>Mi Cuaderno de errores</b><span>Todos tus errores, por qué ocurrieron y cuáles ya convertiste en fortaleza.</span></button>
+      <button class="tile" data-t="prog"><span class="ic">📈</span><b>Mi progreso</b><span>Evolución por prueba y competencia. Metas para subir tu puntaje.</span></button>
+      <button class="tile" data-t="guia"><span class="ic">🧭</span><b>Cómo es el ICFES</b><span>Estructura, competencias, niveles, puntaje y estrategias del examen.</span></button>
+    </div>
+  </section>
+  ${last?`<section class="card"><h3>Último entrenamiento</h3><p class="small">${esc(last.titulo)} · ${new Date(last.fecha).toLocaleDateString("es-CO")} · ${last.ok}/${last.n} correctas · ${last.conv||0}/${last.err} errores convertidos en fortaleza</p></section>`:""}`;
+  $("#chg").onclick=()=>{DB.cur=null;save();login()};
+  $("#spk").onclick=()=>speak(`Hola ${st.name.split(" ")[0]}. Soy SABI. ${MOTTO} Hoy vamos a entrenar como en el ICFES: lee con calma, piensa antes de responder, y si te equivocas, aprendemos juntos.`);
+  if($("#resume"))$("#resume").onclick=()=>resume();
+  if($("#drop"))$("#drop").onclick=()=>{if(confirm("¿Descartar el entrenamiento en curso?")){st.active=null;save();dash()}};
+  if($("#goRep"))$("#goRep").onclick=()=>repaso();
+  app.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>({sim:setupSim,area:setupArea,comp:setupComp,cuad:cuaderno,prog:progreso,guia:guia}[b.dataset.t])());
+  window.scrollTo({top:0});
+}
+
+/* ============ CONFIGURAR ENTRENAMIENTOS ============ */
+async function setupSim(){
+  const st=me(), bank=await getBank(st.grado);
+  app.innerHTML=`<form class="card" id="f">
+    <span class="eyebrow">Simulacro Saber 11 · ${st.grado}°</span>
+    <h2>Elige el tamaño del simulacro</h2>
+    <div class="modes" style="grid-template-columns:1fr">${Object.entries(SIZES).map(([k,s],i)=>`<label class="mode"><input type="radio" name="sz" value="${k}" ${k==="express"?"checked":""}><span><b>${s.label}</b><br><span class="muted small">${s.desc}</span></span></label>`).join("")}</div>
+    <label class="row small" style="font-weight:700"><input type="checkbox" id="tmr" style="width:auto" checked> Mostrar cronómetro con el ritmo del ICFES (≈ 2 minutos por pregunta)</label>
+    <div class="box n small"><b>Así es el examen real</b><span>Sesión 1: Matemáticas, Lectura Crítica, Sociales y Ciudadanas, Ciencias Naturales. Sesión 2: Sociales, Matemáticas, Ciencias e Inglés. En total 254 preguntas de selección múltiple con única respuesta. Una pregunta en blanco cuenta como incorrecta.</span></div>
+    <div class="row"><button class="primary" type="submit">Comenzar simulacro</button><button type="button" id="bk">Volver</button></div></form>`;
+  $("#bk").onclick=dash;
+  $("#f").onsubmit=e=>{e.preventDefault();const sz=document.querySelector('input[name="sz"]:checked').value,S0=SIZES[sz];
+    let items=[],cyc=[];
+    ORDER.forEach(a=>{const k=S0.fixed||Math.round(REAL[a]*S0.f);const r=pick(st,st.grado,bank,a,k);items=items.concat(r.items);if(r.cycle)cyc.push(SHORT[a])});
+    start({tipo:"sim",titulo:S0.label+" Saber 11",items,timer:$("#tmr").checked});
+    if(cyc.length)toast("Ya viste todas las preguntas de "+cyc.join(", ")+": empieza un nuevo ciclo.");};
+}
+async function setupArea(pre){
+  const st=me(), bank=await getBank(st.grado);
+  app.innerHTML=`<form class="card" id="f"><span class="eyebrow">Práctica por prueba</span><h2>¿Qué prueba quieres entrenar?</h2>
+    <div class="modes">${ORDER.map((a,i)=>{const m=mastery(st,a);return `<label class="mode"><input type="radio" name="ar" value="${a}" ${(pre||ORDER[0])===a?"checked":""}><span>${AREAS[a]}${m!=null?`<br><span class="muted small">acierto reciente ${Math.round(m*100)} %</span>`:""}</span></label>`}).join("")}</div>
+    <p class="small muted">SABI ajusta la dificultad: si vas bien, sube el nivel; si te cuesta, refuerza la base.</p>
+    <div class="row"><button class="primary" type="submit">Practicar 12 preguntas</button><button type="button" id="bk">Volver</button></div></form>`;
+  $("#bk").onclick=dash;
+  $("#f").onsubmit=e=>{e.preventDefault();const a=document.querySelector('input[name="ar"]:checked').value;
+    const r=pick(st,st.grado,bank,a,12,{adapt:true,weak:true});start({tipo:"area",area:a,titulo:"Práctica de "+AREAS[a],items:r.items});};
+}
+async function setupComp(){
+  const st=me(), bank=await getBank(st.grado);
+  app.innerHTML=`<form class="card" id="f"><span class="eyebrow">Entrenar una competencia</span><h2>Elige la competencia</h2>
+    ${ORDER.map(a=>{const w=weakComp(st,a);return `<div style="display:flex;flex-direction:column;gap:6px"><b class="small">${AREAS[a]}</b><div class="modes" style="grid-template-columns:1fr">${COMPS[a].map(c=>`<label class="mode"><input type="radio" name="cp" value="${esc(a+"|"+c)}"><span>${esc(c)}${w===c?` <span class="chip n1">tu reto</span>`:""} <span class="muted small">(${bank.filter(q=>q.area===a&&q.competencia===c).length})</span></span></label>`).join("")}</div></div>`}).join("")}
+    <p id="err" class="small" style="color:var(--bad)" hidden>Elige una competencia.</p>
+    <div class="row"><button class="primary" type="submit">Entrenar 10 preguntas</button><button type="button" id="bk">Volver</button></div></form>`;
+  $("#bk").onclick=dash;
+  $("#f").onsubmit=e=>{e.preventDefault();const c=document.querySelector('input[name="cp"]:checked');if(!c){$("#err").hidden=false;return}
+    const [a,comp]=c.value.split("|");const r=pick(st,st.grado,bank,a,10,{comp,adapt:true});
+    if(!r.items.length){toast("Aún no hay preguntas de esa competencia");return}
+    start({tipo:"comp",area:a,titulo:comp,items:r.items});};
+}
+
+/* ============ PRESENTACIÓN DE LA PRUEBA ============ */
+let S=null, tick=null;
+const QI = id => BANK[me().grado].find(q=>q.id===id);
+function start({tipo,area,titulo,items,timer}){
+  const st=me();
+  st.active={sid:Date.now(),tipo,area:area||null,titulo,ids:items.map(q=>q.id),ans:{},flag:{},i:0,timer:!!timer,start:Date.now(),ruta:{}};
+  save(); resume();
+}
+async function resume(){
+  const st=me(); await getBank(st.grado); S=st.active;
+  S.items=S.ids.map(QI).filter(Boolean);
+  if(S.end) return results(); quiz();
+}
+function quiz(){
+  clearInterval(tick);
+  const n=S.items.length,i=S.i,q=S.items[i],answered=Object.keys(S.ans).length;
+  const prevCtx=i>0&&S.items[i-1].grupo&&S.items[i-1].grupo===q.grupo&&S.items[i-1].area===q.area;
+  app.innerHTML=`
+  <section class="card">
+    <div class="row between"><span class="eyebrow">${esc(S.titulo)} · Pregunta ${i+1} de ${n}</span><span class="small muted">${answered}/${n} respondidas${S.timer?` · <span class="timer" id="tm"></span>`:""}</span></div>
+    <div class="prog" aria-hidden="true"><i style="width:${answered/n*100}%"></i></div>
+    <div class="dots">${S.items.map((x,k)=>`<button type="button" data-go="${k}" class="${S.ans[x.id]?"ans":""} ${k===i?"cur":""} ${S.flag[x.id]?"flag":""}" aria-label="Ir a pregunta ${k+1}">${k+1}</button>`).join("")}</div>
+  </section>
+  <section class="card pop">
+    <div class="chips"><span class="chip">${AREAS[q.area]}</span><span class="chip n${q.nivel}">Nivel ${q.nivel}</span><span class="chip">${esc(q.competencia)}</span>${q.mcer?`<span class="chip">${esc(q.componente)} · ${esc(q.mcer)}</span>`:""}</div>
+    ${prevCtx?`<p class="small muted">Responde con base en el mismo texto de la pregunta anterior.</p>`:""}
+    ${itemBody(q)}
+    <div class="opts" role="radiogroup" aria-label="Opciones">${Object.entries(q.opciones).map(([L,t])=>`
+      <label class="opt"><input type="radio" name="op" value="${L}" ${S.ans[q.id]===L?"checked":""}><span class="L">${L}</span><span>${esc(t)}</span></label>`).join("")}</div>
+    <div class="row between">
+      <label class="row small" style="font-weight:700;cursor:pointer"><input type="checkbox" id="flag" style="width:auto" ${S.flag[q.id]?"checked":""}> Tengo duda en esta pregunta</label>
+      <button type="button" class="link" id="rd">🔊 Leer en voz alta</button>
+    </div>
+    ${q.estrategia_icfes&&S.tipo!=="sim"?`<details><summary>Pista: cómo pregunta el ICFES esto</summary><div class="meta"><span>${esc(q.estrategia_icfes)}</span></div></details>`:""}
+    <div class="row between">
+      <button type="button" id="prev" ${i===0?"disabled":""}>Anterior</button>
+      ${i<n-1?`<button type="button" class="navy" id="next">Siguiente</button>`:`<button type="button" class="primary" id="finish">Entregar</button>`}
+    </div>
+    <div id="confirm"></div>
+  </section>
+  <div class="row"><button type="button" id="pause">Guardar y salir</button></div>`;
+  const persistA=()=>{me().active=S;save()};
+  app.querySelectorAll('input[name="op"]').forEach(r=>r.addEventListener("change",()=>{S.ans[q.id]=r.value;persistA();
+    const a=Object.keys(S.ans).length;app.querySelector(".prog i").style.width=(a/n*100)+"%";app.querySelector(`[data-go="${i}"]`).classList.add("ans")}));
+  $("#flag").onchange=e=>{S.flag[q.id]=e.target.checked;persistA();app.querySelector(`[data-go="${i}"]`).classList.toggle("flag",e.target.checked)};
+  $("#rd").onclick=()=>speak([q.contexto,q.enunciado,...Object.entries(q.opciones).map(([L,t])=>L+". "+t)].filter(Boolean).join(". "),q.area==="ingles"?"en-US":"es-CO");
+  app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{S.i=+b.dataset.go;persistA();quiz()});
+  $("#prev").onclick=()=>{S.i--;persistA();quiz()};
+  $("#pause").onclick=()=>{persistA();clearInterval(tick);toast("Guardado. Continúa cuando quieras.");dash()};
+  if($("#next"))$("#next").onclick=()=>{S.i++;persistA();quiz()};
+  if($("#finish"))$("#finish").onclick=()=>{
+    const miss=S.items.filter(x=>!S.ans[x.id]).length;
+    if(!miss) return grade();
+    $("#confirm").innerHTML=`<div class="box q"><b>Te faltan ${miss} pregunta(s) sin responder.</b><span>En el ICFES una pregunta en blanco cuenta como incorrecta: nunca dejes respuestas en blanco. ¿Entregar así?</span>
+      <div class="row"><button type="button" id="cNo" class="navy">Volver a revisar</button><button type="button" id="cYes">Entregar de todos modos</button></div></div>`;
+    $("#cNo").onclick=()=>{S.i=S.items.findIndex(x=>!S.ans[x.id]);quiz()};
+    $("#cYes").onclick=grade;
+  };
+  if(S.timer){const upd=()=>{const el=$("#tm");if(!el)return clearInterval(tick);const used=Date.now()-S.start,budget=S.items.length*2*60e3;el.textContent="⏱ "+fmtTime(used)+" / "+fmtTime(budget);el.style.color=used>budget?"var(--bad)":""};upd();tick=setInterval(upd,1000)}
+  window.scrollTo({top:0});
+}
+
+/* ============ CALIFICACIÓN ============ */
+function scoreOf(items,ans){
+  const by={}; items.forEach(q=>{const a=by[q.area]=by[q.area]||{w:0,o:0,t:0,c:0};const w=W_NIVEL[q.nivel]||1;a.w+=w;a.t++;if(ans[q.id]===q.correcta){a.o+=w;a.c++}});
+  const sc={}; Object.entries(by).forEach(([a,v])=>sc[a]=Math.round(v.o/v.w*100)); return {sc,by};
+}
+function grade(){
+  clearInterval(tick); const st=me(); S.end=Date.now();
+  S.items.forEach(q=>{const ok=S.ans[q.id]===q.correcta;
+    if(!ok) S.ruta[q.id]={kind:"error",state:"p"}; else if(S.flag[q.id]) S.ruta[q.id]={kind:"duda",state:"d"};
+    st.cuaderno=st.cuaderno||{};
+    if(!ok) st.cuaderno[q.id]={area:q.area,comp:q.competencia,elig:S.ans[q.id]||null,error:(q.errores[S.ans[q.id]]||{}).error||"En blanco",box:0,due:today()+1,conv:false,fecha:Date.now(),veces:((st.cuaderno[q.id]||{}).veces||0)+1};
+  });
+  persist(); st.active=S; save(); results();
+}
+function stats(){
+  const n=S.items.length, ok=S.items.filter(q=>S.ans[q.id]===q.correcta).length;
+  const by=key=>{const m={};S.items.forEach(q=>{const k=key(q);m[k]=m[k]||{t:0,o:0,area:q.area};m[k].t++;if(S.ans[q.id]===q.correcta)m[k].o++});return m};
+  const {sc}=scoreOf(S.items,S.ans);
+  const global = S.tipo==="sim"?globalScore(sc):null;
+  return {n,ok,pct:Math.round(ok/n*100),sc,global,area:by(q=>q.area),comp:by(q=>q.competencia),niv:by(q=>"Nivel "+q.nivel)};
+}
+function bars(m,label=k=>k){return Object.entries(m).map(([k,v])=>`<div class="bar"><span>${esc(label(k))}</span><span class="t"><i style="width:${v.o/v.t*100}%"></i></span><b>${v.o}/${v.t}</b></div>`).join("")}
+function rutaCounts(){const v=Object.values(S.ruta);return{err:v.filter(x=>x.kind==="error").length,conv:v.filter(x=>x.kind==="error"&&x.state==="f").length,dud:v.filter(x=>x.kind==="duda").length,dudOk:v.filter(x=>x.kind==="duda"&&x.state==="f").length}}
+function results(){
+  const st=stats(), rc=rutaCounts(), areas=Object.keys(st.sc);
+  const head = st.global!=null
+    ? `<div><div class="big">${st.global}</div><div class="muted small">de 500 · puntaje global estimado</div></div>`
+    : `<div><div class="big">${st.sc[areas[0]]}</div><div class="muted small">de 100 · ${st.ok}/${st.n} correctas</div></div>`;
+  app.innerHTML=`
+  <section class="card score pop">${head}
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
+      <span class="eyebrow">${esc(me().name)} · ${esc(S.titulo)}</span>
+      <h2>${st.global!=null?`${st.ok} de ${st.n} correctas en las 5 pruebas`:`${AREAS[areas[0]]}: ${nivelTxt(areas[0],nivelDe(areas[0],st.sc[areas[0]]))} de desempeño`}</h2>
+      <p class="muted small">Estimación SABI con la fórmula del ICFES (Matemáticas, Lectura, Sociales y Ciencias ×3; Inglés ×1) y los rangos oficiales de niveles. Las preguntas difíciles pesan más. No reemplaza el resultado oficial.</p>
+    </div>
+  </section>
+  ${areas.length>1?`<section class="card"><h3>Puntaje por prueba (0–100) y nivel de desempeño</h3><div class="kpis">${ORDER.filter(a=>st.sc[a]!=null).map(a=>`<div class="kpi"><span>${SHORT[a]}</span><b>${st.sc[a]}</b><span>${nivelTxt(a,nivelDe(a,st.sc[a]))}</span></div>`).join("")}</div></section>`:""}
+  ${rc.err+rc.dud?`<section class="card hl">
+    <span class="eyebrow">Tu siguiente paso</span>
+    <h2>Tienes ${rc.err} error(es) y ${rc.dud} duda(s) listos para convertirse en aprendizaje.</h2>
+    <p class="motto">“${MOTTO}”</p>
+    <div class="row"><button class="primary" type="button" id="goRuta">Empezar mi Ruta del Error</button><button type="button" id="goDash">Más tarde</button></div>
+    <p class="small muted">Tus errores quedan guardados en tu Cuaderno: SABI te los volverá a mostrar en 1, 3, 7 y 15 días para que no se repitan en el ICFES.</p>
+  </section>`:`<section class="card"><h2>¡Todo correcto y sin dudas!</h2><p>Sube el reto: presenta un simulacro más largo o entrena la competencia de nivel 4.</p><div class="row"><button class="primary" id="goDash">Volver al inicio</button></div></section>`}
+  <section class="card"><h3>Por competencia</h3><div class="bars">${bars(Object.fromEntries(Object.entries(st.comp).sort((a,b)=>ORDER.indexOf(a[1].area)-ORDER.indexOf(b[1].area)||COMPS[a[1].area].indexOf(a[0])-COMPS[b[1].area].indexOf(b[0]))),k=>k)}</div></section>
+  <section class="card"><h3>Por nivel de exigencia de la pregunta</h3><div class="bars">${bars(Object.fromEntries(Object.entries(st.niv).sort()))}</div><p class="small muted">Nivel 1 = lo básico; nivel 4 = lo que logran los mejores puntajes. Para subir, asegura primero los niveles 2 y 3.</p></section>`;
+  if($("#goRuta"))$("#goRuta").onclick=ruta;
+  if($("#goDash"))$("#goDash").onclick=dash;
+  window.scrollTo({top:0});
+}
+
+/* ============ RUTA DEL ERROR (4 pasos) ============ */
+const STL={p:["p","Por resolver"],e:["e","En camino"],f:["f","Fortaleza"],d:["d","Duda por aclarar"]};
+function ruta(){
+  const rc=rutaCounts(), ids=Object.keys(S.ruta), total=rc.err+rc.dud, done=rc.conv+rc.dudOk, all=done===total&&total>0;
+  app.innerHTML=`
+  <section class="card">
+    <span class="eyebrow">Ruta del Error · ${esc(me().name)}</span>
+    <h2>${all?"¡Convertiste cada error en fortaleza!":"Elige un error y conviértelo en aprendizaje"}</h2>
+    <div class="prog" aria-hidden="true"><i style="width:${total?done/total*100:0}%"></i></div>
+    <p class="muted">${done} de ${total} convertidos en fortaleza. Cada uno tiene 4 pasos: entender el error, pensarlo tú, aprender y superar un reto gemelo.</p>
+  </section>
+  ${all?`<section class="card pop" style="border:2px solid var(--ok)">
+    <div class="row" style="flex-wrap:nowrap"><img class="face" src="assets/sabi-face.jpg" alt="SABI" width="56" height="56"><h3>Cierre de tu ruta</h3></div>
+    <p>Hoy demostraste nuestro lema: <b>“${MOTTO}”</b></p>
+    <label class="f">¿Qué harás distinto en tu próximo simulacro?<textarea id="meta" rows="3" placeholder="Ej.: leer dos veces el enunciado y subrayar qué me piden antes de ver las opciones">${esc(S.meta||"")}</textarea></label>
+    <div class="row"><button class="primary" id="saveMeta" type="button">Guardar mi compromiso</button><button type="button" id="again">Volver al inicio</button></div>
+  </section>`:""}
+  <section class="card"><div class="errlist">${ids.map(id=>{const q=S.items.find(x=>x.id===id),r=S.ruta[id],s=STL[r.state];
+    return `<button type="button" class="erritem" data-id="${esc(id)}"><span class="chip">${SHORT[q.area]}</span><span style="min-width:0">${esc(q.enunciado.slice(0,95))}${q.enunciado.length>95?"…":""}<br><span class="muted small" style="font-weight:700">${r.kind==="error"?"Error: "+esc((q.errores[S.ans[q.id]]||{}).error||"Pregunta sin responder"):"Acertaste, pero dudaste"}</span></span><span class="st ${s[0]}">${s[1]}</span></button>`}).join("")}</div>
+    <div class="row"><button type="button" id="back">Ver mis resultados</button><button type="button" id="home2">Inicio</button></div></section>`;
+  app.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>step(b.dataset.id,1));
+  $("#back").onclick=results; $("#home2").onclick=dash;
+  if($("#saveMeta"))$("#saveMeta").onclick=()=>{S.meta=$("#meta").value.trim();persist();toast("Compromiso guardado")};
+  if($("#again"))$("#again").onclick=dash;
+  window.scrollTo({top:0});
+}
+function step(id,k,ctx){
+  ctx=ctx||{q:S.items.find(x=>x.id===id),r:S.ruta[id],chosen:S.ans[id],back:ruta,save:()=>persist()};
+  const {q,r,chosen}=ctx, e=q.errores[chosen];
+  if(r.state==="p")r.state="e";
+  const isDuda=r.kind==="duda";
+  const titles=[isDuda?"Acertaste, pero dudaste":"Lo que tu error revela","Piénsalo tú primero","Aprende y resuelve tus dudas","Reto gemelo"];
+  let body="";
+  if(k===1){
+    body=`${itemBody(q)}
+    ${isDuda?`<div class="box ok"><b>Elegiste ${chosen}: ${esc(q.opciones[chosen])}. ¡Es correcta!</b><span>Marcaste que dudabas. Vamos a asegurar que la próxima vez respondas con certeza.</span></div>`
+    : chosen?`<div class="box bad"><b>Elegiste ${chosen}: ${esc(q.opciones[chosen])}</b><span class="chip" style="align-self:flex-start">${esc(e.error)}</span><span>${esc(e.porque)}</span></div>`
+    :`<div class="box bad"><b>Dejaste esta pregunta en blanco.</b><span>Un intento siempre enseña más que un vacío. Vamos a construirla juntos.</span></div>`}
+    <p class="muted">Equivocarse aquí no es fallar: es encontrar exactamente qué ajustar antes del ICFES.</p>`;
+  } else if(k===2){
+    const guide=isDuda||!chosen?(Object.values(q.errores)[0]||{}).pregunta_guia:e.pregunta_guia;
+    body=`<div class="box q"><span class="eyebrow">Pregunta guía</span><b class="pre">${esc(guide)}</b></div>
+    <label class="f">Explícalo con tus palabras: ¿qué descubriste? (recuperación activa)<textarea id="refl" rows="3" placeholder="Me di cuenta de que…">${esc(r.refl||"")}</textarea></label>
+    <p class="muted small">Tómate un minuto. Descubrirlo tú vale más que leer la respuesta.</p>`;
+  } else if(k===3){
+    body=`${(!isDuda&&chosen)?`<div class="box n"><span class="eyebrow">Corrige tu error</span><span>${esc(e.aprende)}</span></div>`:""}
+    <div class="box ok"><b>La respuesta correcta es ${q.correcta}: ${esc(q.opciones[q.correcta])}</b><span class="pre">${esc(q.explicacion)}</span></div>
+    <div class="tt"><div class="box q"><span class="eyebrow">Tip de SABI</span><span>${esc(q.tip)}</span></div><div class="box q"><span class="eyebrow">Truco</span><span>${esc(q.truco)}</span></div></div>
+    <div class="box n"><span class="eyebrow">Así pregunta el ICFES</span><span>${esc(q.estrategia_icfes)}</span></div>
+    <div class="chips">${(q.temas||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join("")}</div>
+    <h3>¿Te queda alguna duda?</h3>
+    <div class="doubts">
+      <button type="button" data-d="q">No entendí qué me preguntaban</button>
+      <button type="button" data-d="o">Dudé entre dos opciones</button>
+      <button type="button" data-d="t">No conozco un tema o palabra</button>
+      <button type="button" data-d="w">¿Para qué me sirve esto?</button>
+      <button type="button" data-d="ai">Preguntarle a SABI AI (con internet)</button>
+      <button type="button" data-d="s">🔊 Escuchar la explicación</button>
+    </div>
+    <div id="dAns"></div>`;
+  } else {
+    const g=q.gemela, ga=r.gAns;
+    body=`<p class="muted">Misma habilidad, otra situación. Demuéstrate que ya lo dominas.</p>
+    ${g.contexto?`<div class="ctx">${esc(g.contexto)}</div>`:""}
+    <p class="stem">${esc(g.enunciado)}</p>
+    <div class="opts">${Object.entries(g.opciones).map(([L,t])=>`<label class="opt ${ga?(L===g.correcta?"is-ok":(L===ga?"is-bad":"")):""}"><input type="radio" name="gop" value="${L}" ${ga===L?"checked":""} ${r.state==="f"?"disabled":""}><span class="L">${L}</span><span>${esc(t)}</span></label>`).join("")}</div>
+    <div id="gRes">${ga?gemelaMsg(q,ga):""}</div>`;
+  }
+  app.innerHTML=`
+  <section class="card pop">
+    <div class="row between"><span class="eyebrow">Paso ${k} de 4 · ${AREAS[q.area]}</span><span class="chip n${q.nivel}">Nivel ${q.nivel}</span></div>
+    <div class="steps" aria-hidden="true">${[1,2,3,4].map(x=>`<span class="${x<=k?"on":""}"></span>`).join("")}</div>
+    <h2>${titles[k-1]}</h2>
+    ${body}
+    ${k>1?metaBlock(q):""}
+    <div class="row between">
+      <button type="button" id="sBack">${k===1?"Volver":"Anterior"}</button>
+      ${k<4?`<button type="button" class="navy" id="sNext">${k===2?"Ya lo pensé, quiero aprender":"Siguiente"}</button>`:`<button type="button" id="sRuta">Terminar</button>`}
+    </div>
+  </section>`;
+  const saveRefl=()=>{const t=$("#refl");if(t){r.refl=t.value.trim();ctx.save()}};
+  $("#sBack").onclick=()=>{saveRefl();k===1?ctx.back():step(id,k-1,ctx)};
+  if($("#sNext"))$("#sNext").onclick=()=>{saveRefl();step(id,k+1,ctx)};
+  if($("#sRuta"))$("#sRuta").onclick=ctx.back;
+  if($("#retry"))$("#retry").onclick=()=>{r.gAns=null;ctx.save();step(id,4,ctx)};
+  if($("#review"))$("#review").onclick=()=>step(id,3,ctx);
+  app.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>doubt(q,b.dataset.d,chosen));
+  app.querySelectorAll('input[name="gop"]').forEach(x=>x.addEventListener("change",()=>{
+    r.gAns=x.value; r.tries=(r.tries||0)+1;
+    if(x.value===q.gemela.correcta){r.state="f";markConv(q.id);toast(r.kind==="error"?"¡Error convertido en fortaleza!":"¡Duda resuelta!")}
+    ctx.save(); step(id,4,ctx);
+  }));
+  window.scrollTo({top:0});
+}
+function gemelaMsg(q,ga){
+  const g=q.gemela;
+  if(ga===g.correcta) return `<div class="box ok pop"><b>¡Correcto! Este error ya es una fortaleza.</b><span class="pre">${esc(g.explicacion)}</span><span>“${MOTTO}”</span></div>`;
+  return `<div class="box bad"><b>Todavía no. Y está bien: cada intento te acerca.</b><span class="pre">${esc(g.explicacion)}</span>
+  <div class="row"><button type="button" class="navy" id="review">Repasar la explicación</button><button type="button" id="retry">Intentar de nuevo</button></div></div>`;
+}
+function doubt(q,d,chosen){
+  let h="";
+  if(d==="q") h=`<div class="box n"><b>Volvamos a la pregunta, por partes.</b><span><b>Qué se evalúa:</b> ${esc(q.afirmacion)}</span><span><b>Qué debes hacer:</b> ${esc(q.evidencia)}</span><span><b>Método ICFES en 4 pasos:</b> 1) lee primero el enunciado para saber qué buscas; 2) vuelve al texto, tabla o gráfica y ubica solo esa información; 3) responde mentalmente antes de mirar las opciones; 4) descarta las opciones que contradicen el texto o los datos.</span></div>`;
+  if(d==="o"){const rows=Object.keys(q.opciones).filter(L=>L!==q.correcta).map(L=>`<tr><td><b>${L}</b></td><td>${esc(q.opciones[L])}</td><td>${esc(q.errores[L].error)}: ${esc(q.errores[L].aprende)}</td></tr>`).join("");
+    h=`<div class="box n"><b>Por qué cada opción incorrecta no funciona</b><div class="tbl"><table><thead><tr><th>Opción</th><th>Dice</th><th>Por qué no</th></tr></thead><tbody>${rows}</tbody></table></div><span>La correcta (${q.correcta}) es la única que cumple todo lo que pide la pregunta. En el ICFES, si dudas entre dos, busca la palabra del enunciado que una de ellas no cumple.</span></div>`}
+  if(d==="t") h=`<div class="box n"><b>Temas para repasar</b><div class="chips">${(q.temas||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join("")}</div><span><b>DBA:</b> ${esc(q.dba)}</span><span><b>Lineamiento:</b> ${esc(q.lineamiento)}</span><span>Repasa estos temas con tu docente o con SABI AI, y luego vuelve al reto gemelo.</span></div>`;
+  if(d==="w") h=`<div class="box n"><b>Para qué te sirve</b><span>${esc(q.afirmacion)}</span><span>Esta competencia (${esc(q.competencia)}) pesa en tu puntaje de ${esc(AREAS[q.area])} en el Saber 11, y la usarás en la universidad, en el SENA y en decisiones reales: leer bien, calcular bien y argumentar bien.</span></div>`;
+  if(d==="s"){speak([q.explicacion,q.tip].join(". "),"es-CO");return}
+  if(d==="ai"){
+    const txt=`Soy estudiante de ${me().grado}° en CENTEC y me preparo para el Saber 11. En esta pregunta de ${AREAS[q.area]} (${q.competencia}) elegí ${chosen||"nada"} y la correcta era ${q.correcta}.\n\nPregunta: ${q.contexto?q.contexto+"\n":""}${q.enunciado}\n${Object.entries(q.opciones).map(([L,t])=>L+") "+t).join("\n")}\n\nExplícame paso a paso por qué me equivoqué y dame otro ejemplo parecido para practicar.`;
+    const go=()=>window.open("https://ai.sabicentec.com","_blank","noopener");
+    if(!navigator.onLine){h=`<div class="box q">Necesitas internet para hablar con SABI AI. Mientras tanto, usa las otras ayudas.</div>`}
+    else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(()=>{toast("Pregunta copiada: pégala en SABI AI");go()},go);return}
+    else{h=`<div class="box n"><span>Copia este texto y pégalo en SABI AI:</span><textarea rows="6" readonly>${esc(txt)}</textarea><button type="button" class="navy" id="aiGo">Abrir SABI AI</button></div>`}
+  }
+  $("#dAns").innerHTML=h; if($("#aiGo"))$("#aiGo").onclick=()=>window.open("https://ai.sabicentec.com","_blank","noopener");
+}
+
+/* ============ CUADERNO DE ERRORES Y REPASO ESPACIADO ============ */
+function markConv(id){const st=me(),c=st.cuaderno&&st.cuaderno[id];if(c&&!c.conv){c.conv=true;c.box=Math.max(c.box,1);c.due=today()+SR_DAYS[1]}save()}
+function dueList(st){return Object.entries(st.cuaderno||{}).filter(([,c])=>c.due<=today()&&c.box<SR_DAYS.length).map(([id])=>id)}
+async function cuaderno(){
+  const st=me(), bank=await getBank(st.grado), C=Object.entries(st.cuaderno||{});
+  const byErr={}; C.forEach(([id,c])=>{byErr[c.error]=(byErr[c.error]||0)+1});
+  const topErr=Object.entries(byErr).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  const conv=C.filter(([,c])=>c.conv).length;
+  app.innerHTML=`
+  <section class="card"><span class="eyebrow">Mi Cuaderno de errores</span><h2>${C.length?`${C.length} errores registrados · ${conv} convertidos en fortaleza`:"Aún no tienes errores registrados"}</h2>
+    <p class="motto">“${MOTTO}”</p>
+    ${C.length?`<div class="prog"><i style="width:${conv/C.length*100}%"></i></div>`:""}
+    <div class="row"><button class="primary" id="rep" ${dueList(st).length?"":"disabled"}>Repasar los de hoy (${dueList(st).length})</button><button id="bk">Volver</button></div></section>
+  ${topErr.length?`<section class="card"><h3>Tus errores más frecuentes</h3><p class="small muted">Son tus patrones: si los corriges, tu puntaje sube en todas las pruebas.</p><div class="bars">${topErr.map(([e,n])=>`<div class="bar"><span>${esc(e)}</span><span class="t"><i style="width:${n/topErr[0][1]*100}%"></i></span><b>${n}</b></div>`).join("")}</div></section>`:""}
+  ${C.length?`<section class="card"><h3>Todos mis errores</h3><div class="errlist">${C.sort((a,b)=>b[1].fecha-a[1].fecha).slice(0,80).map(([id,c])=>{const q=bank.find(x=>x.id===id);if(!q)return"";const s=c.conv?(c.box>=SR_DAYS.length?["f","Dominado"]:["f","Fortaleza"]):["p","Por convertir"];
+    return `<button type="button" class="erritem" data-c="${esc(id)}"><span class="chip">${SHORT[c.area]}</span><span style="min-width:0">${esc(q.enunciado.slice(0,90))}…<br><span class="muted small" style="font-weight:700">${esc(c.error)} · repaso ${c.due<=today()?"hoy":"en "+(c.due-today())+" día(s)"}</span></span><span class="st ${s[0]}">${s[1]}</span></button>`}).join("")}</div></section>`:""}`;
+  $("#bk").onclick=dash; if($("#rep"))$("#rep").onclick=repaso;
+  app.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{const id=b.dataset.c,q=bank.find(x=>x.id===id),c=st.cuaderno[id];
+    const r={kind:"error",state:c.conv?"f":"p"}; step(id,1,{q,r,chosen:c.elig,back:cuaderno,save:()=>{if(r.state==="f")markConv(id);save()}})});
+}
+async function repaso(){
+  const st=me(), bank=await getBank(st.grado), ids=shuffle(dueList(st)).slice(0,10);
+  if(!ids.length){toast("No tienes repasos pendientes hoy");return dash()}
+  const items=ids.map(id=>bank.find(q=>q.id===id)).filter(Boolean);
+  start({tipo:"repaso",titulo:"Repaso del Cuaderno de errores",items});
+}
+/* Al calificar un repaso: acierto => sube de caja (más días); error => vuelve a la caja 0 */
+function srUpdate(st){
+  if(S.tipo!=="repaso")return;
+  S.items.forEach(q=>{const c=st.cuaderno[q.id];if(!c)return;
+    if(S.ans[q.id]===q.correcta){c.box=Math.min(c.box+1,SR_DAYS.length);c.due=today()+(SR_DAYS[c.box]||60);c.conv=true}
+    else{c.box=0;c.due=today()+1}});
+}
+
+/* ============ HISTORIAL Y PROGRESO ============ */
+function persist(){
+  const st=me(); if(!S||!S.end||!st) return;
+  const s=stats(), rc=rutaCounts();
+  const byComp={}; S.items.forEach(q=>{const k=q.competencia;byComp[k]=byComp[k]||{area:q.area,t:0,o:0};byComp[k].t++;if(S.ans[q.id]===q.correcta)byComp[k].o++});
+  const byArea={}; Object.entries(s.area).forEach(([a,v])=>byArea[a]={t:v.t,o:v.o});
+  const rec={sid:S.sid,tipo:S.tipo,titulo:S.titulo,fecha:new Date(S.start).toISOString(),dur:S.end-S.start,ok:s.ok,n:s.n,sc:s.sc,global:s.global,byArea,byComp,
+    err:rc.err,conv:rc.conv,dud:rc.dud,meta:S.meta||"",
+    fallos:S.items.filter(q=>S.ans[q.id]!==q.correcta).map(q=>({id:q.id,area:q.area,comp:q.competencia,elig:S.ans[q.id]||"—",error:(q.errores[S.ans[q.id]]||{}).error||"En blanco",conv:(S.ruta[q.id]||{}).state==="f"}))};
+  st.hist=st.hist||[]; const i=st.hist.findIndex(h=>h.sid===rec.sid);
+  if(i>=0) st.hist[i]=rec; else {st.hist.push(rec); srUpdate(st)}
+  save();
+}
+function lineChart(points){ // evolución del puntaje global
+  return renderChart({tipo:"lineas",titulo:"Evolución del puntaje global estimado",ejeX:"Simulacro",ejeY:"Puntaje (0–500)",series:[{nombre:"Global",datos:points}]});
+}
+async function progreso(){
+  const st=me(), H=st.hist||[];
+  const sims=H.filter(h=>h.global!=null);
+  const agg={}; H.forEach(h=>Object.entries(h.byComp||{}).forEach(([k,v])=>{agg[k]=agg[k]||{area:v.area,t:0,o:0};agg[k].t+=v.t;agg[k].o+=v.o}));
+  const areaAgg={}; H.slice(-10).forEach(h=>Object.entries(h.byArea||{}).forEach(([a,v])=>{areaAgg[a]=areaAgg[a]||{t:0,o:0};areaAgg[a].t+=v.t;areaAgg[a].o+=v.o}));
+  const weak=Object.entries(agg).filter(([,v])=>v.t>=4).sort((a,b)=>a[1].o/a[1].t-b[1].o/b[1].t).slice(0,3);
+  const lastSim=sims.at(-1);
+  app.innerHTML=`
+  <section class="card"><span class="eyebrow">Mi progreso · ${esc(st.name)}</span><h2>${H.length?`${H.length} entrenamientos · ${H.reduce((s,h)=>s+h.n,0)} preguntas respondidas`:"Aún no tienes entrenamientos"}</h2>
+    ${lastSim?`<div class="kpis">${ORDER.map(a=>lastSim.sc[a]!=null?`<div class="kpi"><span>${SHORT[a]}</span><b>${lastSim.sc[a]}</b><span>${nivelTxt(a,nivelDe(a,lastSim.sc[a]))}</span></div>`:"").join("")}</div>`:""}
+    <div class="row"><button id="bk">Volver</button></div></section>
+  ${sims.length>=2?`<section class="card">${lineChart(sims.map((h,i)=>[i+1,h.global]))}<p class="small muted">Cada punto es un simulacro. La meta CENTEC: sumar al menos 15 puntos entre un simulacro y el siguiente.</p></section>`:""}
+  ${Object.keys(areaAgg).length?`<section class="card"><h3>Acierto reciente por prueba (últimos 10 entrenamientos)</h3><div class="bars">${bars(areaAgg,a=>AREAS[a])}</div></section>`:""}
+  ${weak.length?`<section class="card hl"><span class="eyebrow">Tu plan para subir puntaje</span><h3>Estas son las 3 competencias que más puntos te pueden dar:</h3>
+    <ol>${weak.map(([k,v])=>`<li><b>${esc(k)}</b> (${AREAS[v.area]}): ${Math.round(v.o/v.t*100)} % de acierto. <button class="link" data-w="${esc(v.area+"|"+k)}">Entrenarla ahora</button></li>`).join("")}</ol>
+    <p class="small muted">Rutina recomendada: 20 minutos diarios = 10 preguntas de tu competencia más débil + repaso del Cuaderno de errores. Un simulacro express cada semana.</p></section>`:""}
+  ${H.length?`<section class="card"><h3>Historial</h3><div class="tbl"><table><thead><tr><th>Fecha</th><th>Entrenamiento</th><th>Correctas</th><th>Global</th><th>Errores convertidos</th></tr></thead><tbody>${H.slice().reverse().map(h=>`<tr><td>${h.fecha.slice(0,10)}</td><td>${esc(h.titulo)}</td><td>${h.ok}/${h.n}</td><td>${h.global??"—"}</td><td>${h.conv}/${h.err}</td></tr>`).join("")}</tbody></table></div></section>`:""}`;
+  $("#bk").onclick=dash;
+  app.querySelectorAll("[data-w]").forEach(b=>b.onclick=async()=>{const [a,c]=b.dataset.w.split("|");const bank=await getBank(st.grado);const r=pick(st,st.grado,bank,a,10,{comp:c,adapt:true});start({tipo:"comp",area:a,titulo:c,items:r.items})});
+  window.scrollTo({top:0});
+}
+
+/* ============ GUÍA: CÓMO ES Y CÓMO PREGUNTA EL ICFES ============ */
+function guia(){
+  const comp={
+    matematicas:[["Interpretación y representación","Leer y transformar información de tablas, gráficas, esquemas y textos: ¿qué dice el dato?"],["Formulación y ejecución","Plantear y resolver: elegir la operación, el modelo o la estrategia y ejecutarla bien."],["Argumentación","Validar o refutar afirmaciones y procedimientos: ¿por qué es cierto? ¿en qué paso hay un error?"]],
+    lectura:[["Identificar y entender contenidos locales","Qué dice el texto: significado de palabras, expresiones y frases en su contexto."],["Comprender cómo se articulan las partes de un texto","Cómo está construido: relación entre párrafos, tesis y argumentos, voz que narra."],["Reflexionar a partir de un texto y evaluar su contenido","Qué tan válido es: supuestos, intención, fuerza de los argumentos, comparar textos."]],
+    sociales:[["Pensamiento social","Usar conceptos de ciencias sociales y de la Constitución para entender situaciones."],["Interpretación y análisis de perspectivas","Reconocer actores, intereses, argumentos y prejuicios en un problema."],["Pensamiento reflexivo y sistémico","Ver las dimensiones (económica, política, ambiental, cultural) y los efectos de una decisión; evaluar fuentes."]],
+    ciencias:[["Uso comprensivo del conocimiento científico","Usar conceptos de biología, química y física para resolver problemas."],["Explicación de fenómenos","Construir explicaciones causales y elegir el modelo que explica lo observado."],["Indagación","Preguntas investigables, variables, diseño experimental, interpretar datos y sacar conclusiones válidas."]],
+    ingles:[["Partes 1–3","Avisos (dónde se ven), vocabulario y conversaciones: comunicación en situaciones reales."],["Partes 4 y 7","Gramática y léxico en textos con espacios."],["Partes 5–6","Comprensión literal e inferencial de textos."]]
+  };
+  app.innerHTML=`
+  <section class="card"><span class="eyebrow">Guía ICFES de SABI</span><h2>Así es el examen Saber 11 y así se gana</h2>
+  <p>El Saber 11 no mide cuánto memorizas, sino <b>qué haces con lo que sabes</b>. Cada pregunta está construida a partir de una <b>competencia</b> (lo que sabes hacer), una <b>afirmación</b> y una <b>evidencia</b> observable; las opciones incorrectas son errores típicos. Por eso SABI te muestra, en cada error, cuál fue tu razonamiento y cómo corregirlo.</p>
+  <div class="row"><button id="bk">Volver</button></div></section>
+  <section class="card"><h3>Estructura del examen</h3><div class="tbl"><table><thead><tr><th>Prueba</th><th>Preguntas</th><th>Peso en el global</th><th>Niveles</th></tr></thead><tbody>
+    ${ORDER.map(a=>`<tr><td>${AREAS[a]}</td><td>${REAL[a]}</td><td>${a==="ingles"?"×1":"×3"}</td><td>${a==="ingles"?"A-, A1, A2, B1, B+":NIVELES[a].map(([l,n],i,arr)=>`${n}: ${i?arr[i-1][0]+1:0}–${l}`).join(" · ")}</td></tr>`).join("")}
+  </tbody></table></div>
+  <p class="small"><b>Puntaje global (0–500)</b> = (3×Matemáticas + 3×Lectura + 3×Sociales + 3×Ciencias + 1×Inglés) ÷ 13 × 5. Cada prueba va de 0 a 100. Dos sesiones de 4 h 30 min: ≈ 2 minutos por pregunta.</p></section>
+  ${ORDER.map(a=>`<section class="card"><h3>${AREAS[a]}: qué evalúa</h3><ul>${comp[a].map(([c,d])=>`<li><b>${c}.</b> ${d}</li>`).join("")}</ul></section>`).join("")}
+  <section class="card hl"><h3>10 estrategias ICFES que suben puntaje</h3><ol>
+    <li>Lee primero el enunciado: así sabes qué buscar en el texto, la tabla o la gráfica.</li>
+    <li>Subraya el verbo y la condición clave (“NO”, “con respecto a”, “siempre”, “la mejor razón”).</li>
+    <li>Responde mentalmente antes de mirar las opciones; luego busca la que coincide.</li>
+    <li>Descarta: elimina las opciones que contradicen el texto, los datos o la pregunta.</li>
+    <li>En gráficas, lee título, ejes, unidades y escala antes de los datos.</li>
+    <li>En Lectura Crítica, la respuesta siempre está sustentada en el texto, no en tu opinión.</li>
+    <li>En Sociales, identifica actores e intereses; desconfía de opciones extremas o que generalizan.</li>
+    <li>En Ciencias, separa variable independiente, dependiente y controladas antes de concluir.</li>
+    <li>Administra el tiempo: si una pregunta te toma más de 3 minutos, márcala y vuelve después.</li>
+    <li>Nunca dejes respuestas en blanco: no hay penalización por responder mal.</li>
+  </ol></section>
+  <section class="card"><h3>La Ruta del Error CENTEC</h3><p>1) <b>Entiende</b> qué pensaste y por qué no funcionó. 2) <b>Piensa</b> con una pregunta guía antes de ver la solución. 3) <b>Aprende</b> la explicación paso a paso, el tip, el truco y cómo pregunta el ICFES. 4) <b>Demuéstralo</b> con un reto gemelo. Después, tu Cuaderno de errores te repasa en 1, 3, 7 y 15 días.</p><p class="motto">“${MOTTO}”</p></section>`;
+  $("#bk").onclick=()=>me()?dash():login();
+  window.scrollTo({top:0});
+}
+
+/* ============ PANEL DOCENTE ============ */
+function docenteGate(){
+  if(sessionStorage.getItem("sabi_doc")==="1") return docente();
+  app.innerHTML=`<form class="card" id="f" style="max-width:420px;align-self:center;width:100%"><span class="eyebrow">Panel docente y directivo</span><h2>Ingreso</h2>
+  <label class="f">Código institucional<input id="cd" type="password" autocomplete="off"></label><p id="e" class="small" style="color:var(--bad)" hidden>Código incorrecto.</p>
+  <div class="row"><button class="primary" type="submit">Entrar</button><button type="button" id="bk">Volver</button></div></form>`;
+  $("#bk").onclick=()=>me()?dash():login();
+  $("#f").onsubmit=e=>{e.preventDefault();if(norm($("#cd").value)===DOCENTE_CODE){sessionStorage.setItem("sabi_doc","1");docente()}else $("#e").hidden=false};
+}
+function docente(filtro){
+  const studs=Object.values(DB.students).filter(s=>!filtro||s.curso===filtro);
+  const cursos=[...new Set(Object.values(DB.students).map(s=>s.curso).filter(Boolean))].sort();
+  const freq={}, compAgg={}; let H=[];
+  studs.forEach(s=>(s.hist||[]).forEach(h=>{H.push(Object.assign({name:s.name,grado:s.grado,curso:s.curso},h));
+    h.fallos.forEach(f=>{const k=f.id+"|"+f.error;freq[k]=freq[k]||{id:f.id,area:f.area,error:f.error,n:0,c:0};freq[k].n++;if(f.conv)freq[k].c++});
+    Object.entries(h.byComp||{}).forEach(([k,v])=>{compAgg[k]=compAgg[k]||{area:v.area,t:0,o:0};compAgg[k].t+=v.t;compAgg[k].o+=v.o})}));
+  H.sort((a,b)=>b.fecha.localeCompare(a.fecha));
+  const top=Object.values(freq).sort((a,b)=>b.n-a.n).slice(0,15);
+  const sims=H.filter(h=>h.global!=null);
+  const avg=sims.length?Math.round(sims.reduce((s,h)=>s+h.global,0)/sims.length):null;
+  app.innerHTML=`
+  <section class="card"><span class="eyebrow">Panel docente · datos de este dispositivo</span><h2>Seguimiento PREICFES</h2>
+    <div class="row"><label class="f" style="min-width:180px">Curso<select id="cf"><option value="">Todos</option>${cursos.map(c=>`<option ${c===filtro?"selected":""}>${esc(c)}</option>`).join("")}</select></label></div>
+    <div class="kpis"><div class="kpi"><span>Estudiantes</span><b>${studs.length}</b></div><div class="kpi"><span>Entrenamientos</span><b>${H.length}</b></div><div class="kpi"><span>Simulacros</span><b>${sims.length}</b></div><div class="kpi"><span>Global promedio</span><b>${avg??"—"}</b></div><div class="kpi"><span>Errores convertidos</span><b>${H.reduce((s,h)=>s+h.conv,0)}/${H.reduce((s,h)=>s+h.err,0)}</b></div></div>
+    <p class="small muted">Cada equipo guarda sus propios datos. Para consolidar el colegio, exporta el CSV de cada equipo y únelos en la hoja del área.</p>
+    <div class="row"><button class="navy" id="csv">Copiar / descargar CSV</button><button id="bk">Salir</button></div><textarea id="csvBox" rows="4" hidden readonly></textarea></section>
+  ${Object.keys(compAgg).length?`<section class="card"><h3>Acierto por competencia (curso)</h3><p class="small muted">Las más bajas son la prioridad de planeación de clase.</p><div class="bars">${bars(Object.fromEntries(Object.entries(compAgg).sort((a,b)=>a[1].o/a[1].t-b[1].o/b[1].t)),k=>k+" · "+SHORT[compAgg[k].area])}</div></section>`:""}
+  <section class="card"><h3>Errores conceptuales más frecuentes</h3>${top.length?`<div class="tbl"><table><thead><tr><th>Ítem</th><th>Prueba</th><th>Error</th><th>Veces</th><th>Convertidos</th></tr></thead><tbody>${top.map(t=>`<tr><td>${esc(t.id)}</td><td>${SHORT[t.area]}</td><td>${esc(t.error)}</td><td>${t.n}</td><td>${t.c}</td></tr>`).join("")}</tbody></table></div>`:`<p>Aún no hay datos en este dispositivo.</p>`}</section>
+  ${H.length?`<section class="card"><h3>Entrenamientos (${H.length})</h3><div class="tbl"><table><thead><tr><th>Fecha</th><th>Estudiante</th><th>Curso</th><th>Tipo</th><th>Correctas</th><th>Global</th><th>Mat</th><th>Lec</th><th>Soc</th><th>Cie</th><th>Ing</th><th>Convertidos</th><th>Compromiso</th></tr></thead><tbody>${H.map(h=>`<tr><td>${h.fecha.slice(0,10)}</td><td>${esc(h.name)}</td><td>${esc(h.curso||h.grado+"°")}</td><td>${esc(h.titulo)}</td><td>${h.ok}/${h.n}</td><td>${h.global??"—"}</td>${ORDER.map(a=>`<td>${h.sc&&h.sc[a]!=null?h.sc[a]:"—"}</td>`).join("")}<td>${h.conv}/${h.err}</td><td>${esc(h.meta)}</td></tr>`).join("")}</tbody></table></div></section>`:""}`;
+  $("#cf").onchange=e=>docente(e.target.value||undefined);
+  $("#bk").onclick=()=>{sessionStorage.removeItem("sabi_doc");me()?dash():login()};
+  $("#csv").onclick=()=>{
+    const rows=[["fecha","estudiante","grado","curso","entrenamiento","correctas","total","global","matematicas","lectura","sociales","ciencias","ingles","errores","convertidos","dudas","item","prueba","competencia","opcion_elegida","error_conceptual","convertido"]];
+    H.forEach(h=>(h.fallos.length?h.fallos:[{}]).forEach(f=>rows.push([h.fecha,h.name,h.grado,h.curso||"",h.titulo,h.ok,h.n,h.global??"",...ORDER.map(a=>h.sc&&h.sc[a]!=null?h.sc[a]:""),h.err,h.conv,h.dud,f.id||"",f.area||"",f.comp||"",f.elig||"",f.error||"",f.conv===undefined?"":f.conv?"sí":"no"])));
+    const csv="﻿"+rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(",")).join("\n");
+    try{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"}));a.download=`sabi_preicfes_${filtro||"todos"}_${new Date().toISOString().slice(0,10)}.csv`;a.click();toast("CSV descargado")}
+    catch(e){const box=$("#csvBox");box.value=csv;box.hidden=false;box.select()}
+  };
+  window.scrollTo({top:0});
+}
+
+/* ============ ARRANQUE ============ */
+const guard=fn=>()=>{if(S&&!S.end&&Object.keys(S.ans||{}).length){me().active=S;save();toast("Tu entrenamiento quedó guardado; continúalo desde el inicio.")}clearInterval(tick);S=null;fn()};
+$("#btnHome").onclick=guard(()=>me()?dash():login());
+$("#btnGuia").onclick=guard(guia);
+$("#btnDocente").onclick=guard(docenteGate);
+const net=()=>{$("#offline").hidden=navigator.onLine};
+addEventListener("online",net);addEventListener("offline",net);net();
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register("sw.js").then(reg=>{
+    reg.addEventListener("updatefound",()=>{const w=reg.installing;w&&w.addEventListener("statechange",()=>{if(w.state==="installed"&&navigator.serviceWorker.controller)toast("SABI se actualizó con nuevas preguntas. Recarga para verlas.")})});
+  }).catch(()=>{});
+}
+me()?dash():login();
+})();
+</script>
+</body></html>
