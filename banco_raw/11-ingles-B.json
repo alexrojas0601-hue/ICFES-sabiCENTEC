@@ -1161,11 +1161,11 @@
 "enunciado": "It's so hot in here!",
 "opciones": {
 "A": "Yes, Cali is a hot city.",
-"B": "Shall I open the window?",
-"C": "I like hot weather.",
+"B": "I like hot weather.",
+"C": "Shall I open the window?",
 "D": "It was hot yesterday too."
 },
-"correcta": "B",
+"correcta": "C",
 "explicacion": "La frase implica una petición; B ofrece abrir la ventana. A y C son literales y D cambia el tiempo."
 }
 },
@@ -2609,10 +2609,10 @@
 "opciones": {
 "A": "because",
 "B": "so",
-"C": "but",
-"D": "or"
+"C": "or",
+"D": "but"
 },
-"correcta": "C",
+"correcta": "D",
 "explicacion": "Las ideas se oponen y se unen después de coma con una conjunción coordinante de contraste → «but». «Because» es causa, «so» consecuencia y «or» alternativa."
 }
 },
@@ -2939,10 +2939,10 @@
 "opciones": {
 "A": "is",
 "B": "am",
-"C": "are",
-"D": "will"
+"C": "will",
+"D": "are"
 },
-"correcta": "C",
+"correcta": "D",
 "explicacion": "Sujeto compuesto (they) + «going to» → «are»."
 }
 }
