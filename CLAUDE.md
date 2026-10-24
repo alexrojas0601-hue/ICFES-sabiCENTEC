@@ -20,3 +20,9 @@ Preparación para Saber 11: cada pregunta trae competencia evaluada, explicació
 - No romper lo que funciona: probar en navegador, en computador y en celular, sin errores de JavaScript.
 - Aplicar `/factcheck` y `/selfcheck`, y que un Dot auditor distinto de quien creó el contenido lo revise.
 - Commit en español que diga qué cambió; Cloudflare despliega desde GitHub. Verificar que el despliegue terminó.
+
+## Propiedad y protección (no quitar)
+- Titulares: **SABI CENTEC — Alexander Rojas Zamorano, Paula Andrea Rojas Cairasco y Daniela Rojas Cairasco**. Licencia propietaria en `LICENSE` (todos los derechos reservados, no es código abierto).
+- Cada HTML nuevo debe llevar: comentario de derechos tras `<!doctype html>`, metas `author`/`copyright`/`rights`/`robots noai`/`og:site_name`, JSON-LD con `copyrightHolder` y `author` (los tres titulares y SABI CENTEC) y el pie «© 2025-2026 SABI CENTEC · … · Todos los derechos reservados · Prohibida su copia o reproducción».
+- `assets/sabi-proteccion.js` (cargado en `index.html`) es disuasivo: bloquea marcos ajenos, muestra «Copia no autorizada» fuera de *.sabicentec.com, protege imágenes, desactiva Ctrl+S/Ctrl+U y agrega la fuente a textos largos copiados. La protección real es el aviso legal + el registro ante la DNDA.
+- `_headers` (nosniff, Referrer-Policy, `X-Robots-Tag: noai`, `frame-ancestors`) y `robots.txt` (bloquea bots de IA y copiadores de sitios).
