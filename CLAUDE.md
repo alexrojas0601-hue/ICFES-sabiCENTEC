@@ -20,3 +20,9 @@ Preparación para Saber 11: cada pregunta trae competencia evaluada, explicació
 - No romper lo que funciona: probar en navegador, en computador y en celular, sin errores de JavaScript.
 - Aplicar `/factcheck` y `/selfcheck`, y que un Dot auditor distinto de quien creó el contenido lo revise.
 - Commit en español que diga qué cambió; Cloudflare despliega desde GitHub. Verificar que el despliegue terminó.
+
+## Cómo se construye esta app
+- `index.html` es el motor (Ruta del Error, simulacros, Guía ICFES, repaso espaciado, panel docente). Carga `banco/indice.json` y los archivos `banco/<grado>-<area>.json`.
+- El banco se genera con `python3 tools/construir.py`: une `banco_raw/base/` (heredado de saber.sabicentec.com), `banco_raw/nuevo/` (lotes v3 de 11°) y cualquier lote nuevo en `banco_raw/*.json`; pasa todo por `tools/validar_banco.py` (Dot Auditor estructural) y escribe `docs/INFORME-BANCO.md`, `sw.js` y `manifest.json`.
+- Recursos visuales soportados: `tabla` (cols/filas), `grafica` (barras, lineas, torta, puntos) y `figura` (SVG en línea, sin scripts).
+- Pendientes y auditorías: `docs/PENDIENTES.md`.

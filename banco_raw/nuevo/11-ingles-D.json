@@ -1,0 +1,2962 @@
+[
+{
+"id": "P11-ING-D001",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende y produce textos sobre temas académicos y laborales usando estructuras gramaticales adecuadas, como los tiempos perfectos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico relaciones de significado en textos sobre temas de mi interés y uso estructuras gramaticales adecuadas al contexto.",
+"afirmacion": "Usa elementos formales de la lengua (gramática) para completar un texto de manera coherente.",
+"evidencia": "Selecciona el tiempo verbal (present perfect) que expresa una acción terminada con resultado en el presente.",
+"grupo": "P11-ING-D-T1",
+"contexto": "Read the email and choose the correct option for each gap.\n\nFrom: Laura Mosquera, HR Coordinator – LogiPacífico S.A.S.\nTo: Julián Arboleda\nSubject: Your application for Junior Warehouse Technician\n\nDear Mr. Arboleda,\n\nThank you for your interest in LogiPacífico. We (1) ______ your application and we are pleased to invite you to a second interview. During the visit, you will be shown how our inventory software works and how orders (2) ______ from our warehouse in Yumbo to ports such as Buenaventura.\n\nPlease bring a copy of your SENA certificate. (3) ______ you cannot attend on Tuesday at 9:00 a.m., let us know before Monday so that we can arrange another time. When you arrive, please (4) ______ the visitor form at the reception desk.\n\nWe know that you have no previous work experience; (5) ______, your technical training and your project on barcode tracking impressed our team.\n\nKind regards,\nLaura Mosquera",
+"enunciado": "Choose the correct option for gap (1):",
+"opciones": {
+"A": "had reviewed",
+"B": "have reviewed",
+"C": "were reviewing",
+"D": "are reviewed"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar past perfect sin un pasado de referencia",
+"porque": "Elegiste A porque probablemente pensaste que cualquier acción ya terminada va en «had + participio».",
+"pregunta_guia": "¿Hay en la oración otra acción pasada anterior a la cual «revisar» haya ocurrido antes?",
+"aprende": "El past perfect (had reviewed) solo se usa cuando hay otro momento pasado de referencia; aquí la acción se conecta con el presente («we are pleased»)."
+},
+"C": {
+"error": "Usar pasado progresivo para una acción completa",
+"porque": "Elegiste C porque probablemente tradujiste «estuvimos revisando» y no notaste que la revisión ya terminó y produjo un resultado.",
+"pregunta_guia": "¿La empresa describe una acción en desarrollo o una acción terminada que explica la invitación de ahora?",
+"aprende": "El past continuous describe acciones en progreso en un momento pasado; para un resultado presente se usa el present perfect."
+},
+"D": {
+"error": "Confundir voz activa y voz pasiva",
+"porque": "Elegiste D porque probablemente viste «are» y pensaste que concordaba con «we», sin notar que «are reviewed» es pasiva.",
+"pregunta_guia": "¿Quién hace la acción de revisar: «we» o la solicitud?",
+"aprende": "Si el sujeto realiza la acción (we review), la voz es activa; «we are reviewed» significaría que a nosotros nos revisan."
+}
+},
+"explicacion": "Paso 1: identifica el sujeto «We»; ellos hacen la acción, así que va voz activa (descarta D). Paso 2: la segunda parte, «and we are pleased to invite you», muestra que la revisión ya terminó y tiene un resultado presente. Paso 3: acción terminada + resultado presente = present perfect: «have reviewed». Paso 4: A exige otro pasado de referencia que no existe y C describe una acción en progreso.",
+"estrategia_icfes": "En la Parte 7 el ICFES presenta un texto con espacios y pide elegir la palabra que completa cada uno. Lee la oración completa (antes y después del espacio): las pistas de tiempo («and we are pleased», «yesterday», «since») deciden el tiempo verbal.",
+"tip": "Busca la conexión con el presente: si la acción pasada explica algo de ahora, piensa en present perfect.",
+"truco": "Have + participio = «ya lo hice y aquí está el resultado».",
+"temas": [
+"present perfect",
+"correo laboral",
+"tiempos verbales"
+],
+"gemela": {
+"contexto": "Complete the message from a company manager.",
+"enunciado": "Good news: our team ______ the new safety protocol, so the plant can reopen today.",
+"opciones": {
+"A": "has finished",
+"B": "had finished",
+"C": "was finishing",
+"D": "is finished"
+},
+"correcta": "A",
+"explicacion": "La acción terminó y su resultado es presente («so the plant can reopen today»): present perfect «has finished». B necesita otro pasado de referencia, C describe progreso y D es pasiva sin sentido."
+}
+},
+{
+"id": "P11-ING-D002",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende y produce textos técnicos y laborales que describen procesos usando la voz pasiva.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: comprendo textos de diferentes tipos y fuentes sobre temas de interés general y académico, y uso estructuras adecuadas para describir procesos.",
+"afirmacion": "Usa elementos formales de la lengua (voz pasiva y concordancia) para completar un texto de manera coherente.",
+"evidencia": "Selecciona la forma pasiva en presente que concuerda en número con el sujeto.",
+"grupo": "P11-ING-D-T1",
+"contexto": "Read the email and choose the correct option for each gap.\n\nFrom: Laura Mosquera, HR Coordinator – LogiPacífico S.A.S.\nTo: Julián Arboleda\nSubject: Your application for Junior Warehouse Technician\n\nDear Mr. Arboleda,\n\nThank you for your interest in LogiPacífico. We (1) ______ your application and we are pleased to invite you to a second interview. During the visit, you will be shown how our inventory software works and how orders (2) ______ from our warehouse in Yumbo to ports such as Buenaventura.\n\nPlease bring a copy of your SENA certificate. (3) ______ you cannot attend on Tuesday at 9:00 a.m., let us know before Monday so that we can arrange another time. When you arrive, please (4) ______ the visitor form at the reception desk.\n\nWe know that you have no previous work experience; (5) ______, your technical training and your project on barcode tracking impressed our team.\n\nKind regards,\nLaura Mosquera",
+"enunciado": "Choose the correct option for gap (2):",
+"opciones": {
+"A": "send",
+"B": "are sending",
+"C": "is sent",
+"D": "are sent"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar voz activa con un sujeto que no hace la acción",
+"porque": "Elegiste A porque probablemente pensaste en «los pedidos envían» como en español informal, sin notar que los pedidos no envían nada.",
+"pregunta_guia": "¿Los pedidos (orders) envían algo, o alguien los envía a ellos?",
+"aprende": "Cuando el sujeto recibe la acción, se usa la voz pasiva: be + participio (are sent)."
+},
+"B": {
+"error": "Usar presente progresivo activo",
+"porque": "Elegiste B porque probablemente viste que «are» concuerda con «orders» y no revisaste si la acción es activa o pasiva.",
+"pregunta_guia": "¿«Orders are sending» dice que los pedidos realizan el envío?",
+"aprende": "«Are sending» es activa; el texto describe un proceso habitual que sufren los pedidos, por eso va pasiva en presente simple."
+},
+"C": {
+"error": "Error de concordancia en la pasiva",
+"porque": "Elegiste C porque probablemente identificaste la pasiva pero no revisaste que «orders» es plural.",
+"pregunta_guia": "¿«Orders» es singular o plural? ¿Qué forma de «be» le corresponde?",
+"aprende": "En la pasiva el verbo «be» concuerda con el sujeto: order is sent / orders are sent."
+}
+},
+"explicacion": "Paso 1: el sujeto del espacio es «orders» (plural). Paso 2: los pedidos no hacen la acción; alguien los envía: se necesita voz pasiva (descarta A y B). Paso 3: el texto describe un proceso habitual de la empresa, así que va en presente: be + participio. Paso 4: plural exige «are»: «are sent» (descarta C).",
+"estrategia_icfes": "Cuando el ICFES pregunta por verbos en textos técnicos o laborales, verifica tres cosas en orden: ¿quién hace la acción? (activa/pasiva), ¿cuándo ocurre? (tiempo) y ¿el sujeto es singular o plural? (concordancia).",
+"tip": "En descripciones de procesos (fábricas, envíos, recetas) la pasiva es muy frecuente.",
+"truco": "Pasiva = BE + PARTICIPIO; el «be» mira al sujeto, el participio mira a la acción.",
+"temas": [
+"voz pasiva",
+"concordancia",
+"inglés técnico"
+],
+"gemela": {
+"contexto": "Complete the sentence from a factory guide.",
+"enunciado": "In our plant, the sugar bags ______ before they leave for the supermarkets.",
+"opciones": {
+"A": "weigh",
+"B": "are weighing",
+"C": "are weighed",
+"D": "is weighed"
+},
+"correcta": "C",
+"explicacion": "Las bolsas reciben la acción (alguien las pesa) y son plural: «are weighed». A y B son activas; D no concuerda con el plural."
+}
+},
+{
+"id": "P11-ING-D003",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica la relación lógica entre las ideas de un texto (condición, contraste, causa) a partir de conectores.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico la organización y los conectores que relacionan las ideas en textos escritos.",
+"afirmacion": "Comprende la organización y la cohesión de un texto a partir de los conectores.",
+"evidencia": "Selecciona el conector que expresa una condición en una instrucción.",
+"grupo": "P11-ING-D-T1",
+"contexto": "Read the email and choose the correct option for each gap.\n\nFrom: Laura Mosquera, HR Coordinator – LogiPacífico S.A.S.\nTo: Julián Arboleda\nSubject: Your application for Junior Warehouse Technician\n\nDear Mr. Arboleda,\n\nThank you for your interest in LogiPacífico. We (1) ______ your application and we are pleased to invite you to a second interview. During the visit, you will be shown how our inventory software works and how orders (2) ______ from our warehouse in Yumbo to ports such as Buenaventura.\n\nPlease bring a copy of your SENA certificate. (3) ______ you cannot attend on Tuesday at 9:00 a.m., let us know before Monday so that we can arrange another time. When you arrive, please (4) ______ the visitor form at the reception desk.\n\nWe know that you have no previous work experience; (5) ______, your technical training and your project on barcode tracking impressed our team.\n\nKind regards,\nLaura Mosquera",
+"enunciado": "Choose the correct option for gap (3):",
+"opciones": {
+"A": "If",
+"B": "Unless",
+"C": "Although",
+"D": "Because"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Doble negación con «unless»",
+"porque": "Elegiste B porque probablemente recordaste que «unless» también introduce condiciones, sin notar que ya significa «a menos que / si no».",
+"pregunta_guia": "Si «unless» = «if not», ¿qué significa «unless you cannot attend»? ¿Tiene sentido avisar en ese caso?",
+"aprende": "«Unless» ya contiene la negación; con «cannot» la idea se invierte: «avísenos si SÍ puede venir», lo contrario de lo que quiere la empresa."
+},
+"C": {
+"error": "Usar un conector de contraste en lugar de uno de condición",
+"porque": "Elegiste C porque probablemente pensaste que había una oposición entre no poder asistir y avisar.",
+"pregunta_guia": "¿Avisar es algo opuesto a no poder asistir, o es lo que se debe hacer en ese caso?",
+"aprende": "«Although» (aunque) une ideas que contrastan; aquí una idea es la condición de la otra."
+},
+"D": {
+"error": "Presentar como hecho lo que es una posibilidad",
+"porque": "Elegiste D porque probablemente leíste «you cannot attend» como algo ya sabido.",
+"pregunta_guia": "¿La empresa sabe que Julián no puede asistir, o solo considera esa posibilidad?",
+"aprende": "«Because» da la causa de algo real; para una situación posible se usa «if»."
+}
+},
+"explicacion": "Paso 1: lee las dos partes: «you cannot attend on Tuesday» y «let us know before Monday». Paso 2: la primera es una situación posible y la segunda es lo que debe hacerse en ese caso: relación de condición. Paso 3: el conector de condición es «If». Paso 4: «Unless» invierte el sentido, «Although» expresa contraste y «Because» presenta la situación como un hecho.",
+"estrategia_icfes": "Para conectores, el ICFES evalúa si entiendes la relación lógica. Antes de mirar las opciones, nombra la relación en español (condición, contraste, causa, adición, ejemplo) y luego busca el conector que la expresa.",
+"tip": "Lee la oración reemplazando el espacio por «si», «aunque», «porque»: la que conserve el sentido del correo es la correcta.",
+"truco": "Unless = If… not. Nunca le pongas otra negación al lado.",
+"temas": [
+"conectores",
+"condicionales",
+"correo laboral"
+],
+"gemela": {
+"contexto": "Complete the instruction from a training centre.",
+"enunciado": "______ the machine makes a strange noise, stop it immediately and call your instructor.",
+"opciones": {
+"A": "Although",
+"B": "Unless",
+"C": "If",
+"D": "Since"
+},
+"correcta": "C",
+"explicacion": "Hacer un ruido extraño es una situación posible y detener la máquina es lo que se debe hacer en ese caso: condición, «If». «Unless» invertiría el sentido, «Although» es contraste y «Since» presenta una causa real."
+}
+},
+{
+"id": "P11-ING-D004",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: usa vocabulario y expresiones idiomáticas (phrasal verbs) propios de contextos académicos y laborales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: utilizo un vocabulario apropiado para expresar mis ideas con claridad sobre temas del currículo y de mi interés.",
+"afirmacion": "Usa elementos léxicos de la lengua para comprender y completar un texto.",
+"evidencia": "Selecciona el phrasal verb adecuado para la acción de diligenciar un formulario.",
+"grupo": "P11-ING-D-T1",
+"contexto": "Read the email and choose the correct option for each gap.\n\nFrom: Laura Mosquera, HR Coordinator – LogiPacífico S.A.S.\nTo: Julián Arboleda\nSubject: Your application for Junior Warehouse Technician\n\nDear Mr. Arboleda,\n\nThank you for your interest in LogiPacífico. We (1) ______ your application and we are pleased to invite you to a second interview. During the visit, you will be shown how our inventory software works and how orders (2) ______ from our warehouse in Yumbo to ports such as Buenaventura.\n\nPlease bring a copy of your SENA certificate. (3) ______ you cannot attend on Tuesday at 9:00 a.m., let us know before Monday so that we can arrange another time. When you arrive, please (4) ______ the visitor form at the reception desk.\n\nWe know that you have no previous work experience; (5) ______, your technical training and your project on barcode tracking impressed our team.\n\nKind regards,\nLaura Mosquera",
+"enunciado": "Choose the correct option for gap (4):",
+"opciones": {
+"A": "fill up",
+"B": "give in",
+"C": "fill in",
+"D": "put off"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir partículas del mismo verbo",
+"porque": "Elegiste A porque probablemente reconociste «fill» (llenar) y pensaste que cualquier partícula servía.",
+"pregunta_guia": "¿Llenas un formulario como llenas el tanque de gasolina de una moto?",
+"aprende": "«Fill up» es llenar completamente un recipiente (fill up the tank); para formularios se usa «fill in» (o «fill out»)."
+},
+"B": {
+"error": "Elegir un phrasal verb por parecido con «entregar»",
+"porque": "Elegiste B porque probablemente asociaste «give» con entregar el formulario en recepción.",
+"pregunta_guia": "¿Qué significa «give in» cuando alguien deja de resistirse en una discusión?",
+"aprende": "«Give in» significa ceder o rendirse; «entregar un documento» sería «hand in» y no aparece aquí."
+},
+"D": {
+"error": "No conocer el significado del phrasal verb",
+"porque": "Elegiste D porque probablemente pensaste que «put» (poner) se refería a poner datos en el formulario.",
+"pregunta_guia": "Si alguien «puts off» una reunión, ¿qué hace con ella?",
+"aprende": "«Put off» significa aplazar; el significado de un phrasal verb no siempre se deduce de sus partes."
+}
+},
+"explicacion": "Paso 1: la acción es lo que se hace con un formulario de visitantes al llegar: escribir los datos. Paso 2: en inglés esa colocación es «fill in a form» (también «fill out»). Paso 3: «fill up» es llenar un recipiente, «give in» es ceder y «put off» es aplazar; ninguno se combina con «form» con ese sentido.",
+"estrategia_icfes": "El ICFES incluye phrasal verbs en la Parte 7 con distractores que comparten el verbo o la partícula. Pregúntate qué acción concreta describe el texto y recuerda la colocación completa (verbo + partícula + objeto), no la palabra suelta.",
+"tip": "Aprende los phrasal verbs con su objeto típico: fill in a form, run out of money, turn off the machine.",
+"truco": "«In»formación en el formulario → fill IN.",
+"temas": [
+"phrasal verbs",
+"léxico laboral",
+"colocaciones"
+],
+"gemela": {
+"contexto": "Complete the instruction for new apprentices.",
+"enunciado": "Before you start your shift, please ______ the attendance sheet with your name and ID number.",
+"opciones": {
+"A": "fill in",
+"B": "fill up",
+"C": "look after",
+"D": "take off"
+},
+"correcta": "A",
+"explicacion": "Escribir datos en una hoja o formulario es «fill in». «Fill up» es llenar un recipiente, «look after» es cuidar y «take off» es quitarse o despegar."
+}
+},
+{
+"id": "P11-ING-D005",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica la relación lógica entre las ideas de un texto (condición, contraste, causa) a partir de conectores.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico la organización y los conectores que relacionan las ideas en textos escritos.",
+"afirmacion": "Comprende la organización y la cohesión de un texto a partir de los marcadores discursivos.",
+"evidencia": "Selecciona el marcador de contraste que relaciona dos ideas opuestas separadas por punto y coma.",
+"grupo": "P11-ING-D-T1",
+"contexto": "Read the email and choose the correct option for each gap.\n\nFrom: Laura Mosquera, HR Coordinator – LogiPacífico S.A.S.\nTo: Julián Arboleda\nSubject: Your application for Junior Warehouse Technician\n\nDear Mr. Arboleda,\n\nThank you for your interest in LogiPacífico. We (1) ______ your application and we are pleased to invite you to a second interview. During the visit, you will be shown how our inventory software works and how orders (2) ______ from our warehouse in Yumbo to ports such as Buenaventura.\n\nPlease bring a copy of your SENA certificate. (3) ______ you cannot attend on Tuesday at 9:00 a.m., let us know before Monday so that we can arrange another time. When you arrive, please (4) ______ the visitor form at the reception desk.\n\nWe know that you have no previous work experience; (5) ______, your technical training and your project on barcode tracking impressed our team.\n\nKind regards,\nLaura Mosquera",
+"enunciado": "Choose the correct option for gap (5):",
+"opciones": {
+"A": "therefore",
+"B": "however",
+"C": "moreover",
+"D": "for example"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir contraste con consecuencia",
+"porque": "Elegiste A porque probablemente pensaste que la segunda idea era un resultado de la primera.",
+"pregunta_guia": "¿No tener experiencia produce como resultado que el equipo quede impresionado?",
+"aprende": "«Therefore» (por lo tanto) introduce una consecuencia lógica; aquí la segunda idea va en contra de lo que se esperaría."
+},
+"C": {
+"error": "Confundir contraste con adición",
+"porque": "Elegiste C porque probablemente viste dos datos sobre Julián y pensaste que se sumaban.",
+"pregunta_guia": "¿La segunda idea añade otro punto débil o compensa el punto débil anterior?",
+"aprende": "«Moreover» (además) suma ideas en la misma dirección; si la dirección cambia (negativo → positivo), se usa un conector de contraste."
+},
+"D": {
+"error": "Leer la segunda idea como ejemplo de la primera",
+"porque": "Elegiste D porque probablemente pensaste que la formación técnica ilustraba la falta de experiencia.",
+"pregunta_guia": "¿El proyecto de códigos de barras es un ejemplo de «no tener experiencia»?",
+"aprende": "«For example» introduce un caso concreto de la idea anterior; aquí la idea es opuesta, no un ejemplo."
+}
+},
+"explicacion": "Paso 1: primera idea: Julián no tiene experiencia laboral (aspecto negativo). Paso 2: segunda idea: su formación y su proyecto impresionaron al equipo (aspecto positivo). Paso 3: hay un giro en la dirección del argumento: contraste. Paso 4: el conector de contraste es «however». «Therefore» es consecuencia, «moreover» adición y «for example» ejemplificación.",
+"estrategia_icfes": "Clasifica las dos ideas como positivas o negativas. Si cambian de dirección, necesitas contraste (however, nevertheless, even so); si siguen en la misma dirección, adición o consecuencia.",
+"tip": "El patrón «idea 1; however, idea 2» es muy común en textos formales.",
+"truco": "However = «sin embargo»: gira el volante del argumento.",
+"temas": [
+"conectores",
+"contraste",
+"correo laboral"
+],
+"gemela": {
+"contexto": "Complete the report from a team leader.",
+"enunciado": "The new conveyor belt is more expensive than the old one; ______, it uses 30% less energy.",
+"opciones": {
+"A": "for instance",
+"B": "in addition",
+"C": "as a result",
+"D": "however"
+},
+"correcta": "D",
+"explicacion": "Primera idea negativa (más costosa) y segunda positiva (ahorra energía): contraste, «however». Las demás expresan ejemplo, adición o consecuencia."
+}
+},
+{
+"id": "P11-ING-D006",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: narra experiencias pasadas combinando el pasado simple y el pasado progresivo.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico relaciones de significado en textos narrativos e informativos y uso los tiempos pasados para relatar hechos.",
+"afirmacion": "Usa elementos formales de la lengua (tiempos verbales del pasado) para completar un texto.",
+"evidencia": "Selecciona el pasado progresivo para una acción en curso interrumpida por otra acción.",
+"grupo": "P11-ING-D-T2",
+"contexto": "Read the article and choose the correct option for each gap.\n\nWhale season on the Pacific coast\n\nEvery year between July and October, humpback whales travel thousands of kilometres from Antarctica to the warm waters of the Colombian Pacific. Last August, a group of students from Cali (6) ______ a boat trip in Bahía Málaga when a mother whale and her calf appeared just a few metres away. «It was (7) ______ animal I had ever seen,» said Mariana, one of the students.\n\nBahía Málaga (8) ______ a national natural park in 2010, and since then tour operators have had to follow strict rules. Boats must keep a safe distance from the animals, and engines (9) ______ be turned off when whales are near. Local guides, (10) ______ families have lived in the region for generations, explain that responsible tourism protects both the whales and the communities' income.",
+"enunciado": "Choose the correct option for gap (6):",
+"opciones": {
+"A": "is taking",
+"B": "has taken",
+"C": "was taking",
+"D": "will take"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar presente con una referencia de tiempo pasada",
+"porque": "Elegiste A porque probablemente te fijaste en la idea de acción en curso pero no en «Last August».",
+"pregunta_guia": "¿Qué expresión de tiempo aparece al inicio de la oración?",
+"aprende": "Una acción en curso en el pasado se expresa con was/were + -ing, no con el presente progresivo."
+},
+"B": {
+"error": "Usar present perfect con un tiempo pasado terminado",
+"porque": "Elegiste B porque probablemente pensaste que «has taken» sirve para cualquier acción pasada.",
+"pregunta_guia": "¿Puede usarse el present perfect con «Last August»?",
+"aprende": "El present perfect no se combina con expresiones de tiempo pasado terminado (last August, yesterday, in 2010)."
+},
+"D": {
+"error": "Ignorar la línea de tiempo de la narración",
+"porque": "Elegiste D porque probablemente no relacionaste el espacio con «appeared», que está en pasado.",
+"pregunta_guia": "Si la ballena «appeared» (pasado), ¿el paseo puede estar en futuro?",
+"aprende": "Los verbos de una narración deben ser coherentes con el marco temporal del relato."
+}
+},
+"explicacion": "Paso 1: la oración tiene el marco «Last August» (pasado). Paso 2: hay dos acciones: el paseo en bote (más larga, en desarrollo) y la aparición de la ballena (corta, introducida por «when»). Paso 3: la acción larga interrumpida va en pasado progresivo: «was taking» (el sujeto es «a group», singular). Paso 4: A es presente, B no admite «Last August» y D es futuro.",
+"estrategia_icfes": "En narraciones, el ICFES evalúa el contraste pasado simple / pasado progresivo. Busca el patrón «acción larga + when + acción corta»: la larga va en -ing (was/were) y la corta en pasado simple.",
+"tip": "Subraya las expresiones de tiempo (last, ago, when, while) antes de elegir.",
+"truco": "WAS + -ING estaba pasando… WHEN algo corto lo interrumpió.",
+"temas": [
+"pasado progresivo",
+"narración",
+"Pacífico colombiano"
+],
+"gemela": {
+"contexto": "Complete the sentence from a news story.",
+"enunciado": "The technician ______ the electrical panel when the power suddenly went off.",
+"opciones": {
+"A": "was checking",
+"B": "is checking",
+"C": "has checked",
+"D": "will check"
+},
+"correcta": "A",
+"explicacion": "La revisión era la acción larga en curso y el corte de luz la interrumpió («when … went off», pasado): pasado progresivo «was checking»."
+}
+},
+{
+"id": "P11-ING-D007",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: describe y compara personas, lugares y objetos usando comparativos y superlativos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: describo experiencias y hago comparaciones utilizando estructuras gramaticales adecuadas.",
+"afirmacion": "Usa elementos formales de la lengua (formas superlativas) para completar un texto.",
+"evidencia": "Selecciona la forma superlativa correcta de un adjetivo corto.",
+"grupo": "P11-ING-D-T2",
+"contexto": "Read the article and choose the correct option for each gap.\n\nWhale season on the Pacific coast\n\nEvery year between July and October, humpback whales travel thousands of kilometres from Antarctica to the warm waters of the Colombian Pacific. Last August, a group of students from Cali (6) ______ a boat trip in Bahía Málaga when a mother whale and her calf appeared just a few metres away. «It was (7) ______ animal I had ever seen,» said Mariana, one of the students.\n\nBahía Málaga (8) ______ a national natural park in 2010, and since then tour operators have had to follow strict rules. Boats must keep a safe distance from the animals, and engines (9) ______ be turned off when whales are near. Local guides, (10) ______ families have lived in the region for generations, explain that responsible tourism protects both the whales and the communities' income.",
+"enunciado": "Choose the correct option for gap (7):",
+"opciones": {
+"A": "the biggest",
+"B": "bigger",
+"C": "the most big",
+"D": "the more big"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar comparativo en lugar de superlativo",
+"porque": "Elegiste B porque probablemente pensaste que se estaba comparando la ballena con algo, sin notar la estructura «… I had ever seen».",
+"pregunta_guia": "¿Mariana compara dos cosas o compara la ballena con TODOS los animales que ha visto?",
+"aprende": "Cuando se compara un elemento con todo un grupo («ever seen», «in the world») se usa el superlativo con «the»."
+},
+"C": {
+"error": "Aplicar «most» a un adjetivo corto",
+"porque": "Elegiste C porque probablemente recordaste que el superlativo lleva «the most» y lo aplicaste a todos los adjetivos.",
+"pregunta_guia": "¿«Big» es un adjetivo de una sílaba o de varias?",
+"aprende": "Los adjetivos de una sílaba forman el superlativo con -est (big → the biggest, duplicando la g); «the most» es para adjetivos largos."
+},
+"D": {
+"error": "Mezclar estructuras de comparativo y superlativo",
+"porque": "Elegiste D porque probablemente tradujiste palabra por palabra «el más grande».",
+"pregunta_guia": "¿«More» forma comparativos o superlativos? ¿Se usa con adjetivos cortos?",
+"aprende": "«The more…» no es un superlativo; el superlativo de «big» es «the biggest»."
+}
+},
+"explicacion": "Paso 1: la frase «… animal I had ever seen» compara la ballena con todos los animales que Mariana ha visto: se necesita superlativo. Paso 2: «big» es un adjetivo corto (una sílaba, consonante-vocal-consonante): se duplica la consonante y se añade -est. Paso 3: con «the»: «the biggest». B es comparativo; C y D usan formas incorrectas para adjetivos cortos.",
+"estrategia_icfes": "Expresiones como «ever», «of all», «in the world» después del espacio señalan superlativo. Luego decide entre -est (adjetivo corto) y the most (adjetivo largo).",
+"tip": "Superlativo + present/past perfect con «ever» es una combinación clásica: the best film I have ever seen.",
+"truco": "Corto: the + -EST. Largo: the MOST + adjetivo.",
+"temas": [
+"superlativos",
+"adjetivos",
+"Pacífico colombiano"
+],
+"gemela": {
+"contexto": "Complete the comment from a visitor.",
+"enunciado": "Pance is ______ river I have ever swum in; the water is really cold.",
+"opciones": {
+"A": "colder",
+"B": "the coldest",
+"C": "the most cold",
+"D": "the more cold"
+},
+"correcta": "B",
+"explicacion": "Compara el río con todos los ríos en que ha nadado («I have ever swum in»): superlativo de un adjetivo corto, «the coldest»."
+}
+},
+{
+"id": "P11-ING-D008",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende y produce textos informativos que presentan hechos usando la voz pasiva en pasado.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: comprendo información de textos informativos y uso estructuras gramaticales adecuadas para presentar hechos.",
+"afirmacion": "Usa elementos formales de la lengua (voz pasiva en pasado) para completar un texto.",
+"evidencia": "Selecciona la pasiva en pasado simple cuando el sujeto recibe una acción ocurrida en un año específico.",
+"grupo": "P11-ING-D-T2",
+"contexto": "Read the article and choose the correct option for each gap.\n\nWhale season on the Pacific coast\n\nEvery year between July and October, humpback whales travel thousands of kilometres from Antarctica to the warm waters of the Colombian Pacific. Last August, a group of students from Cali (6) ______ a boat trip in Bahía Málaga when a mother whale and her calf appeared just a few metres away. «It was (7) ______ animal I had ever seen,» said Mariana, one of the students.\n\nBahía Málaga (8) ______ a national natural park in 2010, and since then tour operators have had to follow strict rules. Boats must keep a safe distance from the animals, and engines (9) ______ be turned off when whales are near. Local guides, (10) ______ families have lived in the region for generations, explain that responsible tourism protects both the whales and the communities' income.",
+"enunciado": "Choose the correct option for gap (8):",
+"opciones": {
+"A": "declared",
+"B": "has declared",
+"C": "is declared",
+"D": "was declared"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar voz activa cuando el sujeto recibe la acción",
+"porque": "Elegiste A porque probablemente viste «in 2010» y elegiste el pasado simple sin revisar quién hace la acción.",
+"pregunta_guia": "¿Bahía Málaga declaró algo, o alguien (el Gobierno) la declaró parque?",
+"aprende": "Si el sujeto recibe la acción, se necesita pasiva: was/were + participio."
+},
+"B": {
+"error": "Present perfect activo con fecha terminada",
+"porque": "Elegiste B porque probablemente relacionaste la acción con «since then» y pensaste en present perfect.",
+"pregunta_guia": "¿El espacio está junto a «in 2010» o junto a «since then»?",
+"aprende": "Con un año concreto terminado se usa pasado simple; además, la acción es pasiva."
+},
+"C": {
+"error": "Pasiva en presente con referencia pasada",
+"porque": "Elegiste C porque probablemente identificaste la pasiva pero no ajustaste el tiempo a «in 2010».",
+"pregunta_guia": "¿«Is» corresponde al presente o al pasado?",
+"aprende": "En la pasiva, el tiempo lo marca el verbo «be»: is (presente), was (pasado)."
+}
+},
+"explicacion": "Paso 1: Bahía Málaga no declara nada; una autoridad la declaró parque: voz pasiva. Paso 2: «in 2010» es un momento pasado terminado: pasado simple. Paso 3: pasiva en pasado simple = was + participio: «was declared». A es activa, B es present perfect activo y C es pasiva en presente.",
+"estrategia_icfes": "Para elegir entre activa y pasiva, pregunta «¿quién hace la acción?». Si el agente no aparece o no es el sujeto, piensa en pasiva y ajusta el tiempo con el verbo «be».",
+"tip": "Los textos de historia y noticias usan mucho la pasiva: was founded, was built, was declared.",
+"truco": "Fecha pasada + sujeto que recibe la acción = WAS/WERE + participio.",
+"temas": [
+"voz pasiva",
+"pasado simple",
+"áreas protegidas"
+],
+"gemela": {
+"contexto": "Complete the sentence from a city guide.",
+"enunciado": "The MIO mass transit system ______ in Cali in 2009.",
+"opciones": {
+"A": "was inaugurated",
+"B": "inaugurated",
+"C": "has inaugurated",
+"D": "is inaugurated"
+},
+"correcta": "A",
+"explicacion": "El sistema recibe la acción (alguien lo inauguró) y la fecha es pasada: «was inaugurated»."
+}
+},
+{
+"id": "P11-ING-D009",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce la función comunicativa de los verbos modales (obligación, consejo, posibilidad) en normas e instrucciones.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico el propósito de un texto y los recursos lingüísticos que usa el autor para expresar normas y recomendaciones.",
+"afirmacion": "Comprende la intención comunicativa de un texto y selecciona la forma que la expresa.",
+"evidencia": "Selecciona el modal que expresa una norma o recomendación coherente con el propósito del texto.",
+"grupo": "P11-ING-D-T2",
+"contexto": "Read the article and choose the correct option for each gap.\n\nWhale season on the Pacific coast\n\nEvery year between July and October, humpback whales travel thousands of kilometres from Antarctica to the warm waters of the Colombian Pacific. Last August, a group of students from Cali (6) ______ a boat trip in Bahía Málaga when a mother whale and her calf appeared just a few metres away. «It was (7) ______ animal I had ever seen,» said Mariana, one of the students.\n\nBahía Málaga (8) ______ a national natural park in 2010, and since then tour operators have had to follow strict rules. Boats must keep a safe distance from the animals, and engines (9) ______ be turned off when whales are near. Local guides, (10) ______ families have lived in the region for generations, explain that responsible tourism protects both the whales and the communities' income.",
+"enunciado": "Choose the correct option for gap (9):",
+"opciones": {
+"A": "can't",
+"B": "should",
+"C": "might",
+"D": "don't"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Invertir el sentido de la norma",
+"porque": "Elegiste A porque probablemente pensaste en una prohibición sin revisar qué se prohíbe.",
+"pregunta_guia": "Si los motores «can't be turned off», ¿se protege a las ballenas o se las pone en riesgo?",
+"aprende": "Un modal negativo cambia por completo la norma; revisa que el resultado sea coherente con el propósito del texto (proteger a las ballenas)."
+},
+"C": {
+"error": "Expresar posibilidad en lugar de norma",
+"porque": "Elegiste C porque probablemente viste que «might be turned off» es gramatical y no pensaste en la función del texto.",
+"pregunta_guia": "El párrafo habla de «strict rules». ¿Una regla estricta dice lo que «quizás» pasa?",
+"aprende": "«Might» expresa posibilidad incierta; en normas se usan modales de obligación o recomendación (must, should)."
+},
+"D": {
+"error": "Usar un auxiliar que no forma la pasiva",
+"porque": "Elegiste D porque probablemente pensaste en una negación con «don't», sin notar que va seguida de «be turned off».",
+"pregunta_guia": "¿Se puede decir «engines don't be turned off»? ¿Qué palabra acompaña a «be» en una pasiva?",
+"aprende": "Después de «don't» va un verbo en forma base activa; antes de «be + participio» se necesita un modal."
+}
+},
+"explicacion": "Paso 1: el contexto habla de «strict rules» para proteger a las ballenas. Paso 2: apagar los motores cerca de las ballenas es una medida de protección: se necesita un modal de obligación o recomendación. Paso 3: «should be turned off» expresa esa norma. Paso 4: «can't» la invierte, «might» expresa solo posibilidad y «don't be» es agramatical.",
+"estrategia_icfes": "Con modales, el ICFES evalúa la función: obligación (must, have to), consejo (should), posibilidad (may, might), capacidad (can). Identifica qué tipo de texto es (reglas, consejos, especulación) antes de elegir.",
+"tip": "Modal + be + participio = norma en voz pasiva (should be turned off, must be worn).",
+"truco": "Reglas → MUST/SHOULD. Dudas → MAY/MIGHT.",
+"temas": [
+"modales",
+"voz pasiva",
+"turismo responsable"
+],
+"gemela": {
+"contexto": "Complete the rule from a school laboratory.",
+"enunciado": "Safety glasses ______ be worn at all times when you use chemical substances.",
+"opciones": {
+"A": "might",
+"B": "don't",
+"C": "must",
+"D": "can't"
+},
+"correcta": "C",
+"explicacion": "Es una regla de seguridad: obligación, «must be worn». «Might» es posibilidad, «don't be» es agramatical y «can't» invertiría la norma."
+}
+},
+{
+"id": "P11-ING-D010",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende y produce textos con oraciones complejas que incluyen pronombres relativos (who, which, whose, where).",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: comprendo relaciones establecidas por palabras como pronombres relativos y conectores en textos de diferentes tipos.",
+"afirmacion": "Usa elementos formales de la lengua (pronombres relativos) para comprender y completar un texto.",
+"evidencia": "Selecciona el pronombre relativo posesivo que relaciona a las personas con lo que les pertenece.",
+"grupo": "P11-ING-D-T2",
+"contexto": "Read the article and choose the correct option for each gap.\n\nWhale season on the Pacific coast\n\nEvery year between July and October, humpback whales travel thousands of kilometres from Antarctica to the warm waters of the Colombian Pacific. Last August, a group of students from Cali (6) ______ a boat trip in Bahía Málaga when a mother whale and her calf appeared just a few metres away. «It was (7) ______ animal I had ever seen,» said Mariana, one of the students.\n\nBahía Málaga (8) ______ a national natural park in 2010, and since then tour operators have had to follow strict rules. Boats must keep a safe distance from the animals, and engines (9) ______ be turned off when whales are near. Local guides, (10) ______ families have lived in the region for generations, explain that responsible tourism protects both the whales and the communities' income.",
+"enunciado": "Choose the correct option for gap (10):",
+"opciones": {
+"A": "who",
+"B": "which",
+"C": "whose",
+"D": "where"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Elegir «who» solo porque el antecedente es una persona",
+"porque": "Elegiste A porque probablemente recordaste que «who» se usa con personas y no revisaste la palabra que sigue al espacio.",
+"pregunta_guia": "Después del espacio viene «families». ¿Las familias son los guías, o son las familias DE los guías?",
+"aprende": "Si después del relativo hay un sustantivo que pertenece al antecedente (sus familias), se usa «whose»."
+},
+"B": {
+"error": "Usar un relativo para cosas con un antecedente de personas",
+"porque": "Elegiste B porque probablemente pensaste que «which» sirve para cualquier antecedente.",
+"pregunta_guia": "¿«Guides» se refiere a personas o a cosas?",
+"aprende": "«Which» se usa para cosas o animales; además, aquí se necesita expresar posesión."
+},
+"D": {
+"error": "Usar un relativo de lugar",
+"porque": "Elegiste D porque probablemente viste «in the region» y pensaste en un lugar.",
+"pregunta_guia": "¿Cuál es el antecedente del relativo: «region» o «Local guides»?",
+"aprende": "«Where» necesita un antecedente de lugar justo antes; aquí el antecedente es «Local guides»."
+}
+},
+"explicacion": "Paso 1: el antecedente es «Local guides» (personas). Paso 2: lo que sigue es «families have lived in the region»: las familias pertenecen a los guías (sus familias). Paso 3: el relativo posesivo es «whose» (cuyas). Paso 4: «who» exigiría que el verbo siguiera directamente (who have lived); «which» es para cosas y «where» para lugares.",
+"estrategia_icfes": "Para relativos, mira el antecedente (persona, cosa, lugar) y lo que viene después del espacio: si sigue un verbo → who/which; si sigue un sustantivo que pertenece al antecedente → whose; si sigue sujeto + verbo referidos a un lugar → where.",
+"tip": "Reemplaza mentalmente por «cuyo/cuya»: si funciona, es «whose».",
+"truco": "WHOSE = cuyo: whose + sustantivo.",
+"temas": [
+"pronombres relativos",
+"oraciones complejas",
+"comunidades del Pacífico"
+],
+"gemela": {
+"contexto": "Complete the sentence from a company newsletter.",
+"enunciado": "Ana Lucía, ______ invention reduces water use in sugar cane fields, won a national innovation prize.",
+"opciones": {
+"A": "who",
+"B": "whose",
+"C": "which",
+"D": "where"
+},
+"correcta": "B",
+"explicacion": "Después del espacio viene «invention», que pertenece a Ana Lucía (su invento): relativo posesivo «whose»."
+}
+},
+{
+"id": "P11-ING-D011",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: narra experiencias y hábitos del pasado usando estructuras como «used to».",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: narro en forma detallada experiencias, hechos o historias de mi interés usando estructuras adecuadas.",
+"afirmacion": "Usa elementos formales de la lengua (hábitos pasados) para completar un texto.",
+"evidencia": "Selecciona «used to» para expresar una situación repetida en el pasado que ya no ocurre.",
+"grupo": "P11-ING-D-T3",
+"contexto": "Read the blog post and choose the correct option for each gap.\n\nMy journey into solar energy – by Kevin Angulo, SENA apprentice\n\nWhen I was a child, my grandmother's house in Jamundí (11) ______ lose power almost every evening, so we did our homework by candlelight. Now I am a SENA apprentice in solar energy installation, and I really enjoy (12) ______ how photovoltaic panels transform sunlight into electricity.\n\nI often think about my neighbourhood. If every house there (13) ______ solar panels, families would pay much less for electricity and the air would be cleaner.\n\nLast month, our team installed a system at a rural school near Dagua. (14) ______ the heavy rain, we finished the installation on time. The system includes two batteries that store energy during the day, so the school does not (15) ______ electricity at night when students attend evening classes.",
+"enunciado": "Choose the correct option for gap (11):",
+"opciones": {
+"A": "is used to",
+"B": "used to",
+"C": "was used to",
+"D": "uses to"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir «used to» con «be used to»",
+"porque": "Elegiste A porque probablemente reconociste la expresión «used to» y no notaste que «be used to» significa «estar acostumbrado a».",
+"pregunta_guia": "¿Kevin dice que la casa «está acostumbrada» a algo o que algo pasaba repetidamente antes?",
+"aprende": "«Used to + verbo base» = hábito pasado que ya no ocurre; «be used to + -ing» = estar acostumbrado."
+},
+"C": {
+"error": "«Be used to» en pasado con verbo base",
+"porque": "Elegiste C porque probablemente buscaste una forma pasada con «used to» y elegiste la que tiene «was».",
+"pregunta_guia": "Si fuera «was used to», ¿el verbo siguiente estaría en base (lose) o en -ing (losing)?",
+"aprende": "«Was used to» exige -ing (was used to losing) y significa otra cosa; el hábito pasado es simplemente «used to lose»."
+},
+"D": {
+"error": "Conjugar «used to» en presente",
+"porque": "Elegiste D porque probablemente pensaste que «use to» se conjuga como cualquier verbo con -s en tercera persona.",
+"pregunta_guia": "¿Existe «used to» en presente para hablar de hábitos actuales?",
+"aprende": "«Used to» solo existe en pasado; para hábitos actuales se usa el presente simple (usually loses)."
+}
+},
+"explicacion": "Paso 1: «When I was a child» sitúa la acción en el pasado. Paso 2: perder la luz «almost every evening» es un hábito repetido que ya no ocurre. Paso 3: hábito pasado = used to + verbo base: «used to lose». Paso 4: A y C son la expresión «be used to» (estar acostumbrado), que además pediría -ing; D no existe.",
+"estrategia_icfes": "El ICFES contrasta «used to» (hábito pasado), «be used to» (estar acostumbrado) y presente simple. Mira el marco temporal y si después del espacio hay verbo base o -ing.",
+"tip": "Si el texto dice «when I was a child» o «years ago» y describe algo repetido, piensa en «used to».",
+"truco": "Used to + BASE = «solía»; be used to + -ING = «estar acostumbrado».",
+"temas": [
+"used to",
+"hábitos pasados",
+"energía solar"
+],
+"gemela": {
+"contexto": "Complete the sentence from a family story.",
+"enunciado": "Before the bridge was built, my father ______ cross the Cauca River by canoe every morning.",
+"opciones": {
+"A": "was used to",
+"B": "is used to",
+"C": "uses to",
+"D": "used to"
+},
+"correcta": "D",
+"explicacion": "Hábito pasado que ya no ocurre («Before the bridge was built»), seguido de verbo base «cross»: «used to»."
+}
+},
+{
+"id": "P11-ING-D012",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: expresa gustos, intereses y planes usando correctamente gerundios e infinitivos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: expreso mis opiniones, gustos y preferencias sobre temas académicos y laborales con estructuras adecuadas.",
+"afirmacion": "Usa elementos formales de la lengua (verbo + gerundio) para completar un texto.",
+"evidencia": "Selecciona la forma -ing después del verbo «enjoy».",
+"grupo": "P11-ING-D-T3",
+"contexto": "Read the blog post and choose the correct option for each gap.\n\nMy journey into solar energy – by Kevin Angulo, SENA apprentice\n\nWhen I was a child, my grandmother's house in Jamundí (11) ______ lose power almost every evening, so we did our homework by candlelight. Now I am a SENA apprentice in solar energy installation, and I really enjoy (12) ______ how photovoltaic panels transform sunlight into electricity.\n\nI often think about my neighbourhood. If every house there (13) ______ solar panels, families would pay much less for electricity and the air would be cleaner.\n\nLast month, our team installed a system at a rural school near Dagua. (14) ______ the heavy rain, we finished the installation on time. The system includes two batteries that store energy during the day, so the school does not (15) ______ electricity at night when students attend evening classes.",
+"enunciado": "Choose the correct option for gap (12):",
+"opciones": {
+"A": "to learn",
+"B": "learn",
+"C": "learned",
+"D": "learning"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar infinitivo después de «enjoy»",
+"porque": "Elegiste A porque probablemente tradujiste «disfruto aprender» y pensaste que en inglés también va el infinitivo.",
+"pregunta_guia": "¿«Enjoy» es de los verbos que van seguidos de «to + verbo» o de «-ing»?",
+"aprende": "«Enjoy», «finish», «avoid», «mind», «keep» van seguidos de gerundio (-ing)."
+},
+"B": {
+"error": "Poner dos verbos conjugados juntos",
+"porque": "Elegiste B porque probablemente pensaste que después de un verbo va otro en forma base, como después de los modales.",
+"pregunta_guia": "¿«Enjoy» es un modal como «can» o «should»?",
+"aprende": "Solo los modales van seguidos de verbo base; los demás verbos piden «to» o «-ing»."
+},
+"C": {
+"error": "Usar participio pasado sin auxiliar",
+"porque": "Elegiste C porque probablemente pensaste que el aprendizaje ya ocurrió.",
+"pregunta_guia": "¿Kevin habla de algo que disfruta ahora o de algo que terminó?",
+"aprende": "El participio (learned) necesita un auxiliar (have learned) o funciona como adjetivo; tras «enjoy» va -ing."
+}
+},
+"explicacion": "Paso 1: el verbo antes del espacio es «enjoy». Paso 2: «enjoy» siempre va seguido de gerundio. Paso 3: «enjoy learning». Paso 4: «to learn» y «learn» no siguen esa regla y «learned» exige otra estructura.",
+"estrategia_icfes": "Cuando el espacio está justo después de un verbo, el ICFES evalúa el patrón verbo + to / verbo + -ing. Memoriza las listas más frecuentes: enjoy, finish, avoid, suggest + -ing; want, decide, plan, hope + to.",
+"tip": "Si dudas, piensa en una frase que ya sepas: «I enjoy listening to salsa».",
+"truco": "Lo que se DISFRUTA, se TERMINA y se EVITA va con -ING (enjoy, finish, avoid).",
+"temas": [
+"gerundios",
+"infinitivos",
+"energía solar"
+],
+"gemela": {
+"contexto": "Complete the sentence from an apprentice's report.",
+"enunciado": "After two hours, we finally finished ______ the wiring of the control panel.",
+"opciones": {
+"A": "checking",
+"B": "to check",
+"C": "check",
+"D": "checked"
+},
+"correcta": "A",
+"explicacion": "«Finish» va seguido de gerundio: «finished checking»."
+}
+},
+{
+"id": "P11-ING-D013",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: plantea situaciones hipotéticas y sus consecuencias usando el segundo condicional.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: expreso opiniones y planteo hipótesis sobre temas sociales y ambientales usando estructuras adecuadas.",
+"afirmacion": "Usa elementos formales de la lengua (condicionales) para completar un texto de manera coherente.",
+"evidencia": "Selecciona el pasado simple en la condición de un segundo condicional (situación hipotética presente).",
+"grupo": "P11-ING-D-T3",
+"contexto": "Read the blog post and choose the correct option for each gap.\n\nMy journey into solar energy – by Kevin Angulo, SENA apprentice\n\nWhen I was a child, my grandmother's house in Jamundí (11) ______ lose power almost every evening, so we did our homework by candlelight. Now I am a SENA apprentice in solar energy installation, and I really enjoy (12) ______ how photovoltaic panels transform sunlight into electricity.\n\nI often think about my neighbourhood. If every house there (13) ______ solar panels, families would pay much less for electricity and the air would be cleaner.\n\nLast month, our team installed a system at a rural school near Dagua. (14) ______ the heavy rain, we finished the installation on time. The system includes two batteries that store energy during the day, so the school does not (15) ______ electricity at night when students attend evening classes.",
+"enunciado": "Choose the correct option for gap (13):",
+"opciones": {
+"A": "had",
+"B": "has",
+"C": "will have",
+"D": "would have"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Mezclar primer y segundo condicional",
+"porque": "Elegiste B porque probablemente usaste el presente como en el primer condicional (If it rains, …).",
+"pregunta_guia": "La consecuencia dice «would pay». ¿Qué tiempo acompaña a «would» en la condición?",
+"aprende": "Primer condicional: If + presente, will…; segundo condicional: If + pasado, would…"
+},
+"C": {
+"error": "Poner «will» dentro de la cláusula con «if»",
+"porque": "Elegiste C porque probablemente pensaste que la condición se refiere al futuro y usaste «will».",
+"pregunta_guia": "¿Se usa «will» inmediatamente después de «if» en los condicionales básicos?",
+"aprende": "En la cláusula con «if» no se usa «will» ni «would»; el futuro o la hipótesis se marcan en la otra cláusula."
+},
+"D": {
+"error": "Poner «would» en ambas cláusulas",
+"porque": "Elegiste D porque probablemente copiaste la estructura de la consecuencia («would pay») en la condición.",
+"pregunta_guia": "¿En qué parte de la oración va «would»: en la condición o en el resultado?",
+"aprende": "«Would» va en el resultado; la condición del segundo condicional lleva pasado simple (If every house had…)."
+}
+},
+"explicacion": "Paso 1: la consecuencia «families would pay much less» usa «would»: es un segundo condicional. Paso 2: Kevin imagina una situación que hoy no es real (no todas las casas tienen paneles). Paso 3: estructura: If + pasado simple, would + verbo base. Paso 4: «If every house there had solar panels». «Has» es primer condicional y «will have» / «would have» no van tras «if».",
+"estrategia_icfes": "Para condicionales, el ICFES deja un espacio en una cláusula y da la otra completa. Usa la cláusula visible como pista: will → presente en la condición; would → pasado; would have + participio → had + participio.",
+"tip": "Pregúntate: ¿la situación es real/probable (1.º), imaginaria en el presente (2.º) o imaginaria en el pasado (3.º)?",
+"truco": "«If» y «would» nunca se sientan juntos en la misma cláusula.",
+"temas": [
+"segundo condicional",
+"hipótesis",
+"energía limpia"
+],
+"gemela": {
+"contexto": "Complete the opinion from an environmental club.",
+"enunciado": "If our school ______ a recycling point, we would reduce the waste that goes to the landfill.",
+"opciones": {
+"A": "has",
+"B": "would have",
+"C": "had",
+"D": "will have"
+},
+"correcta": "C",
+"explicacion": "La consecuencia lleva «would reduce» (situación imaginaria presente): la condición va en pasado simple, «had»."
+}
+},
+{
+"id": "P11-ING-D014",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica la relación lógica entre las ideas de un texto (condición, contraste, causa) a partir de conectores.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico la organización y los conectores que relacionan las ideas en textos escritos.",
+"afirmacion": "Comprende la organización y la cohesión de un texto a partir de los conectores.",
+"evidencia": "Selecciona el conector de contraste que va seguido de un sintagma nominal.",
+"grupo": "P11-ING-D-T3",
+"contexto": "Read the blog post and choose the correct option for each gap.\n\nMy journey into solar energy – by Kevin Angulo, SENA apprentice\n\nWhen I was a child, my grandmother's house in Jamundí (11) ______ lose power almost every evening, so we did our homework by candlelight. Now I am a SENA apprentice in solar energy installation, and I really enjoy (12) ______ how photovoltaic panels transform sunlight into electricity.\n\nI often think about my neighbourhood. If every house there (13) ______ solar panels, families would pay much less for electricity and the air would be cleaner.\n\nLast month, our team installed a system at a rural school near Dagua. (14) ______ the heavy rain, we finished the installation on time. The system includes two batteries that store energy during the day, so the school does not (15) ______ electricity at night when students attend evening classes.",
+"enunciado": "Choose the correct option for gap (14):",
+"opciones": {
+"A": "Although",
+"B": "Because of",
+"C": "Despite",
+"D": "However"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar «although» antes de un sustantivo",
+"porque": "Elegiste A porque probablemente identificaste bien la relación de contraste, pero no revisaste qué viene después del espacio.",
+"pregunta_guia": "¿Después del espacio hay una oración con verbo (it rained heavily) o solo un sustantivo (the heavy rain)?",
+"aprende": "«Although» va seguido de sujeto + verbo; «despite» va seguido de sustantivo o -ing."
+},
+"B": {
+"error": "Confundir contraste con causa",
+"porque": "Elegiste B porque probablemente viste que «because of» también va seguido de sustantivo y no revisaste la lógica.",
+"pregunta_guia": "¿La lluvia fuerte ayudó a terminar a tiempo, o fue un obstáculo que se superó?",
+"aprende": "«Because of» presenta una causa; cuando algo se logra a pesar de un obstáculo, la relación es de contraste."
+},
+"D": {
+"error": "Usar «however» como preposición",
+"porque": "Elegiste D porque probablemente recordaste que «however» expresa contraste.",
+"pregunta_guia": "¿«However» puede unir un sustantivo con una oración, o enlaza dos oraciones completas?",
+"aprende": "«However» conecta dos oraciones (…; however, …); no puede ir seguido directamente de «the heavy rain»."
+}
+},
+"explicacion": "Paso 1: relación lógica: la lluvia era un obstáculo y aun así terminaron a tiempo: contraste. Paso 2: después del espacio hay un sintagma nominal («the heavy rain»), sin verbo. Paso 3: el conector de contraste que va con sustantivo es «Despite». Paso 4: «Although» exige verbo, «Because of» expresa causa y «However» une oraciones.",
+"estrategia_icfes": "En conectores, el ICFES combina lógica y gramática. Primero define la relación (contraste) y luego mira la forma de lo que sigue: sustantivo → despite / in spite of; oración → although / even though; oración independiente → however.",
+"tip": "Despite = «a pesar de»; although = «aunque».",
+"truco": "DESPITE + cosa; ALTHOUGH + frase con verbo.",
+"temas": [
+"conectores",
+"contraste",
+"despite/although"
+],
+"gemela": {
+"contexto": "Complete the sentence from a sports report.",
+"enunciado": "______ the injury, the athlete from Buenaventura won the 100-metre race.",
+"opciones": {
+"A": "Despite",
+"B": "Although",
+"C": "Because of",
+"D": "However"
+},
+"correcta": "A",
+"explicacion": "La lesión era un obstáculo superado (contraste) y lo que sigue es un sustantivo: «Despite»."
+}
+},
+{
+"id": "P11-ING-D015",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: usa vocabulario y expresiones idiomáticas (phrasal verbs) propios de contextos académicos y laborales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: utilizo un vocabulario apropiado para expresar mis ideas con claridad sobre temas del currículo y de mi interés.",
+"afirmacion": "Usa elementos léxicos de la lengua para comprender el sentido de un texto técnico.",
+"evidencia": "Selecciona el phrasal verb que expresa quedarse sin un recurso, coherente con la función de las baterías.",
+"grupo": "P11-ING-D-T3",
+"contexto": "Read the blog post and choose the correct option for each gap.\n\nMy journey into solar energy – by Kevin Angulo, SENA apprentice\n\nWhen I was a child, my grandmother's house in Jamundí (11) ______ lose power almost every evening, so we did our homework by candlelight. Now I am a SENA apprentice in solar energy installation, and I really enjoy (12) ______ how photovoltaic panels transform sunlight into electricity.\n\nI often think about my neighbourhood. If every house there (13) ______ solar panels, families would pay much less for electricity and the air would be cleaner.\n\nLast month, our team installed a system at a rural school near Dagua. (14) ______ the heavy rain, we finished the installation on time. The system includes two batteries that store energy during the day, so the school does not (15) ______ electricity at night when students attend evening classes.",
+"enunciado": "Choose the correct option for gap (15):",
+"opciones": {
+"A": "turn down",
+"B": "run into",
+"C": "take after",
+"D": "run out of"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Interpretar «turn down» como «bajar el consumo»",
+"porque": "Elegiste A porque probablemente pensaste en «turn down the volume» (bajar) y lo aplicaste a la electricidad.",
+"pregunta_guia": "Las baterías guardan energía para la noche. ¿Su función es evitar que la escuela «rechace» la electricidad o que se quede sin ella?",
+"aprende": "«Turn down» significa rechazar (turn down an offer) o bajar el volumen; no expresa quedarse sin algo."
+},
+"B": {
+"error": "Confundir phrasal verbs con el mismo verbo",
+"porque": "Elegiste B porque probablemente recordaste que hay un phrasal verb con «run» y elegiste el primero.",
+"pregunta_guia": "Si «run into» a alguien es encontrárselo por casualidad, ¿tiene sentido con «electricity»?",
+"aprende": "«Run into» = encontrarse con alguien o con un problema; «run out of» = quedarse sin algo."
+},
+"C": {
+"error": "Elegir un phrasal verb sin relación con el contexto",
+"porque": "Elegiste C porque probablemente no conocías el significado de los phrasal verbs y elegiste al azar.",
+"pregunta_guia": "«I take after my mother» significa que me parezco a ella. ¿Encaja con baterías y electricidad?",
+"aprende": "«Take after» = parecerse a un familiar; aprende cada phrasal verb con un ejemplo concreto."
+}
+},
+"explicacion": "Paso 1: las baterías almacenan energía de día para usarla de noche. Paso 2: su propósito («so») es que la escuela no se quede sin electricidad en la noche. Paso 3: quedarse sin algo = «run out of». Paso 4: «turn down» (rechazar), «run into» (encontrarse) y «take after» (parecerse) no expresan esa idea.",
+"estrategia_icfes": "Para phrasal verbs, el ICFES da un contexto que explica la función o el propósito. Usa esa explicación (aquí «store energy… so») para deducir el significado que necesitas antes de mirar las opciones.",
+"tip": "Asocia «run out of» con cosas que se acaban: run out of money, time, battery, gas.",
+"truco": "RUN OUT OF = «se me acabó»: el recurso «sale corriendo».",
+"temas": [
+"phrasal verbs",
+"inglés técnico",
+"energía solar"
+],
+"gemela": {
+"contexto": "Complete the message from a delivery driver.",
+"enunciado": "I had to stop in Palmira because my motorbike was about to ______ gas.",
+"opciones": {
+"A": "run into",
+"B": "run out of",
+"C": "take after",
+"D": "turn down"
+},
+"correcta": "B",
+"explicacion": "Quedarse sin gasolina es «run out of gas». Los otros significan encontrarse, parecerse y rechazar."
+}
+},
+{
+"id": "P11-ING-D016",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: reflexiona sobre situaciones pasadas y sus consecuencias usando el tercer condicional.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: narro experiencias y expreso hipótesis sobre hechos pasados con estructuras gramaticales complejas.",
+"afirmacion": "Usa elementos formales de la lengua (tercer condicional) para completar un texto de manera coherente.",
+"evidencia": "Selecciona «would have + participio» en el resultado de un condicional sobre un pasado irreal.",
+"grupo": "P11-ING-D-T4",
+"contexto": "Read the interview and choose the correct option for each gap.\n\nFrom student to tour guide: an interview with Samuel Caicedo\n\nQ: How did you start working in tourism?\nSamuel: In tenth grade I took an extra English course on Saturdays. If I hadn't taken that course, I (16) ______ my first job at a hotel in San Antonio. On my first day, the manager told me that I (17) ______ start working at the reception desk the following Monday.\n\nQ: Was it difficult?\nSamuel: Yes! I made many mistakes with tourists at first. But my boss always said that everyone has to (18) ______ their best and learn from errors.\n\nQ: What are your plans now?\nSamuel: Next year I (19) ______ my own tour company; I have already registered the name and rented a small office. I'm also saving money every month (20) ______ I can buy a van for longer tours to the Pacific.",
+"enunciado": "Choose the correct option for gap (16):",
+"opciones": {
+"A": "would never get",
+"B": "will never get",
+"C": "would never have got",
+"D": "had never got"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Usar segundo condicional para un pasado irreal",
+"porque": "Elegiste A porque probablemente reconociste «would» como marca de hipótesis pero no ajustaste el tiempo al pasado.",
+"pregunta_guia": "La condición dice «If I hadn't taken». ¿Habla del presente o de algo que ya pasó?",
+"aprende": "Si la condición usa had + participio (pasado irreal), el resultado usa would have + participio."
+},
+"B": {
+"error": "Usar futuro en un condicional irreal",
+"porque": "Elegiste B porque probablemente pensaste en el primer condicional (If…, will…).",
+"pregunta_guia": "¿Samuel habla de algo que todavía puede pasar o de algo que ya ocurrió de otra forma?",
+"aprende": "«Will» sirve para condiciones reales o probables; para imaginar un pasado diferente se usa «would have»."
+},
+"D": {
+"error": "Repetir el past perfect en el resultado",
+"porque": "Elegiste D porque probablemente copiaste la forma «had + participio» de la condición.",
+"pregunta_guia": "¿En qué cláusula va «had + participio»: en la condición o en el resultado?",
+"aprende": "En el tercer condicional, «had + participio» va solo en la cláusula con «if»; el resultado lleva «would have + participio»."
+}
+},
+"explicacion": "Paso 1: la condición «If I hadn't taken that course» es past perfect: tercer condicional (pasado irreal: sí tomó el curso). Paso 2: el resultado debe ser would have + participio. Paso 3: «I would never have got my first job». Paso 4: A es segundo condicional, B es primero y D repite la estructura de la condición.",
+"estrategia_icfes": "El tercer condicional suele evaluarse en textos narrativos o entrevistas donde alguien reflexiona sobre su pasado. Busca «had + participio» en la condición y completa el resultado con «would have + participio».",
+"tip": "Tercer condicional = arrepentimientos o agradecimientos sobre el pasado: «If I had studied, I would have passed».",
+"truco": "HAD + participio → WOULD HAVE + participio («había… habría…»).",
+"temas": [
+"tercer condicional",
+"entrevista",
+"turismo"
+],
+"gemela": {
+"contexto": "Complete the sentence from a student's reflection.",
+"enunciado": "If Valeria had practised more listening exercises, she ______ a higher score in the English test.",
+"opciones": {
+"A": "would get",
+"B": "would have got",
+"C": "will get",
+"D": "had got"
+},
+"correcta": "B",
+"explicacion": "La condición «had practised» indica pasado irreal: el resultado es «would have got»."
+}
+},
+{
+"id": "P11-ING-D017",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reporta lo que otras personas dijeron usando el estilo indirecto y los ajustes de tiempo correspondientes.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: resumo y reporto información de conversaciones y textos, adaptando la lengua a la situación comunicativa.",
+"afirmacion": "Adecúa el uso de la lengua a la situación comunicativa al reportar lo dicho por otra persona.",
+"evidencia": "Selecciona el cambio de tiempo («will» → «would») propio del estilo indirecto con verbo introductor en pasado.",
+"grupo": "P11-ING-D-T4",
+"contexto": "Read the interview and choose the correct option for each gap.\n\nFrom student to tour guide: an interview with Samuel Caicedo\n\nQ: How did you start working in tourism?\nSamuel: In tenth grade I took an extra English course on Saturdays. If I hadn't taken that course, I (16) ______ my first job at a hotel in San Antonio. On my first day, the manager told me that I (17) ______ start working at the reception desk the following Monday.\n\nQ: Was it difficult?\nSamuel: Yes! I made many mistakes with tourists at first. But my boss always said that everyone has to (18) ______ their best and learn from errors.\n\nQ: What are your plans now?\nSamuel: Next year I (19) ______ my own tour company; I have already registered the name and rented a small office. I'm also saving money every month (20) ______ I can buy a van for longer tours to the Pacific.",
+"enunciado": "Choose the correct option for gap (17):",
+"opciones": {
+"A": "will",
+"B": "would",
+"C": "am going to",
+"D": "must to"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "No hacer el cambio de tiempo en estilo indirecto",
+"porque": "Elegiste A porque probablemente pensaste en las palabras originales del gerente («You will start…») y las copiaste.",
+"pregunta_guia": "El verbo introductor es «told» (pasado) y se habla de «the following Monday». ¿Qué le pasa a «will» al reportarlo?",
+"aprende": "En estilo indirecto con verbo en pasado, «will» se convierte en «would»; «tomorrow/next Monday» se convierte en «the next/following Monday»."
+},
+"C": {
+"error": "Mantener el presente en el reporte",
+"porque": "Elegiste C porque probablemente usaste una forma de futuro con «going to» sin ajustar el tiempo al relato pasado.",
+"pregunta_guia": "¿Samuel está hablando de un plan actual o reportando algo que le dijeron en el pasado?",
+"aprende": "Al reportar en pasado, «am going to» pasaría a «was going to»; «am» no encaja en la narración."
+},
+"D": {
+"error": "Usar «to» después de un modal",
+"porque": "Elegiste D porque probablemente pensaste en una obligación y añadiste «to» como en «have to».",
+"pregunta_guia": "¿Los modales como «must» llevan «to» antes del verbo?",
+"aprende": "Los modales van seguidos de verbo base sin «to»: must start, would start."
+}
+},
+"explicacion": "Paso 1: «the manager told me that…» es estilo indirecto con verbo introductor en pasado. Paso 2: las palabras originales serían «You will start next Monday». Paso 3: al reportar, «will» cambia a «would» y «next Monday» a «the following Monday». Paso 4: «I would start». A no hace el cambio, C mantiene el presente y D es agramatical.",
+"estrategia_icfes": "Cuando aparecen «told me that», «said that», «asked if», el ICFES evalúa el estilo indirecto. Reconstruye mentalmente lo que dijo la persona y retrocede un tiempo: is → was, will → would, can → could.",
+"tip": "Las expresiones de tiempo también cambian: tomorrow → the next day; next Monday → the following Monday.",
+"truco": "Estilo indirecto = «un paso atrás»: will → would, can → could.",
+"temas": [
+"estilo indirecto",
+"modales",
+"entrevista"
+],
+"gemela": {
+"contexto": "Complete the sentence from an apprentice's diary.",
+"enunciado": "My instructor told us that the final exam ______ take place the next day.",
+"opciones": {
+"A": "will",
+"B": "is going to",
+"C": "would",
+"D": "must to"
+},
+"correcta": "C",
+"explicacion": "Verbo introductor en pasado («told») y «the next day»: «will» pasa a «would»."
+}
+},
+{
+"id": "P11-ING-D018",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: usa colocaciones y expresiones frecuentes del inglés en contextos laborales y cotidianos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: utilizo un vocabulario apropiado y expresiones idiomáticas de uso frecuente en situaciones comunicativas reales.",
+"afirmacion": "Reconoce expresiones fijas propias del uso natural de la lengua en contextos sociales y laborales.",
+"evidencia": "Selecciona el verbo de la colocación fija «do one's best».",
+"grupo": "P11-ING-D-T4",
+"contexto": "Read the interview and choose the correct option for each gap.\n\nFrom student to tour guide: an interview with Samuel Caicedo\n\nQ: How did you start working in tourism?\nSamuel: In tenth grade I took an extra English course on Saturdays. If I hadn't taken that course, I (16) ______ my first job at a hotel in San Antonio. On my first day, the manager told me that I (17) ______ start working at the reception desk the following Monday.\n\nQ: Was it difficult?\nSamuel: Yes! I made many mistakes with tourists at first. But my boss always said that everyone has to (18) ______ their best and learn from errors.\n\nQ: What are your plans now?\nSamuel: Next year I (19) ______ my own tour company; I have already registered the name and rented a small office. I'm also saving money every month (20) ______ I can buy a van for longer tours to the Pacific.",
+"enunciado": "Choose the correct option for gap (18):",
+"opciones": {
+"A": "do",
+"B": "make",
+"C": "take",
+"D": "get"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir «make» y «do»",
+"porque": "Elegiste B porque probablemente tradujiste «hacer lo mejor» y, como en el texto aparece «made many mistakes», elegiste «make».",
+"pregunta_guia": "Decimos «make a mistake», pero ¿con qué verbo va «one's best»?",
+"aprende": "«Make» suele ir con lo que se crea o produce (make a mistake, make a cake); «do» va con tareas y esfuerzo (do homework, do your best)."
+},
+"C": {
+"error": "Calcar una estructura del español",
+"porque": "Elegiste C porque probablemente pensaste en «sacar lo mejor» o «tomar lo mejor».",
+"pregunta_guia": "¿Has visto la expresión «take your best» en inglés con el sentido de esforzarse?",
+"aprende": "Las colocaciones no se traducen palabra por palabra; la expresión fija es «do your best»."
+},
+"D": {
+"error": "Calcar «conseguir lo mejor»",
+"porque": "Elegiste D porque probablemente tradujiste «obtener/sacar lo mejor» y pensaste en «get».",
+"pregunta_guia": "¿«Get their best» expresa esforzarse al máximo, o suena a recibir algo?",
+"aprende": "«Get» significa obtener o recibir; la colocación fija para esforzarse es «do one's best»."
+}
+},
+"explicacion": "Paso 1: el jefe anima a esforzarse al máximo y aprender de los errores. Paso 2: en inglés, la colocación fija para esforzarse es «do your/their best». Paso 3: «everyone has to do their best». Paso 4: «make» se usa con errores y productos, «take» y «get» no forman esa colocación aquí.",
+"estrategia_icfes": "El ICFES incluye colocaciones frecuentes (make/do, take/have, say/tell). No traduzcas: recuerda la combinación completa tal como la usan los hablantes.",
+"tip": "Crea dos listas: MAKE (a mistake, a decision, money, a plan) y DO (homework, your best, a job, exercise).",
+"truco": "DO = Dar el máximo esfuerzo; MAKE = Manufacturar/crear algo.",
+"temas": [
+"colocaciones",
+"make/do",
+"aprender del error"
+],
+"gemela": {
+"contexto": "Complete the advice from a coach.",
+"enunciado": "Don't worry if you fail at first; just ______ your best in every training session.",
+"opciones": {
+"A": "make",
+"B": "take",
+"C": "do",
+"D": "have"
+},
+"correcta": "C",
+"explicacion": "La colocación fija es «do your best»."
+}
+},
+{
+"id": "P11-ING-D019",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: expresa planes y proyectos futuros usando «be going to» y otras formas de futuro.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: expreso mis planes y metas a futuro de manera clara, con estructuras gramaticales adecuadas.",
+"afirmacion": "Usa elementos formales de la lengua (formas de futuro) para completar un texto.",
+"evidencia": "Selecciona «be going to» para un plan futuro ya decidido y con preparativos.",
+"grupo": "P11-ING-D-T4",
+"contexto": "Read the interview and choose the correct option for each gap.\n\nFrom student to tour guide: an interview with Samuel Caicedo\n\nQ: How did you start working in tourism?\nSamuel: In tenth grade I took an extra English course on Saturdays. If I hadn't taken that course, I (16) ______ my first job at a hotel in San Antonio. On my first day, the manager told me that I (17) ______ start working at the reception desk the following Monday.\n\nQ: Was it difficult?\nSamuel: Yes! I made many mistakes with tourists at first. But my boss always said that everyone has to (18) ______ their best and learn from errors.\n\nQ: What are your plans now?\nSamuel: Next year I (19) ______ my own tour company; I have already registered the name and rented a small office. I'm also saving money every month (20) ______ I can buy a van for longer tours to the Pacific.",
+"enunciado": "Choose the correct option for gap (19):",
+"opciones": {
+"A": "opened",
+"B": "open",
+"C": "would open",
+"D": "am going to open"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar pasado con una referencia futura",
+"porque": "Elegiste A porque probablemente te fijaste en los verbos en pasado cercanos («registered», «rented»).",
+"pregunta_guia": "¿«Next year» se refiere al pasado o al futuro?",
+"aprende": "La expresión de tiempo («next year») manda sobre los verbos vecinos: se necesita una forma de futuro."
+},
+"B": {
+"error": "Usar presente simple para un plan personal",
+"porque": "Elegiste B porque probablemente sabías que el presente a veces expresa futuro (horarios) y lo aplicaste aquí.",
+"pregunta_guia": "¿Abrir una empresa es un horario fijo, como la salida de un bus, o una decisión personal?",
+"aprende": "El presente simple con valor futuro se reserva para horarios y programas oficiales; para planes personales se usa «be going to»."
+},
+"C": {
+"error": "Usar condicional para un plan seguro",
+"porque": "Elegiste C porque probablemente asociaste «would» con hablar de lo que uno haría.",
+"pregunta_guia": "¿Samuel imagina algo hipotético o describe un plan con pasos ya dados?",
+"aprende": "«Would» expresa hipótesis; un plan decidido y con preparativos se expresa con «be going to»."
+}
+},
+"explicacion": "Paso 1: «Next year» indica futuro (descarta A). Paso 2: Samuel ya registró el nombre y alquiló una oficina: es un plan decidido con evidencias. Paso 3: plan con preparativos = «be going to»: «I am going to open». Paso 4: B se usa para horarios y C para hipótesis.",
+"estrategia_icfes": "Para el futuro, el ICFES distingue intención o plan (be going to), decisión espontánea o predicción (will) y horarios (presente simple). Busca en el texto pistas de preparación («I have already…»).",
+"tip": "Si hay evidencia o preparativos, piensa en «going to».",
+"truco": "Ya lo planeé → GOING TO; se me acaba de ocurrir → WILL.",
+"temas": [
+"futuro",
+"be going to",
+"emprendimiento"
+],
+"gemela": {
+"contexto": "Complete the message from a student.",
+"enunciado": "I've already bought the materials, so this weekend I ______ the robot for the science fair.",
+"opciones": {
+"A": "am going to build",
+"B": "built",
+"C": "would build",
+"D": "build"
+},
+"correcta": "A",
+"explicacion": "Plan con preparativos («I've already bought the materials»): «am going to build»."
+}
+},
+{
+"id": "P11-ING-D020",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica la relación lógica entre las ideas de un texto (propósito, causa, contraste) a partir de conectores.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico la organización y los conectores que relacionan las ideas en textos escritos.",
+"afirmacion": "Comprende la organización y la cohesión de un texto a partir de los conectores.",
+"evidencia": "Selecciona el conector de propósito que va seguido de sujeto y verbo modal.",
+"grupo": "P11-ING-D-T4",
+"contexto": "Read the interview and choose the correct option for each gap.\n\nFrom student to tour guide: an interview with Samuel Caicedo\n\nQ: How did you start working in tourism?\nSamuel: In tenth grade I took an extra English course on Saturdays. If I hadn't taken that course, I (16) ______ my first job at a hotel in San Antonio. On my first day, the manager told me that I (17) ______ start working at the reception desk the following Monday.\n\nQ: Was it difficult?\nSamuel: Yes! I made many mistakes with tourists at first. But my boss always said that everyone has to (18) ______ their best and learn from errors.\n\nQ: What are your plans now?\nSamuel: Next year I (19) ______ my own tour company; I have already registered the name and rented a small office. I'm also saving money every month (20) ______ I can buy a van for longer tours to the Pacific.",
+"enunciado": "Choose the correct option for gap (20):",
+"opciones": {
+"A": "in order to",
+"B": "so that",
+"C": "such as",
+"D": "because of"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar «in order to» seguido de sujeto",
+"porque": "Elegiste A porque probablemente identificaste bien la idea de propósito, pero no revisaste lo que viene después del espacio.",
+"pregunta_guia": "Después del espacio dice «I can buy». ¿«In order to» va seguido de un sujeto o de un verbo base?",
+"aprende": "«In order to» + verbo base (in order to buy); «so that» + sujeto + verbo (so that I can buy)."
+},
+"C": {
+"error": "Confundir propósito con ejemplificación",
+"porque": "Elegiste C porque probablemente pensaste que la camioneta era un ejemplo de cómo usa el dinero.",
+"pregunta_guia": "¿«Such as» puede ir seguido de una oración completa con sujeto y verbo?",
+"aprende": "«Such as» introduce ejemplos con sustantivos (tours such as whale watching); no expresa propósito."
+},
+"D": {
+"error": "Confundir propósito con causa",
+"porque": "Elegiste D porque probablemente pensaste que comprar la camioneta es la razón por la que ahorra.",
+"pregunta_guia": "¿«Because of» va seguido de un sustantivo o de una oración? ¿La camioneta ya existe o es una meta?",
+"aprende": "«Because of» + sustantivo expresa causa; para una meta o finalidad se usa «so that» o «to»."
+}
+},
+"explicacion": "Paso 1: relación lógica: ahorrar es el medio y comprar una camioneta es la finalidad: propósito. Paso 2: después del espacio hay sujeto + modal («I can buy»). Paso 3: el conector de propósito que admite sujeto es «so that». Paso 4: «in order to» exige verbo base sin sujeto, «such as» introduce ejemplos y «because of» una causa con sustantivo.",
+"estrategia_icfes": "Para conectores de propósito, revisa la estructura posterior: to / in order to + verbo base; so that + sujeto + can/could/will.",
+"tip": "«So that» casi siempre va acompañado de can, could o will.",
+"truco": "SO THAT + persona + CAN = «para que (yo) pueda».",
+"temas": [
+"conectores",
+"propósito",
+"ahorro"
+],
+"gemela": {
+"contexto": "Complete the note from a team leader.",
+"enunciado": "Please label every box clearly ______ the drivers can find the orders quickly.",
+"opciones": {
+"A": "so that",
+"B": "in order to",
+"C": "such as",
+"D": "because of"
+},
+"correcta": "A",
+"explicacion": "Finalidad seguida de sujeto + modal («the drivers can find»): «so that»."
+}
+},
+{
+"id": "P11-ING-D021",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: describe acciones que empezaron en el pasado y continúan en el presente usando el present perfect continuous con «for» y «since».",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: comprendo textos informativos sobre temas económicos y laborales y uso tiempos verbales adecuados para expresar duración.",
+"afirmacion": "Usa elementos formales de la lengua (tiempos perfectos) para completar un texto.",
+"evidencia": "Selecciona el present perfect continuous para una acción que comenzó en el pasado y continúa con «for + periodo».",
+"grupo": "P11-ING-D-T5",
+"contexto": "Read the notice and choose the correct option for each gap.\n\nCafeteros del Cañón Cooperative – Notice to members\n\nDear members,\n\nOur cooperative (21) ______ coffee from small family farms in the mountains of Valle del Cauca for more than thirty years. To compete in international markets, we have developed a mobile app called TraceCafé. With it, buyers in Europe and Asia can see where each bag was grown and how it was processed.\n\nWe would be grateful if all members could attend a training session on 12 November at the community hall. Very (22) ______ members have used a traceability app before; (23) ______, our technicians will explain every step slowly.\n\nMembers who cannot attend should (24) ______ an individual session by writing to the technical office. From December, all sales records (25) ______ through TraceCafé, and paper forms will no longer be accepted.\n\nThe Board of Directors",
+"enunciado": "Choose the correct option for gap (21):",
+"opciones": {
+"A": "has been buying",
+"B": "is buying",
+"C": "had been buying",
+"D": "buys"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Presente progresivo con duración desde el pasado",
+"porque": "Elegiste B porque probablemente pensaste «la cooperativa está comprando» y no tuviste en cuenta «for more than thirty years».",
+"pregunta_guia": "¿Qué tiempo se usa en inglés para decir cuánto tiempo lleva ocurriendo algo hasta hoy?",
+"aprende": "Con «for/since» y una acción que sigue hasta el presente se usa present perfect (continuous), no presente progresivo: «has been buying for thirty years»."
+},
+"C": {
+"error": "Past perfect sin pasado de referencia",
+"porque": "Elegiste C porque probablemente reconociste la forma «been + -ing» con duración pero elegiste la versión con «had».",
+"pregunta_guia": "¿La cooperativa dejó de comprar café antes de otro momento del pasado, o sigue comprándolo?",
+"aprende": "«Had been buying» mide la duración hasta un momento pasado; la noticia habla de una actividad que continúa hoy: «has been buying»."
+},
+"D": {
+"error": "Calcar el presente del español",
+"porque": "Elegiste D porque probablemente tradujiste «la cooperativa compra café desde hace treinta años».",
+"pregunta_guia": "En español decimos «compra desde hace 30 años»; ¿funciona igual en inglés con «for»?",
+"aprende": "El español usa presente con «desde hace»; el inglés exige present perfect: «has bought / has been buying for 30 years»."
+}
+},
+"explicacion": "Paso 1: la pista es «for more than thirty years», una duración. Paso 2: la cooperativa sigue existiendo y comprando café (el aviso habla de planes actuales). Paso 3: acción que empezó en el pasado y continúa = present perfect continuous: «has been buying». Paso 4: B y D son calcos del español y C mide la duración hasta un pasado que no existe en el texto.",
+"estrategia_icfes": "Cuando veas «for + periodo» o «since + punto de inicio», el ICFES casi siempre evalúa el present perfect (simple o continuo). Descarta primero el presente simple y el progresivo, que son los calcos más comunes del español.",
+"tip": "«Desde hace» en español = «for» + present perfect en inglés.",
+"truco": "FOR/SINCE → HAVE/HAS BEEN + -ING.",
+"temas": [
+"present perfect continuous",
+"for/since",
+"café del Valle"
+],
+"gemela": {
+"contexto": "Complete the sentence from a company website.",
+"enunciado": "Our family ______ handmade sandals in Cali since 1998.",
+"opciones": {
+"A": "makes",
+"B": "is making",
+"C": "has been making",
+"D": "had been making"
+},
+"correcta": "C",
+"explicacion": "«Since 1998» y una actividad que continúa hoy: present perfect continuous «has been making»."
+}
+},
+{
+"id": "P11-ING-D022",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: usa cuantificadores con sustantivos contables y no contables en textos descriptivos e informativos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: uso estructuras gramaticales adecuadas al describir cantidades en textos informativos.",
+"afirmacion": "Usa elementos formales de la lengua (cuantificadores) para completar un texto.",
+"evidencia": "Selecciona el cuantificador «few» con un sustantivo contable plural.",
+"grupo": "P11-ING-D-T5",
+"contexto": "Read the notice and choose the correct option for each gap.\n\nCafeteros del Cañón Cooperative – Notice to members\n\nDear members,\n\nOur cooperative (21) ______ coffee from small family farms in the mountains of Valle del Cauca for more than thirty years. To compete in international markets, we have developed a mobile app called TraceCafé. With it, buyers in Europe and Asia can see where each bag was grown and how it was processed.\n\nWe would be grateful if all members could attend a training session on 12 November at the community hall. Very (22) ______ members have used a traceability app before; (23) ______, our technicians will explain every step slowly.\n\nMembers who cannot attend should (24) ______ an individual session by writing to the technical office. From December, all sales records (25) ______ through TraceCafé, and paper forms will no longer be accepted.\n\nThe Board of Directors",
+"enunciado": "Choose the correct option for gap (22):",
+"opciones": {
+"A": "little",
+"B": "few",
+"C": "much",
+"D": "many of"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Usar «little» con sustantivos contables",
+"porque": "Elegiste A porque probablemente pensaste que «poco» se dice siempre «little».",
+"pregunta_guia": "¿«Members» se puede contar (one member, two members)?",
+"aprende": "«Little» va con no contables (little time, little money); «few» va con contables en plural (few members)."
+},
+"C": {
+"error": "Usar «much» con contables y en sentido equivocado",
+"porque": "Elegiste C porque probablemente pensaste en «muchos» sin revisar si el sustantivo es contable.",
+"pregunta_guia": "¿«Much» acompaña a sustantivos contables plurales? ¿Tiene sentido explicar despacio si MUCHOS ya usaron la app?",
+"aprende": "«Much» va con no contables; además, la segunda parte (explicar despacio) indica que son pocos los que tienen experiencia."
+},
+"D": {
+"error": "Agregar «of» sin determinante",
+"porque": "Elegiste D porque probablemente recordaste «many of» y no notaste que después no hay «the» ni «our».",
+"pregunta_guia": "¿Se dice «many of members» o «many of our members»? ¿Y encaja «very many of» con la idea del texto?",
+"aprende": "«Many of» exige un determinante después (many of the/our members); y la idea del texto es que pocos tienen experiencia."
+}
+},
+"explicacion": "Paso 1: «members» es un sustantivo contable plural. Paso 2: la segunda parte de la oración («our technicians will explain every step slowly») indica que pocos tienen experiencia. Paso 3: para «pocos» con contables se usa «few»: «Very few members». Paso 4: «little» y «much» son para no contables y «many of» exige determinante y contradice el sentido.",
+"estrategia_icfes": "Ante cuantificadores, decide primero si el sustantivo es contable o no contable y luego si el texto expresa cantidad grande o pequeña. Usa la segunda parte de la oración como pista de sentido.",
+"tip": "Contables: many / few / a few. No contables: much / little / a little.",
+"truco": "FEW personas, LITTLE agua.",
+"temas": [
+"cuantificadores",
+"contables y no contables",
+"cooperativas"
+],
+"gemela": {
+"contexto": "Complete the sentence from a school report.",
+"enunciado": "Only a ______ students arrived late, so the exam started on time.",
+"opciones": {
+"A": "little",
+"B": "much",
+"C": "lot",
+"D": "few"
+},
+"correcta": "D",
+"explicacion": "«Students» es contable plural y la consecuencia (empezó a tiempo) indica una cantidad pequeña: «a few»."
+}
+},
+{
+"id": "P11-ING-D023",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica la relación lógica entre las ideas de un texto (causa, consecuencia, contraste) a partir de conectores.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico la organización y los conectores que relacionan las ideas en textos escritos.",
+"afirmacion": "Comprende la organización y la cohesión de un texto a partir de los conectores.",
+"evidencia": "Selecciona el conector de consecuencia que relaciona una situación con la medida que se toma.",
+"grupo": "P11-ING-D-T5",
+"contexto": "Read the notice and choose the correct option for each gap.\n\nCafeteros del Cañón Cooperative – Notice to members\n\nDear members,\n\nOur cooperative (21) ______ coffee from small family farms in the mountains of Valle del Cauca for more than thirty years. To compete in international markets, we have developed a mobile app called TraceCafé. With it, buyers in Europe and Asia can see where each bag was grown and how it was processed.\n\nWe would be grateful if all members could attend a training session on 12 November at the community hall. Very (22) ______ members have used a traceability app before; (23) ______, our technicians will explain every step slowly.\n\nMembers who cannot attend should (24) ______ an individual session by writing to the technical office. From December, all sales records (25) ______ through TraceCafé, and paper forms will no longer be accepted.\n\nThe Board of Directors",
+"enunciado": "Choose the correct option for gap (23):",
+"opciones": {
+"A": "however",
+"B": "for example",
+"C": "in contrast",
+"D": "therefore"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Ver contraste donde hay consecuencia",
+"porque": "Elegiste A porque probablemente pensaste que «pocos saben usar la app» se opone a «los técnicos explicarán».",
+"pregunta_guia": "¿Explicar despacio va en contra de que pocos sepan usar la app, o es la respuesta lógica a esa situación?",
+"aprende": "«However» introduce algo inesperado; aquí la segunda idea es la consecuencia esperada de la primera."
+},
+"B": {
+"error": "Leer la segunda idea como un ejemplo",
+"porque": "Elegiste B porque probablemente pensaste que la explicación de los técnicos ilustraba la primera idea.",
+"pregunta_guia": "¿Explicar paso a paso es un caso particular de «pocos usaron la app»?",
+"aprende": "«For example» presenta un caso concreto de la idea anterior; no expresa una medida tomada por causa de ella."
+},
+"C": {
+"error": "Confundir comparación con consecuencia",
+"porque": "Elegiste C porque probablemente pensaste que se comparaban dos grupos (socios y técnicos).",
+"pregunta_guia": "¿El texto compara a los socios con los técnicos o explica qué harán los técnicos por causa de la situación?",
+"aprende": "«In contrast» compara dos cosas diferentes; cuando una idea causa la otra, se usa «therefore / as a result»."
+}
+},
+"explicacion": "Paso 1: primera idea: muy pocos socios han usado una app de trazabilidad (causa). Paso 2: segunda idea: los técnicos explicarán cada paso despacio (medida que se toma por esa causa). Paso 3: relación causa → consecuencia: «therefore». Paso 4: «however» e «in contrast» expresan oposición y «for example» ejemplificación.",
+"estrategia_icfes": "Pregúntate «¿la segunda idea ocurre POR la primera?». Si la respuesta es sí, el conector es de consecuencia (therefore, so, as a result, consequently).",
+"tip": "Prueba con «por eso»: si la oración sigue teniendo sentido, el conector es de consecuencia.",
+"truco": "THEREFORE = «por lo tanto» → causa ⟶ efecto.",
+"temas": [
+"conectores",
+"consecuencia",
+"tecnología agrícola"
+],
+"gemela": {
+"contexto": "Complete the sentence from a factory memo.",
+"enunciado": "The main machine broke down this morning; ______, today's orders will be delivered tomorrow.",
+"opciones": {
+"A": "for example",
+"B": "as a result",
+"C": "in contrast",
+"D": "however"
+},
+"correcta": "B",
+"explicacion": "El daño de la máquina causa el retraso de los pedidos: consecuencia, «as a result»."
+}
+},
+{
+"id": "P11-ING-D024",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: adecúa el registro (formal o informal) y el vocabulario a la situación comunicativa en textos escritos institucionales y laborales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: utilizo un vocabulario apropiado y adecúo mi lenguaje a la situación, al interlocutor y al propósito comunicativo.",
+"afirmacion": "Reconoce el registro apropiado según la situación comunicativa y el interlocutor.",
+"evidencia": "Selecciona el verbo de registro formal y cortés adecuado para solicitar un servicio en un aviso institucional.",
+"grupo": "P11-ING-D-T5",
+"contexto": "Read the notice and choose the correct option for each gap.\n\nCafeteros del Cañón Cooperative – Notice to members\n\nDear members,\n\nOur cooperative (21) ______ coffee from small family farms in the mountains of Valle del Cauca for more than thirty years. To compete in international markets, we have developed a mobile app called TraceCafé. With it, buyers in Europe and Asia can see where each bag was grown and how it was processed.\n\nWe would be grateful if all members could attend a training session on 12 November at the community hall. Very (22) ______ members have used a traceability app before; (23) ______, our technicians will explain every step slowly.\n\nMembers who cannot attend should (24) ______ an individual session by writing to the technical office. From December, all sales records (25) ______ through TraceCafé, and paper forms will no longer be accepted.\n\nThe Board of Directors",
+"enunciado": "Choose the correct option for gap (24):",
+"opciones": {
+"A": "demand",
+"B": "beg for",
+"C": "request",
+"D": "claim"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Registro demasiado fuerte o exigente",
+"porque": "Elegiste A porque probablemente tradujiste «demandar» como «pedir» y no notaste que en inglés «demand» es exigir con fuerza.",
+"pregunta_guia": "¿La junta directiva invitaría a los socios a «exigir» una sesión, o a pedirla de forma cortés?",
+"aprende": "«Demand» expresa exigencia, casi confrontación; en un aviso cordial y formal se usa «request»."
+},
+"B": {
+"error": "Registro excesivamente sumiso",
+"porque": "Elegiste B porque probablemente pensaste en «pedir» y elegiste la opción que suena más humilde.",
+"pregunta_guia": "¿«Beg for» (suplicar, rogar) es el tono adecuado entre una cooperativa y sus socios?",
+"aprende": "«Beg» implica rogar desde una posición de necesidad; el registro institucional neutro y cortés es «request»."
+},
+"D": {
+"error": "Falso cognado",
+"porque": "Elegiste D porque probablemente relacionaste «claim» con «reclamar» o «solicitar» en español.",
+"pregunta_guia": "Si «claim» significa afirmar algo o reclamar un derecho o una compensación, ¿encaja con pedir una cita de capacitación?",
+"aprende": "«Claim» = afirmar o reclamar algo que se considera propio (claim a refund); para pedir un servicio se usa «request»."
+}
+},
+"explicacion": "Paso 1: el texto es un aviso formal y cortés de la junta directiva a sus socios («Dear members», «We would be grateful»). Paso 2: se necesita un verbo que signifique «pedir» con registro formal y neutro. Paso 3: «request an individual session». Paso 4: «demand» es exigir (demasiado fuerte), «beg for» es suplicar (demasiado sumiso) y «claim» es un falso cognado (reclamar algo propio).",
+"estrategia_icfes": "La competencia sociolingüística evalúa si eliges la palabra adecuada al contexto social. Identifica quién escribe, a quién y con qué tono (formal, cordial, institucional) y descarta palabras demasiado fuertes, demasiado informales o falsos cognados.",
+"tip": "En correos y avisos formales: request, inform, attend, provide, require.",
+"truco": "Request = pedir con corbata: ni exigir (demand) ni rogar (beg).",
+"temas": [
+"registro formal",
+"falsos cognados",
+"léxico laboral"
+],
+"gemela": {
+"contexto": "Complete the sentence from a formal email to a university.",
+"enunciado": "I am writing to ______ information about the scholarships for engineering students.",
+"opciones": {
+"A": "request",
+"B": "demand",
+"C": "beg for",
+"D": "claim"
+},
+"correcta": "A",
+"explicacion": "En un correo formal para pedir información se usa «request»; «demand» es exigir, «beg for» suplicar y «claim» reclamar algo propio."
+}
+},
+{
+"id": "P11-ING-D025",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 7 · Gramática y léxico en texto",
+"parte": 7,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende y produce textos técnicos y laborales que describen procesos y cambios futuros usando la voz pasiva.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: comprendo textos de diferentes tipos y fuentes y uso estructuras adecuadas para describir procesos.",
+"afirmacion": "Usa elementos formales de la lengua (voz pasiva en futuro) para completar un texto.",
+"evidencia": "Selecciona la pasiva en futuro («will be + participio») cuando el sujeto recibe la acción y hay una referencia futura.",
+"grupo": "P11-ING-D-T5",
+"contexto": "Read the notice and choose the correct option for each gap.\n\nCafeteros del Cañón Cooperative – Notice to members\n\nDear members,\n\nOur cooperative (21) ______ coffee from small family farms in the mountains of Valle del Cauca for more than thirty years. To compete in international markets, we have developed a mobile app called TraceCafé. With it, buyers in Europe and Asia can see where each bag was grown and how it was processed.\n\nWe would be grateful if all members could attend a training session on 12 November at the community hall. Very (22) ______ members have used a traceability app before; (23) ______, our technicians will explain every step slowly.\n\nMembers who cannot attend should (24) ______ an individual session by writing to the technical office. From December, all sales records (25) ______ through TraceCafé, and paper forms will no longer be accepted.\n\nThe Board of Directors",
+"enunciado": "Choose the correct option for gap (25):",
+"opciones": {
+"A": "will be registered",
+"B": "will register",
+"C": "are registering",
+"D": "have been registered"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Voz activa con un sujeto que recibe la acción",
+"porque": "Elegiste B porque probablemente identificaste bien el futuro («From December») pero no revisaste quién hace la acción.",
+"pregunta_guia": "¿Los registros de ventas registran algo, o alguien los registra en la app?",
+"aprende": "Si el sujeto recibe la acción, la pasiva en futuro es «will be + participio»."
+},
+"C": {
+"error": "Presente progresivo activo",
+"porque": "Elegiste C porque probablemente pensaste que el presente progresivo puede expresar futuro.",
+"pregunta_guia": "Aunque el presente progresivo a veces indica futuro, ¿«records are registering» dice que los registros hacen la acción?",
+"aprende": "La forma está en voz activa; el sujeto «sales records» necesita voz pasiva."
+},
+"D": {
+"error": "Present perfect con referencia futura",
+"porque": "Elegiste D porque probablemente reconociste la pasiva pero no ajustaste el tiempo a «From December».",
+"pregunta_guia": "¿«Have been registered» habla de algo ya ocurrido o de algo que empezará en diciembre?",
+"aprende": "El present perfect conecta el pasado con el presente; para un cambio que empieza en el futuro se usa «will be + participio»."
+}
+},
+"explicacion": "Paso 1: «From December» y «will no longer be accepted» indican futuro. Paso 2: el sujeto «all sales records» recibe la acción (alguien los registra): voz pasiva. Paso 3: pasiva en futuro = will be + participio: «will be registered». Paso 4: B y C son activas y D habla de algo ya ocurrido.",
+"estrategia_icfes": "En avisos que anuncian cambios (From…, Starting next week…), el ICFES combina futuro y pasiva. Revisa las dos dimensiones: tiempo (will) y voz (be + participio).",
+"tip": "La propia oración da una pista paralela: «paper forms will no longer be accepted» también es pasiva en futuro.",
+"truco": "Futuro pasivo = WILL BE + participio, igual para singular y plural.",
+"temas": [
+"voz pasiva",
+"futuro",
+"inglés técnico"
+],
+"gemela": {
+"contexto": "Complete the sentence from a company announcement.",
+"enunciado": "Starting next Monday, all visitors ______ at the main gate before entering the plant.",
+"opciones": {
+"A": "will check",
+"B": "are checking",
+"C": "will be checked",
+"D": "have been checked"
+},
+"correcta": "C",
+"explicacion": "Referencia futura («Starting next Monday») y los visitantes reciben la acción: «will be checked»."
+}
+},
+{
+"id": "P11-ING-D026",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "B1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende avisos, señales e instrucciones breves en lugares públicos e institucionales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico el propósito y el contexto de textos cortos de uso público.",
+"afirmacion": "Comprende el sentido de avisos públicos y reconoce el contexto social en el que aparecen.",
+"evidencia": "Relaciona un aviso con el lugar en el que normalmente se encuentra según su propósito.",
+"contexto": "PLEASE KEEP YOUR VOICE DOWN\nStudents are taking exams in this area.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "at a bus stop",
+"B": "in a supermarket",
+"C": "in a school corridor",
+"D": "at a football stadium"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Asociar silencio con espera",
+"porque": "Elegiste A porque probablemente pensaste que en una parada de bus las personas esperan tranquilas.",
+"pregunta_guia": "¿En una parada de bus hay estudiantes presentando exámenes?",
+"aprende": "La clave del aviso está en la razón que da: «Students are taking exams»."
+},
+"B": {
+"error": "Fijarse solo en «keep»",
+"porque": "Elegiste B porque probablemente leíste solo la primera línea y pensaste en un aviso para clientes.",
+"pregunta_guia": "¿Qué información da la segunda línea del aviso?",
+"aprende": "Lee el aviso completo: la segunda línea suele indicar el lugar o las personas a quienes se dirige."
+},
+"D": {
+"error": "No reconocer la contradicción con el lugar",
+"porque": "Elegiste D porque probablemente pensaste que en un estadio también hay normas para el público.",
+"pregunta_guia": "¿Tiene sentido pedir silencio en un estadio de fútbol por exámenes?",
+"aprende": "Un aviso tiene sentido en un lugar donde su instrucción es razonable y necesaria."
+}
+},
+"explicacion": "Paso 1: el aviso pide hablar en voz baja. Paso 2: la razón es que hay estudiantes presentando exámenes. Paso 3: el único lugar donde hay estudiantes en exámenes es un colegio: «in a school corridor». Paso 4: la parada de bus, el supermercado y el estadio no tienen relación con exámenes.",
+"estrategia_icfes": "En la Parte 1 el ICFES muestra un aviso y pregunta dónde se ve. Subraya las palabras clave que indican personas, objetos o actividades (students, exams) y elige el lugar donde todas ellas tienen sentido.",
+"tip": "No te quedes con una sola palabra: busca el lugar donde TODO el aviso tiene sentido.",
+"truco": "¿Quién? + ¿Qué hace? = ¿Dónde?",
+"temas": [
+"avisos",
+"lugares públicos",
+"colegio"
+],
+"gemela": {
+"contexto": "PLEASE SWITCH OFF YOUR MOBILE PHONE\nThe film is about to start.",
+"enunciado": "Where would you most probably read this notice?",
+"opciones": {
+"A": "in a cinema",
+"B": "in a phone shop",
+"C": "at a petrol station",
+"D": "in a park"
+},
+"correcta": "A",
+"explicacion": "«The film is about to start» indica un cine. La tienda de celulares es un distractor por la palabra «phone»."
+}
+},
+{
+"id": "P11-ING-D027",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende avisos, señales e instrucciones de seguridad en contextos laborales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico el propósito y el contexto de textos cortos de uso público y laboral.",
+"afirmacion": "Comprende el propósito comunicativo de un aviso y lo relaciona con su contexto de uso.",
+"evidencia": "Relaciona un aviso de seguridad industrial con el lugar de trabajo en el que se exige.",
+"contexto": "HARD HATS AND SAFETY BOOTS\nMUST BE WORN BEYOND THIS POINT",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "at a construction site",
+"B": "in a shoe shop",
+"C": "in a hospital waiting room",
+"D": "at a swimming pool"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Asociación por una palabra suelta",
+"porque": "Elegiste B porque probablemente viste «boots» (botas) y pensaste en una tienda de zapatos.",
+"pregunta_guia": "¿Una tienda obliga a sus clientes a usar casco y botas para entrar?",
+"aprende": "Un aviso de obligación («must be worn») indica una norma de seguridad del lugar, no un producto en venta."
+},
+"C": {
+"error": "Asociar «seguridad» con salud",
+"porque": "Elegiste C porque probablemente relacionaste «safety» con hospitales y protección.",
+"pregunta_guia": "¿En una sala de espera de hospital se necesitan cascos?",
+"aprende": "Los cascos y botas de seguridad protegen de caídas de objetos y golpes: son equipo de obra o industria."
+},
+"D": {
+"error": "Interpretar «beyond this point» como zona restringida cualquiera",
+"porque": "Elegiste D porque probablemente pensaste que en una piscina hay zonas donde se exige un equipo especial.",
+"pregunta_guia": "¿Qué equipo se exige en una piscina: gorro de baño o casco de seguridad?",
+"aprende": "Relaciona el equipo mencionado con la actividad: casco + botas de seguridad = construcción."
+}
+},
+"explicacion": "Paso 1: el aviso obliga («must be worn») a usar casco y botas de seguridad. Paso 2: ese equipo protege en lugares con riesgo de caída de objetos y golpes. Paso 3: el lugar típico es una obra de construcción. Paso 4: la tienda de zapatos es un distractor por «boots»; el hospital y la piscina no exigen ese equipo.",
+"estrategia_icfes": "Los avisos de obligación (must, have to) y prohibición (do not, no…) indican normas del lugar. Pregúntate qué riesgo o qué actividad justifica la norma.",
+"tip": "«Beyond this point» = a partir de aquí: el aviso marca la entrada a una zona de trabajo.",
+"truco": "MUST BE WORN → equipo obligatorio → lugar de riesgo.",
+"temas": [
+"avisos",
+"seguridad industrial",
+"inglés laboral"
+],
+"gemela": {
+"contexto": "LAB COATS AND SAFETY GLASSES\nREQUIRED AT ALL TIMES",
+"enunciado": "In which place is this notice most likely to appear?",
+"opciones": {
+"A": "in an optician's shop",
+"B": "in a clothes shop",
+"C": "in a chemistry laboratory",
+"D": "in a library"
+},
+"correcta": "C",
+"explicacion": "Bata y gafas de seguridad obligatorias corresponden a un laboratorio de química. La óptica y la tienda de ropa son distractores por «glasses» y «coats»."
+}
+},
+{
+"id": "P11-ING-D028",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende avisos e instrucciones breves en edificios y espacios públicos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico el propósito y el contexto de textos cortos de uso público.",
+"afirmacion": "Comprende el sentido de avisos públicos y reconoce el contexto en el que aparecen.",
+"evidencia": "Integra toda la información de un aviso para identificar el objeto o lugar al que se refiere.",
+"contexto": "OUT OF ORDER\nPlease use the stairs or the service lift at the back of the building.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "on a vending machine",
+"B": "at a train ticket office",
+"C": "on a cash machine",
+"D": "next to a lift"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Quedarse solo con «Out of order»",
+"porque": "Elegiste A porque probablemente reconociste «out of order» (dañado) y pensaste en cualquier máquina.",
+"pregunta_guia": "Si la máquina de snacks está dañada, ¿tiene sentido sugerir usar las escaleras?",
+"aprende": "La alternativa que propone el aviso (stairs, another lift) revela qué está dañado."
+},
+"B": {
+"error": "Asociar «service» con atención al público",
+"porque": "Elegiste B porque probablemente viste «service» y pensaste en un servicio de venta de tiquetes.",
+"pregunta_guia": "¿Qué sustantivo acompaña a «service» en el aviso?",
+"aprende": "«Service lift» es un ascensor de servicio; lee las palabras en grupo, no aisladas."
+},
+"C": {
+"error": "Generalizar «Out of order» a cualquier aparato",
+"porque": "Elegiste C porque probablemente pensaste en un cajero automático dañado.",
+"pregunta_guia": "¿Un cajero dañado se reemplaza usando las escaleras?",
+"aprende": "Busca la coherencia entre el problema y la solución que propone el aviso."
+}
+},
+"explicacion": "Paso 1: «Out of order» indica que algo no funciona. Paso 2: la alternativa es «use the stairs or the service lift»: escaleras u otro ascensor. Paso 3: lo dañado es un ascensor; el aviso está junto a él. Paso 4: la máquina de snacks, la taquilla y el cajero pueden dañarse, pero las escaleras no los reemplazan.",
+"estrategia_icfes": "Algunos avisos de la Parte 1 tienen expresiones que podrían ir en varios lugares («Out of order»). La segunda parte del aviso decide la respuesta: busca la solución o la razón que da.",
+"tip": "Lift (británico) = elevator (americano) = ascensor.",
+"truco": "Problema + solución propuesta = lugar exacto.",
+"temas": [
+"avisos",
+"edificios",
+"vocabulario británico"
+],
+"gemela": {
+"contexto": "SORRY, NO CARDS TODAY\nCash payments only. Our card reader is not working.",
+"enunciado": "Where would you probably find this notice?",
+"opciones": {
+"A": "next to a lift",
+"B": "at a shop counter",
+"C": "in a bank cash machine",
+"D": "on a bus timetable"
+},
+"correcta": "B",
+"explicacion": "El aviso habla de pagos y de un datáfono dañado: está en el mostrador de una tienda."
+}
+},
+{
+"id": "P11-ING-D029",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce y usa vocabulario relacionado con el mundo laboral y la formación técnica.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: utilizo un vocabulario apropiado sobre temas académicos, laborales y de mi interés.",
+"afirmacion": "Comprende el significado de palabras a partir de su definición.",
+"evidencia": "Relaciona la descripción de un rol laboral con la palabra que lo nombra.",
+"contexto": "Read the description and choose the word it describes.",
+"enunciado": "A person who is learning a job by working with someone who has a lot of experience:",
+"opciones": {
+"A": "employer",
+"B": "apprentice",
+"C": "customer",
+"D": "supplier"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir roles dentro de la empresa",
+"porque": "Elegiste A porque probablemente asociaste «job» con la persona que da el empleo.",
+"pregunta_guia": "¿El empleador (employer) está aprendiendo el oficio o es quien contrata?",
+"aprende": "Employer = empleador (contrata); employee = empleado; apprentice = aprendiz."
+},
+"C": {
+"error": "Elegir un rol externo a la empresa",
+"porque": "Elegiste C porque probablemente pensaste en alguien que recibe algo de otra persona.",
+"pregunta_guia": "¿Un cliente trabaja en la empresa para aprender un oficio?",
+"aprende": "Customer = cliente: compra productos o servicios, no aprende un trabajo."
+},
+"D": {
+"error": "No conocer el significado de la palabra",
+"porque": "Elegiste D porque probablemente no recordabas qué significa «supplier».",
+"pregunta_guia": "Si «supply» es suministrar, ¿qué hace un «supplier»?",
+"aprende": "Supplier = proveedor: vende materias primas o productos a una empresa."
+}
+},
+"explicacion": "Paso 1: la descripción habla de alguien que aprende un trabajo. Paso 2: lo hace trabajando junto a una persona con experiencia. Paso 3: esa persona es un aprendiz: «apprentice» (como los aprendices del SENA en etapa productiva). Paso 4: employer contrata, customer compra y supplier provee.",
+"estrategia_icfes": "En la Parte 2 el ICFES da descripciones y palabras. Lee la descripción, imagina la palabra en español y luego busca su equivalente; descarta las palabras del mismo campo semántico que no cumplen TODOS los rasgos.",
+"tip": "Fíjate en los sufijos: -er/-or (quien hace), -ee (quien recibe), -ice/-ant (rol).",
+"truco": "Apprentice ≈ aprendiz: las dos empiezan por «ap-/a-p».",
+"temas": [
+"vocabulario laboral",
+"SENA",
+"roles"
+],
+"gemela": {
+"contexto": "Read the description and choose the word it describes.",
+"enunciado": "A company or person that sells raw materials or products to another business:",
+"opciones": {
+"A": "apprentice",
+"B": "customer",
+"C": "employer",
+"D": "supplier"
+},
+"correcta": "D",
+"explicacion": "Quien vende materias primas a otra empresa es un proveedor: «supplier»."
+}
+},
+{
+"id": "P11-ING-D030",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce y usa vocabulario de economía y finanzas personales en textos informativos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: utilizo un vocabulario apropiado sobre temas académicos, económicos y de mi interés.",
+"afirmacion": "Comprende el significado de palabras a partir de su definición.",
+"evidencia": "Relaciona la descripción de un concepto financiero con la palabra que lo nombra.",
+"contexto": "Read the description and choose the word it describes.",
+"enunciado": "The extra money that you pay to a bank when you borrow money, usually calculated as a percentage of the loan:",
+"opciones": {
+"A": "salary",
+"B": "savings",
+"C": "budget",
+"D": "interest"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir dinero recibido con dinero pagado",
+"porque": "Elegiste A porque probablemente asociaste «money» y «percentage» con lo que una persona gana.",
+"pregunta_guia": "¿El salario es algo que pagas al banco o algo que recibes por trabajar?",
+"aprende": "Salary = salario: dinero que recibes por tu trabajo; interest = dinero extra que pagas por un préstamo."
+},
+"B": {
+"error": "Confundir ahorro con costo del préstamo",
+"porque": "Elegiste B porque probablemente relacionaste «bank» con guardar dinero.",
+"pregunta_guia": "Cuando pides prestado (borrow), ¿estás ahorrando o debiendo?",
+"aprende": "Savings = ahorros: dinero que guardas; el costo de pedir prestado es el interés."
+},
+"C": {
+"error": "Confundir planificación con costo financiero",
+"porque": "Elegiste C porque probablemente pensaste en organizar el dinero que se debe.",
+"pregunta_guia": "¿Un presupuesto es un porcentaje que cobra el banco?",
+"aprende": "Budget = presupuesto: plan de ingresos y gastos; no es un cobro del banco."
+}
+},
+"explicacion": "Paso 1: la descripción habla de dinero extra que se paga al banco. Paso 2: se paga por pedir prestado (borrow) y se calcula como porcentaje del préstamo. Paso 3: ese concepto es el interés: «interest». Paso 4: salary es lo que ganas, savings lo que guardas y budget tu plan de gastos.",
+"estrategia_icfes": "En la Parte 2 aparecen palabras de un mismo campo (dinero, trabajo, salud). Identifica los rasgos clave de la descripción (pagar, banco, pedir prestado, porcentaje) y verifica que la palabra cumpla todos.",
+"tip": "Borrow = pedir prestado; lend = prestar; loan = préstamo; interest = interés.",
+"truco": "INTEREST: el banco tiene «interés» en prestarte porque te cobra un extra.",
+"temas": [
+"vocabulario financiero",
+"educación financiera",
+"préstamos"
+],
+"gemela": {
+"contexto": "Read the description and choose the word it describes.",
+"enunciado": "A plan that shows how much money you expect to receive and spend during a period of time:",
+"opciones": {
+"A": "interest",
+"B": "budget",
+"C": "salary",
+"D": "loan"
+},
+"correcta": "B",
+"explicacion": "Un plan de ingresos y gastos es un presupuesto: «budget»."
+}
+},
+{
+"id": "P11-ING-D031",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce y usa vocabulario relacionado con la búsqueda de empleo y los documentos laborales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: utilizo un vocabulario apropiado sobre temas académicos, laborales y de mi interés.",
+"afirmacion": "Comprende el significado de palabras a partir de su definición.",
+"evidencia": "Relaciona la descripción de un documento laboral con la palabra que lo nombra.",
+"contexto": "Read the description and choose the word it describes.",
+"enunciado": "A document that describes your education, skills and work experience, which you send when you apply for a job:",
+"opciones": {
+"A": "contract",
+"B": "invoice",
+"C": "résumé",
+"D": "receipt"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir documentos del proceso laboral",
+"porque": "Elegiste A porque probablemente asociaste «job» con el documento que se firma al ser contratado.",
+"pregunta_guia": "¿El contrato se envía para pedir el trabajo o se firma cuando ya te contrataron?",
+"aprende": "Contract = contrato (acuerdo firmado); résumé/CV = hoja de vida que se envía al aplicar."
+},
+"B": {
+"error": "Confundir documentos comerciales y laborales",
+"porque": "Elegiste B porque probablemente pensaste en cualquier documento formal de una empresa.",
+"pregunta_guia": "¿Una factura (invoice) habla de tu educación y experiencia?",
+"aprende": "Invoice = factura: indica cuánto debe pagar un cliente por productos o servicios."
+},
+"D": {
+"error": "No conocer el significado de la palabra",
+"porque": "Elegiste D porque probablemente no recordabas que «receipt» es el comprobante de un pago.",
+"pregunta_guia": "¿Qué documento te entregan en una tienda después de pagar?",
+"aprende": "Receipt = recibo: prueba de que pagaste algo."
+}
+},
+"explicacion": "Paso 1: la descripción menciona educación, habilidades y experiencia laboral. Paso 2: el documento se envía al aplicar a un empleo. Paso 3: es la hoja de vida: «résumé» (también CV). Paso 4: contract se firma al ser contratado, invoice es una factura y receipt un recibo.",
+"estrategia_icfes": "En la Parte 2, los distractores suelen pertenecer al mismo campo semántico (documentos, profesiones, lugares). Verifica que la palabra elegida cumpla todos los rasgos de la descripción, no solo uno.",
+"tip": "Résumé (inglés americano) = CV (inglés británico) = hoja de vida.",
+"truco": "Résumé = «resumen» de tu vida académica y laboral.",
+"temas": [
+"vocabulario laboral",
+"hoja de vida",
+"documentos"
+],
+"gemela": {
+"contexto": "Read the description and choose the word it describes.",
+"enunciado": "A written legal agreement between an employer and a worker that states the conditions of the job:",
+"opciones": {
+"A": "contract",
+"B": "résumé",
+"C": "receipt",
+"D": "invoice"
+},
+"correcta": "A",
+"explicacion": "Un acuerdo legal escrito con las condiciones del empleo es un contrato: «contract»."
+}
+},
+{
+"id": "P11-ING-D032",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones",
+"parte": 3,
+"mcer": "A2",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: sostiene conversaciones cortas sobre temas cotidianos usando expresiones de cortesía adecuadas a la situación.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: participo en conversaciones usando fórmulas de cortesía apropiadas al interlocutor y a la situación.",
+"afirmacion": "Usa expresiones socialmente adecuadas para responder en un intercambio conversacional.",
+"evidencia": "Selecciona la respuesta convencional a un agradecimiento.",
+"contexto": "Complete the conversation.",
+"enunciado": "Thank you so much for helping me with the science project!",
+"opciones": {
+"A": "You're welcome. Anytime!",
+"B": "Yes, I'm fine, thanks.",
+"C": "Thank you too much.",
+"D": "Sure, I can help you."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Responder a otra fórmula social",
+"porque": "Elegiste B porque probablemente viste «thank you» y recordaste la respuesta a «How are you?» (I'm fine, thanks).",
+"pregunta_guia": "¿La persona te pregunta cómo estás o te está agradeciendo?",
+"aprende": "A un agradecimiento se responde con «You're welcome», «No problem» o «My pleasure»."
+},
+"C": {
+"error": "Traducción literal incorrecta",
+"porque": "Elegiste C porque probablemente quisiste decir «gracias a ti» y tradujiste palabra por palabra.",
+"pregunta_guia": "¿«Too much» significa «muchísimo» o «demasiado»?",
+"aprende": "«Too much» = demasiado; para devolver el agradecimiento se diría «Thank YOU» o «No, thank you»."
+},
+"D": {
+"error": "Responder como si fuera una petición",
+"porque": "Elegiste D porque probablemente entendiste que te pedían ayuda.",
+"pregunta_guia": "¿La ayuda ya ocurrió o la están pidiendo ahora?",
+"aprende": "«Thank you for helping» se refiere a algo que ya pasó; no es una petición."
+}
+},
+"explicacion": "Paso 1: la frase es un agradecimiento por una ayuda que ya se dio. Paso 2: la respuesta convencional en inglés es «You're welcome». Paso 3: «Anytime!» añade cordialidad (cuando quieras). Paso 4: B responde a «How are you?», C es un calco incorrecto y D trata la frase como una petición.",
+"estrategia_icfes": "En la Parte 3, identifica la función de la frase (agradecer, disculparse, invitar, pedir) y elige la fórmula social que corresponde a esa función.",
+"tip": "Funciones frecuentes: Thank you → You're welcome; Sorry → Don't worry / That's OK.",
+"truco": "Gracias → «de nada» = You're welcome.",
+"temas": [
+"fórmulas de cortesía",
+"agradecimientos",
+"conversación"
+],
+"gemela": {
+"contexto": "Complete the conversation.",
+"enunciado": "Sorry I'm late. The MIO bus took forever.",
+"opciones": {
+"A": "Yes, you are welcome.",
+"B": "Don't worry, we've just started.",
+"C": "No, I'm not late.",
+"D": "Thank you for the bus."
+},
+"correcta": "B",
+"explicacion": "A una disculpa se responde quitándole importancia: «Don't worry, we've just started»."
+}
+},
+{
+"id": "P11-ING-D033",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones",
+"parte": 3,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: participa en conversaciones formales, como entrevistas de trabajo, adecuando el registro al interlocutor.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: participo en conversaciones en las que adecúo mi lenguaje a la situación, al interlocutor y al propósito comunicativo.",
+"afirmacion": "Adecúa el registro de la respuesta a una situación comunicativa formal.",
+"evidencia": "Selecciona una respuesta coherente y de registro formal en una entrevista laboral.",
+"contexto": "Complete the conversation. (In a job interview)",
+"enunciado": "Could you tell us a little about yourself?",
+"opciones": {
+"A": "Sure, man! What do you wanna know?",
+"B": "No, I couldn't tell you that.",
+"C": "Yes, I could tell you yesterday.",
+"D": "Of course. I'm a logistics technologist from SENA."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Registro demasiado informal",
+"porque": "Elegiste A porque probablemente notaste que acepta la petición, pero no tuviste en cuenta que es una entrevista de trabajo.",
+"pregunta_guia": "¿Le dirías «man» y «wanna» a la persona que te está entrevistando para un empleo?",
+"aprende": "En situaciones formales se evitan expresiones coloquiales («man», «wanna», «gonna»)."
+},
+"B": {
+"error": "Interpretar «could you» como pregunta de capacidad",
+"porque": "Elegiste B porque probablemente entendiste «Could you…?» como «¿Eras capaz de…?».",
+"pregunta_guia": "¿El entrevistador quiere saber si eres capaz de hablar o te está pidiendo que te presentes?",
+"aprende": "«Could you…?» es una petición cortés; se responde haciendo lo que se pide."
+},
+"C": {
+"error": "Incoherencia temporal",
+"porque": "Elegiste C porque probablemente repetiste el verbo «could» sin pensar en el sentido de la respuesta.",
+"pregunta_guia": "¿Tiene sentido responder a una petición de ahora con «yesterday»?",
+"aprende": "Repetir palabras del enunciado no garantiza una respuesta coherente; revisa el tiempo y la intención."
+}
+},
+"explicacion": "Paso 1: la situación es una entrevista de trabajo: registro formal. Paso 2: «Could you tell us…?» es una petición cortés para que el candidato se presente. Paso 3: la respuesta adecuada acepta con cortesía («Of course») y comienza a presentarse. Paso 4: A es demasiado informal, B y C malinterpretan la petición y C además es incoherente en el tiempo.",
+"estrategia_icfes": "En la Parte 3 a veces hay dos respuestas que «aceptan»; decide por el registro: fíjate en la situación (entrevista, cliente, amigo) y descarta las respuestas demasiado informales o groseras.",
+"tip": "Formal: Of course / Certainly. Informal: Sure / Yeah.",
+"truco": "Entrevista = corbata en las palabras: nada de «wanna» ni «man».",
+"temas": [
+"registro formal",
+"entrevista de trabajo",
+"peticiones"
+],
+"gemela": {
+"contexto": "Complete the conversation. (At a hotel reception)",
+"enunciado": "Excuse me, could I have a late check-out tomorrow?",
+"opciones": {
+"A": "Yeah, whatever, dude.",
+"B": "Certainly. What time would you like to leave?",
+"C": "Yes, you could have it yesterday.",
+"D": "No, you couldn't ask that."
+},
+"correcta": "B",
+"explicacion": "La recepcionista atiende a un huésped: respuesta formal que acepta y continúa la conversación, «Certainly. What time would you like to leave?»."
+}
+},
+{
+"id": "P11-ING-D034",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 3 · Conversaciones",
+"parte": 3,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: sostiene conversaciones en el entorno escolar y laboral respondiendo de forma coherente a problemas cotidianos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+"afirmacion": "Identifica la respuesta apropiada a un enunciado en un intercambio conversacional.",
+"evidencia": "Selecciona la réplica que ofrece una solución coherente ante un problema que se informa.",
+"contexto": "Complete the conversation. (At the office)",
+"enunciado": "I'm afraid the printer has run out of paper.",
+"opciones": {
+"A": "I'm afraid of printers too.",
+"B": "No problem, I'll get some from the storeroom.",
+"C": "Good, so we can print the reports now.",
+"D": "Yes, the printer is very old."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Interpretar literalmente «I'm afraid»",
+"porque": "Elegiste A porque probablemente entendiste «I'm afraid» como «tengo miedo».",
+"pregunta_guia": "¿La persona tiene miedo o está dando una mala noticia con cortesía?",
+"aprende": "«I'm afraid…» al inicio de una frase es una forma cortés de dar una mala noticia («me temo que…»)."
+},
+"C": {
+"error": "Contradecir la información",
+"porque": "Elegiste C porque probablemente no entendiste «run out of» (quedarse sin algo).",
+"pregunta_guia": "Si la impresora se quedó sin papel, ¿se puede imprimir ahora?",
+"aprende": "«Run out of» = quedarse sin algo; la respuesta debe reaccionar al problema."
+},
+"D": {
+"error": "Responder con una idea no relacionada",
+"porque": "Elegiste D porque probablemente pensaste en una causa posible de que la impresora no funcione.",
+"pregunta_guia": "¿La edad de la impresora tiene que ver con que se acabó el papel?",
+"aprende": "Una buena réplica responde exactamente al problema planteado, no a otro posible problema."
+}
+},
+"explicacion": "Paso 1: «I'm afraid» introduce con cortesía una mala noticia. Paso 2: la noticia es que la impresora se quedó sin papel (run out of). Paso 3: la respuesta coherente ofrece una solución: traer papel del depósito. Paso 4: A interpreta «afraid» como miedo, C contradice la noticia y D habla de otro problema.",
+"estrategia_icfes": "En la Parte 3, el ICFES usa expresiones con sentido no literal (I'm afraid, Do you mind…?, How come…?). Interpreta la intención antes de elegir.",
+"tip": "Ante un problema, la réplica típica ofrece ayuda o una solución.",
+"truco": "«I'm afraid + mala noticia» = «Lamentablemente…».",
+"temas": [
+"conversación laboral",
+"I'm afraid",
+"phrasal verbs"
+],
+"gemela": {
+"contexto": "Complete the conversation. (At school)",
+"enunciado": "Bad news: the football match has been cancelled because of the rain.",
+"opciones": {
+"A": "Great, let's go to the stadium then.",
+"B": "Yes, the rain plays football.",
+"C": "Oh, what a pity! Let's watch a film instead.",
+"D": "I'm afraid of the rain."
+},
+"correcta": "C",
+"explicacion": "Ante la mala noticia, la réplica coherente expresa lástima y propone una alternativa."
+}
+},
+{
+"id": "P11-ING-D035",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 3 · Conversaciones",
+"parte": 3,
+"mcer": "B+",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: responde de forma adecuada a peticiones corteses que usan estructuras indirectas como «Do you mind…?».",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: participo en conversaciones usando fórmulas de cortesía apropiadas al interlocutor y a la situación.",
+"afirmacion": "Usa convenciones sociales de la lengua para responder adecuadamente en un intercambio conversacional.",
+"evidencia": "Selecciona la respuesta que concede permiso ante «Do you mind if…?», reconociendo que «no» significa aceptación.",
+"contexto": "Complete the conversation. (In a meeting room)",
+"enunciado": "Do you mind if I open the window?",
+"opciones": {
+"A": "Yes, please do it.",
+"B": "Yes, I do. Go ahead.",
+"C": "Not at all. It's really hot in here.",
+"D": "No, I mind it."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Responder «yes» para dar permiso",
+"porque": "Elegiste A porque probablemente pensaste que «Yes» significa «sí, ábrela», como en español.",
+"pregunta_guia": "«Do you mind…?» significa «¿te molesta…?». Si respondes «Yes», ¿qué estás diciendo?",
+"aprende": "Con «Do you mind…?», «Yes» significa «sí me molesta»; para dar permiso se dice «Not at all» o «No, go ahead»."
+},
+"B": {
+"error": "Contradicción entre las dos partes de la respuesta",
+"porque": "Elegiste B porque probablemente viste «Go ahead» (adelante) y no notaste que «Yes, I do» significa «sí me molesta».",
+"pregunta_guia": "¿Se puede decir al mismo tiempo «sí me molesta» y «adelante, hazlo»?",
+"aprende": "La respuesta debe ser coherente: «Yes, I do» rechaza; «Go ahead» acepta."
+},
+"D": {
+"error": "Estructura gramatical incorrecta",
+"porque": "Elegiste D porque probablemente quisiste decir «no me molesta» y tradujiste palabra por palabra.",
+"pregunta_guia": "¿Cómo se niega un verbo en presente en inglés: «I mind not» / «No, I mind» o «I don't mind»?",
+"aprende": "La negación correcta es «No, I don't mind»; «No, I mind it» dice lo contrario y es agramatical."
+}
+},
+"explicacion": "Paso 1: «Do you mind if I…?» significa literalmente «¿Te molesta si…?». Paso 2: para dar permiso hay que decir que NO molesta: «Not at all», «No, I don't mind», «No, go ahead». Paso 3: C da permiso y justifica («It's really hot in here»). Paso 4: A y B usan «Yes», que significa «sí me molesta», y D es agramatical.",
+"estrategia_icfes": "El ICFES evalúa en la Parte 3 las respuestas a «Do you mind…?» / «Would you mind…?» porque la lógica es inversa a la del español. Traduce mentalmente como «¿te molesta…?» antes de elegir.",
+"tip": "Do you mind…? → Not at all / No, go ahead = SÍ te doy permiso.",
+"truco": "MIND = molestar: «¿Te molesta?» → «¡Para nada!» (Not at all).",
+"temas": [
+"do you mind",
+"cortesía",
+"permiso"
+],
+"gemela": {
+"contexto": "Complete the conversation. (On a bus)",
+"enunciado": "Would you mind moving your bag so I can sit down?",
+"opciones": {
+"A": "Yes, I would mind. Sit down.",
+"B": "No, I mind it.",
+"C": "Yes, sure, I mind.",
+"D": "Of course not. Sorry about that."
+},
+"correcta": "D",
+"explicacion": "«Would you mind…?» = «¿te molestaría…?». Para aceptar se dice que no molesta: «Of course not», y se añade una disculpa."
+}
+},
+{
+"id": "P11-ING-D036",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 4 · Gramática en texto",
+"parte": 4,
+"mcer": "A2",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende textos descriptivos sobre su ciudad y su cultura e identifica las palabras que relacionan sus partes.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: comprendo relaciones establecidas por pronombres relativos y personales en textos de diferentes tipos.",
+"afirmacion": "Comprende la cohesión de un texto a partir de los elementos que relacionan sus partes.",
+"evidencia": "Selecciona el pronombre relativo que retoma un antecedente que no es persona.",
+"grupo": "P11-ING-D-T6",
+"contexto": "Read the text and choose the word that best fits each gap.\n\nSalsa in Cali\n\nCali, (36) ______ is known as the world capital of salsa, has more than one hundred dance schools. Every December, thousands of tourists come to the Feria de Cali, and many of (37) ______ take a few classes before going to the parties. The classes are not expensive, (38) ______ even students with a small budget can join them.",
+"enunciado": "Choose the correct option for gap (36):",
+"opciones": {
+"A": "who",
+"B": "where",
+"C": "what",
+"D": "which"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Usar «who» con un antecedente que no es persona",
+"porque": "Elegiste A porque probablemente pensaste que la ciudad «hace algo» y la trataste como persona.",
+"pregunta_guia": "¿Cali es una persona o un lugar/cosa?",
+"aprende": "«Who» se usa para personas; para cosas y lugares en función de sujeto se usa «which»."
+},
+"B": {
+"error": "Elegir «where» solo porque el antecedente es un lugar",
+"porque": "Elegiste B porque probablemente recordaste que «where» va con lugares.",
+"pregunta_guia": "Después del espacio viene «is known…». ¿«Where» puede ser el sujeto de «is»?",
+"aprende": "«Where» introduce una oración con su propio sujeto (where salsa is danced); si el relativo es el sujeto del verbo, se usa «which»."
+},
+"C": {
+"error": "Usar «what» como relativo",
+"porque": "Elegiste C porque probablemente tradujiste «que» como «what».",
+"pregunta_guia": "¿«What» puede referirse a un sustantivo mencionado justo antes?",
+"aprende": "«What» significa «lo que» y no tiene antecedente; después de un sustantivo se usa «which/who/that»."
+}
+},
+"explicacion": "Paso 1: el antecedente es «Cali» (una ciudad, no una persona). Paso 2: el relativo es el sujeto del verbo «is known». Paso 3: para cosas o lugares en función de sujeto, y entre comas, se usa «which». Paso 4: «who» es para personas, «where» necesita otro sujeto y «what» no tiene antecedente.",
+"estrategia_icfes": "En la Parte 4 (cloze) el ICFES evalúa palabras gramaticales: relativos, pronombres, preposiciones y auxiliares. Mira la palabra anterior (antecedente) y la siguiente (¿hay sujeto o directamente verbo?).",
+"tip": "Entre comas y con cosas o lugares, usa «which» (no «that»).",
+"truco": "WHO = persona; WHICH = cosa o lugar que hace la acción; WHERE = lugar + nueva oración con sujeto.",
+"temas": [
+"pronombres relativos",
+"cohesión",
+"salsa caleña"
+],
+"gemela": {
+"contexto": "Choose the word that best fits the gap.",
+"enunciado": "The Cauca River, ______ crosses the whole department, is very important for agriculture.",
+"opciones": {
+"A": "which",
+"B": "who",
+"C": "where",
+"D": "what"
+},
+"correcta": "A",
+"explicacion": "El antecedente es un río (cosa) y el relativo es el sujeto de «crosses»: «which»."
+}
+},
+{
+"id": "P11-ING-D037",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 4 · Gramática en texto",
+"parte": 4,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende textos descriptivos sobre su ciudad y su cultura e identifica las palabras que relacionan sus partes.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: comprendo relaciones establecidas por pronombres relativos y personales en textos de diferentes tipos.",
+"afirmacion": "Comprende la cohesión de un texto a partir de las referencias pronominales.",
+"evidencia": "Selecciona el pronombre objeto que retoma un referente plural después de una preposición.",
+"grupo": "P11-ING-D-T6",
+"contexto": "Read the text and choose the word that best fits each gap.\n\nSalsa in Cali\n\nCali, (36) ______ is known as the world capital of salsa, has more than one hundred dance schools. Every December, thousands of tourists come to the Feria de Cali, and many of (37) ______ take a few classes before going to the parties. The classes are not expensive, (38) ______ even students with a small budget can join them.",
+"enunciado": "Choose the correct option for gap (37):",
+"opciones": {
+"A": "them",
+"B": "they",
+"C": "their",
+"D": "theirs"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Usar pronombre sujeto después de preposición",
+"porque": "Elegiste B porque probablemente pensaste que «ellos» siempre se dice «they».",
+"pregunta_guia": "¿Qué palabra está justo antes del espacio? ¿Qué tipo de pronombre va después de una preposición como «of»?",
+"aprende": "Después de preposiciones se usan pronombres objeto: of them, with them, for them."
+},
+"C": {
+"error": "Usar adjetivo posesivo sin sustantivo",
+"porque": "Elegiste C porque probablemente pensaste en «muchos de sus…» y no notaste que no hay un sustantivo después.",
+"pregunta_guia": "¿«Their» puede ir solo o necesita un sustantivo después (their friends)?",
+"aprende": "«Their» siempre va acompañado de un sustantivo; aquí el espacio es seguido por el verbo «take»."
+},
+"D": {
+"error": "Usar pronombre posesivo en lugar de objeto",
+"porque": "Elegiste D porque probablemente pensaste que «theirs» funciona solo, sin sustantivo.",
+"pregunta_guia": "¿La frase habla de «muchos de los suyos» (cosas que les pertenecen) o de «muchos de ellos» (los turistas)?",
+"aprende": "«Theirs» = «el/los suyo(s)»; para referirse a las personas mismas después de «of» se usa «them»."
+}
+},
+"explicacion": "Paso 1: el pronombre retoma a «thousands of tourists» (plural, personas). Paso 2: va después de la preposición «of». Paso 3: después de preposición se usa pronombre objeto: «many of them». Paso 4: «they» es sujeto, «their» necesita sustantivo y «theirs» expresa posesión.",
+"estrategia_icfes": "Para pronombres en la Parte 4: identifica a quién se refiere (número y persona) y qué función cumple (sujeto, objeto, posesivo). La palabra justo antes del espacio (preposición o verbo) suele decidir.",
+"tip": "Sujeto: I, you, he, she, we, they. Objeto: me, you, him, her, us, them.",
+"truco": "Preposición + pronombre objeto: «of THEM», «with ME», «for US».",
+"temas": [
+"pronombres",
+"referencia",
+"Feria de Cali"
+],
+"gemela": {
+"contexto": "Choose the word that best fits the gap.",
+"enunciado": "Our English teachers are very patient, and all of ______ use songs in class.",
+"opciones": {
+"A": "they",
+"B": "their",
+"C": "them",
+"D": "theirs"
+},
+"correcta": "C",
+"explicacion": "Después de la preposición «of» y refiriéndose a «teachers» (plural): «them»."
+}
+},
+{
+"id": "P11-ING-D038",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 4 · Gramática en texto",
+"parte": 4,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica la relación lógica entre las ideas de un texto (causa, consecuencia, contraste) a partir de conectores.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico la organización y los conectores que relacionan las ideas en textos escritos.",
+"afirmacion": "Comprende la cohesión de un texto a partir de los conectores.",
+"evidencia": "Selecciona el conector que introduce la consecuencia de una situación.",
+"grupo": "P11-ING-D-T6",
+"contexto": "Read the text and choose the word that best fits each gap.\n\nSalsa in Cali\n\nCali, (36) ______ is known as the world capital of salsa, has more than one hundred dance schools. Every December, thousands of tourists come to the Feria de Cali, and many of (37) ______ take a few classes before going to the parties. The classes are not expensive, (38) ______ even students with a small budget can join them.",
+"enunciado": "Choose the correct option for gap (38):",
+"opciones": {
+"A": "because",
+"B": "but",
+"C": "so",
+"D": "unless"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Invertir causa y consecuencia",
+"porque": "Elegiste A porque probablemente notaste que hay una relación de causa, pero no identificaste cuál idea es la causa.",
+"pregunta_guia": "¿Las clases son baratas PORQUE los estudiantes pueden ir, o los estudiantes pueden ir PORQUE las clases son baratas?",
+"aprende": "«Because» introduce la causa; aquí la causa (clases baratas) ya está antes y lo que sigue es la consecuencia."
+},
+"B": {
+"error": "Ver contraste donde no lo hay",
+"porque": "Elegiste B porque probablemente viste «not expensive» y pensaste que había una oposición.",
+"pregunta_guia": "¿Que las clases sean baratas va en contra de que los estudiantes puedan pagarlas?",
+"aprende": "«But» une ideas que se oponen; aquí la segunda idea es resultado lógico de la primera."
+},
+"D": {
+"error": "Introducir una condición sin sentido",
+"porque": "Elegiste D porque probablemente no conocías el significado de «unless».",
+"pregunta_guia": "Si «unless» significa «a menos que», ¿tiene sentido la oración?",
+"aprende": "«Unless» = «a menos que» (condición negativa); no expresa consecuencia."
+}
+},
+"explicacion": "Paso 1: primera idea: las clases no son costosas (causa). Paso 2: segunda idea: incluso estudiantes con poco presupuesto pueden tomarlas (consecuencia). Paso 3: el conector que introduce la consecuencia es «so». Paso 4: «because» invierte la relación, «but» expresa contraste y «unless» condición.",
+"estrategia_icfes": "Ante un conector en la Parte 4, pregunta cuál idea es causa y cuál es efecto. Si el efecto viene después del espacio, usa «so»; si la causa viene después, usa «because».",
+"tip": "Causa, SO efecto. Efecto BECAUSE causa.",
+"truco": "SO = «así que» → mira hacia adelante, al resultado.",
+"temas": [
+"conectores",
+"causa y consecuencia",
+"economía familiar"
+],
+"gemela": {
+"contexto": "Choose the word that best fits the gap.",
+"enunciado": "The bus was full, ______ we decided to walk to the stadium.",
+"opciones": {
+"A": "because",
+"B": "unless",
+"C": "but",
+"D": "so"
+},
+"correcta": "D",
+"explicacion": "El bus lleno es la causa y caminar es la consecuencia, que viene después del espacio: «so»."
+}
+},
+{
+"id": "P11-ING-D039",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 5 · Comprensión literal",
+"parte": 5,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende información específica en textos auténticos del mundo laboral, como ofertas de empleo.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico información clave en textos informativos y laborales de diferentes fuentes.",
+"afirmacion": "Comprende el sentido literal de un texto y localiza información específica.",
+"evidencia": "Identifica en una oferta de empleo la función principal del cargo.",
+"grupo": "P11-ING-D-T7",
+"contexto": "Read the advertisement and answer the questions.\n\nJOB OPPORTUNITY – Digital Inclusion Assistant\n\nThe Community Technology Centre in Siloé, Cali, is looking for a young assistant to help older adults use computers and smartphones. The assistant will teach basic skills such as sending emails, making video calls and paying bills online safely.\n\nRequirements: be 18 or older; have a high school diploma; intermediate English (B1) to translate online tutorials; patience and good communication skills.\n\nSchedule: Tuesday to Saturday, 2:00 p.m. – 6:00 p.m.\nSalary: $1.300.000 a month plus transport allowance.\n\nTo apply, bring your CV and a short video (maximum two minutes) explaining why you want the job to the Centre's reception before 30 November. Interviews will take place in the first week of December.",
+"enunciado": "What will the assistant's main job be?",
+"opciones": {
+"A": "repairing older people's computers",
+"B": "teaching older adults to use technology",
+"C": "selling smartphones in the community",
+"D": "giving English classes to children"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Asociar tecnología con reparación",
+"porque": "Elegiste A porque probablemente viste «computers and smartphones» y pensaste en arreglarlos.",
+"pregunta_guia": "¿Qué verbo usa el anuncio para describir lo que hará el asistente: «repair» o «teach/help»?",
+"aprende": "Busca en el texto el verbo que describe la acción; los sustantivos solos pueden engañar."
+},
+"C": {
+"error": "Inventar información no presente en el texto",
+"porque": "Elegiste C porque probablemente relacionaste «smartphones» con una tienda.",
+"pregunta_guia": "¿El anuncio menciona ventas o productos en algún lugar?",
+"aprende": "En comprensión literal, la respuesta debe estar escrita en el texto, aunque con otras palabras."
+},
+"D": {
+"error": "Confundir un requisito con la función",
+"porque": "Elegiste D porque probablemente viste «English (B1)» y pensaste que el trabajo era enseñar inglés.",
+"pregunta_guia": "¿Para qué pide el anuncio el inglés? ¿A quiénes va a ayudar el asistente: niños o adultos mayores?",
+"aprende": "Distingue entre los requisitos del cargo (lo que debes saber) y las funciones (lo que harás)."
+}
+},
+"explicacion": "Paso 1: localiza la descripción del cargo en el primer párrafo. Paso 2: «help older adults use computers and smartphones» y «will teach basic skills». Paso 3: la función es enseñar a adultos mayores a usar la tecnología (B, con otras palabras). Paso 4: el texto no habla de reparar ni vender, y el inglés es un requisito para traducir tutoriales, no para dar clases a niños.",
+"estrategia_icfes": "En la Parte 5 el ICFES parafrasea: la opción correcta dice lo mismo que el texto con otras palabras, y los distractores toman palabras reales del texto para construir ideas falsas. Ubica el párrafo y compara la idea completa.",
+"tip": "Lee primero la pregunta y luego busca en el texto la parte que la responde (scanning).",
+"truco": "Si una opción copia palabras del texto pero cambia la acción, sospecha.",
+"temas": [
+"comprensión literal",
+"oferta de empleo",
+"inclusión digital"
+],
+"gemela": {
+"contexto": "Read the text: «Volunteers are needed at the Pance River clean-up on Sunday. Volunteers will collect plastic waste along the river and classify it for recycling. Gloves and bags will be provided.»",
+"enunciado": "What will the volunteers mainly do?",
+"opciones": {
+"A": "sell recycled bags",
+"B": "swim in the Pance River",
+"C": "pick up and sort plastic waste",
+"D": "make gloves for the event"
+},
+"correcta": "C",
+"explicacion": "El texto dice «collect plastic waste … and classify it»: recoger y clasificar residuos plásticos."
+}
+},
+{
+"id": "P11-ING-D040",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 5 · Comprensión literal",
+"parte": 5,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende información específica en textos auténticos del mundo laboral, como ofertas de empleo.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico información clave en textos informativos y laborales de diferentes fuentes.",
+"afirmacion": "Comprende el sentido literal de un texto y localiza información específica.",
+"evidencia": "Identifica la razón explícita por la que se exige un requisito en una oferta de empleo.",
+"grupo": "P11-ING-D-T7",
+"contexto": "Read the advertisement and answer the questions.\n\nJOB OPPORTUNITY – Digital Inclusion Assistant\n\nThe Community Technology Centre in Siloé, Cali, is looking for a young assistant to help older adults use computers and smartphones. The assistant will teach basic skills such as sending emails, making video calls and paying bills online safely.\n\nRequirements: be 18 or older; have a high school diploma; intermediate English (B1) to translate online tutorials; patience and good communication skills.\n\nSchedule: Tuesday to Saturday, 2:00 p.m. – 6:00 p.m.\nSalary: $1.300.000 a month plus transport allowance.\n\nTo apply, bring your CV and a short video (maximum two minutes) explaining why you want the job to the Centre's reception before 30 November. Interviews will take place in the first week of December.",
+"enunciado": "Why does the job require intermediate English?",
+"opciones": {
+"A": "to talk with foreign tourists in Siloé",
+"B": "to write emails to international companies",
+"C": "to teach English to older adults",
+"D": "to translate tutorials found on the internet"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Suponer información por conocimiento previo",
+"porque": "Elegiste A porque probablemente pensaste que el inglés sirve sobre todo para hablar con turistas.",
+"pregunta_guia": "¿El anuncio menciona turistas en alguna parte?",
+"aprende": "Responde con lo que dice el texto, no con lo que sabes o supones del mundo."
+},
+"B": {
+"error": "Mezclar dos datos del texto",
+"porque": "Elegiste B porque probablemente uniste «emails» (una habilidad que se enseña) con «English».",
+"pregunta_guia": "¿Los correos electrónicos son algo que el asistente enseñará o algo que escribirá en inglés?",
+"aprende": "Los distractores combinan palabras de distintas partes del texto; verifica que la relación exista."
+},
+"C": {
+"error": "Confundir el requisito con una función inventada",
+"porque": "Elegiste C porque probablemente pensaste que si se pide inglés es para enseñarlo.",
+"pregunta_guia": "¿Qué habilidades enseñará el asistente según el primer párrafo?",
+"aprende": "El asistente enseña habilidades digitales (emails, videollamadas, pagos), no inglés."
+}
+},
+"explicacion": "Paso 1: busca la palabra «English» en el texto. Paso 2: aparece en los requisitos: «intermediate English (B1) to translate online tutorials». Paso 3: el infinitivo «to translate» expresa la finalidad: traducir tutoriales en línea (D, parafraseado como «tutorials found on the internet»). Paso 4: turistas y empresas internacionales no aparecen, y lo que se enseña son habilidades digitales.",
+"estrategia_icfes": "Las preguntas «Why…?» de la Parte 5 suelen responderse con una estructura de finalidad en el texto (to + verbo, so that, because). Ubica la palabra clave de la pregunta y lee lo que sigue.",
+"tip": "Online = on the internet: el ICFES cambia palabras por sinónimos.",
+"truco": "Pregunta «Why?» → busca «to + verbo» o «because» cerca de la palabra clave.",
+"temas": [
+"comprensión literal",
+"finalidad",
+"bilingüismo laboral"
+],
+"gemela": {
+"contexto": "Read the text: «Applicants must have a driving licence because the job involves delivering medicines to rural health posts near Dagua.»",
+"enunciado": "Why is a driving licence required?",
+"opciones": {
+"A": "to deliver medicines to rural health posts",
+"B": "to visit doctors in Cali",
+"C": "to teach people how to drive",
+"D": "to sell cars in Dagua"
+},
+"correcta": "A",
+"explicacion": "El texto dice «because the job involves delivering medicines to rural health posts»."
+}
+},
+{
+"id": "P11-ING-D041",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 5 · Comprensión literal",
+"parte": 5,
+"mcer": "B1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende información específica en textos auténticos del mundo laboral, como ofertas de empleo.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico información clave en textos informativos y laborales de diferentes fuentes.",
+"afirmacion": "Comprende el sentido literal de un texto y localiza información específica.",
+"evidencia": "Localiza en una oferta de empleo los documentos que deben presentar los aspirantes.",
+"grupo": "P11-ING-D-T7",
+"contexto": "Read the advertisement and answer the questions.\n\nJOB OPPORTUNITY – Digital Inclusion Assistant\n\nThe Community Technology Centre in Siloé, Cali, is looking for a young assistant to help older adults use computers and smartphones. The assistant will teach basic skills such as sending emails, making video calls and paying bills online safely.\n\nRequirements: be 18 or older; have a high school diploma; intermediate English (B1) to translate online tutorials; patience and good communication skills.\n\nSchedule: Tuesday to Saturday, 2:00 p.m. – 6:00 p.m.\nSalary: $1.300.000 a month plus transport allowance.\n\nTo apply, bring your CV and a short video (maximum two minutes) explaining why you want the job to the Centre's reception before 30 November. Interviews will take place in the first week of December.",
+"enunciado": "What must applicants bring together with their CV?",
+"opciones": {
+"A": "a short video about why they want the job",
+"B": "a two-minute tutorial about smartphones",
+"C": "a letter from an older adult",
+"D": "a certificate of English level B1"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Combinar datos de distintas partes del texto",
+"porque": "Elegiste B porque probablemente uniste «two minutes» (duración del video) con «tutorials» y «smartphones», que aparecen en otros párrafos.",
+"pregunta_guia": "Según la última parte del anuncio, ¿de qué debe tratar el video?",
+"aprende": "Los distractores literales mezclan palabras reales del texto; verifica que la idea completa esté escrita así."
+},
+"C": {
+"error": "Suponer un requisito que no aparece",
+"porque": "Elegiste C porque probablemente pensaste que, como el trabajo es con adultos mayores, pedirían una recomendación de uno de ellos.",
+"pregunta_guia": "¿El anuncio menciona alguna carta?",
+"aprende": "En la Parte 5 solo vale lo que está escrito; no completes el texto con suposiciones."
+},
+"D": {
+"error": "Confundir requisito con documento solicitado",
+"porque": "Elegiste D porque probablemente recordaste que el inglés B1 es un requisito y pensaste que debías demostrarlo con un certificado.",
+"pregunta_guia": "En la sección «To apply», ¿se pide algún certificado?",
+"aprende": "Distingue lo que el aspirante debe saber (requisitos) de lo que debe entregar (documentos de aplicación)."
+}
+},
+"explicacion": "Paso 1: la pregunta se refiere a cómo aplicar; busca «To apply». Paso 2: el texto dice «bring your CV and a short video (maximum two minutes) explaining why you want the job». Paso 3: además de la hoja de vida, se entrega un video corto sobre la motivación (A). Paso 4: B mezcla palabras de otros párrafos; C y D no se piden en el anuncio.",
+"estrategia_icfes": "Las preguntas literales de la Parte 5 se responden localizando la sección exacta del texto. Usa los títulos o palabras guía (Requirements, Schedule, To apply) para ir directo a la información.",
+"tip": "Ubica la palabra clave de la pregunta (CV) y lee la oración completa donde aparece.",
+"truco": "¿QUÉ entregar? → busca «bring / send / include».",
+"temas": [
+"comprensión literal",
+"oferta de empleo",
+"aplicación laboral"
+],
+"gemela": {
+"contexto": "Read the text: «To register for the robotics camp, send a copy of your student ID and a photo of a project you have built to robotics@centro.edu.co.»",
+"enunciado": "What must students send together with their ID?",
+"opciones": {
+"A": "a robot they have built",
+"B": "a letter from their teacher",
+"C": "a photo of one of their projects",
+"D": "an email from their parents"
+},
+"correcta": "C",
+"explicacion": "El texto pide «a photo of a project you have built», junto con la copia del carné."
+}
+},
+{
+"id": "P11-ING-D042",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 6 · Comprensión inferencial",
+"parte": 6,
+"mcer": "B+",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: infiere información a partir de varios datos de un texto auténtico y la aplica a situaciones concretas.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: analizo textos descriptivos, narrativos e informativos y relaciono su información para sacar conclusiones.",
+"afirmacion": "Comprende el sentido global de un texto e infiere información que no está explícita.",
+"evidencia": "Integra varios requisitos de una oferta de empleo para decidir qué candidato los cumple todos.",
+"grupo": "P11-ING-D-T7",
+"contexto": "Read the advertisement and answer the questions.\n\nJOB OPPORTUNITY – Digital Inclusion Assistant\n\nThe Community Technology Centre in Siloé, Cali, is looking for a young assistant to help older adults use computers and smartphones. The assistant will teach basic skills such as sending emails, making video calls and paying bills online safely.\n\nRequirements: be 18 or older; have a high school diploma; intermediate English (B1) to translate online tutorials; patience and good communication skills.\n\nSchedule: Tuesday to Saturday, 2:00 p.m. – 6:00 p.m.\nSalary: $1.300.000 a month plus transport allowance.\n\nTo apply, bring your CV and a short video (maximum two minutes) explaining why you want the job to the Centre's reception before 30 November. Interviews will take place in the first week of December.",
+"enunciado": "Which of these people could apply for the job?",
+"opciones": {
+"A": "Lucía, 19, a high school graduate with B1 English who studies at university in the mornings.",
+"B": "Tomás, 17, a patient eleventh-grade student with B1 English who is free every afternoon.",
+"C": "Andrea, 22, a high school graduate with B1 English who works every weekday afternoon.",
+"D": "Martín, 25, a patient high school graduate with A1 English who is free in the afternoons."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "No revisar todos los requisitos",
+"porque": "Elegiste B porque probablemente viste que Tomás tiene inglés B1, paciencia y disponibilidad, y no verificaste la edad ni el diploma.",
+"pregunta_guia": "¿Qué edad mínima y qué título exige el anuncio?",
+"aprende": "Para decidir quién cumple, chequea UNO por UNO todos los requisitos: basta que falle uno para descartar."
+},
+"C": {
+"error": "Ignorar el horario",
+"porque": "Elegiste C porque probablemente revisaste edad, título e inglés, pero no el horario de trabajo.",
+"pregunta_guia": "Si Andrea trabaja todas las tardes entre semana, ¿puede estar en el Centro de martes a sábado de 2:00 a 6:00 p. m.?",
+"aprende": "El horario también es una condición; una inferencia correcta integra todos los datos del texto."
+},
+"D": {
+"error": "Pasar por alto el nivel de inglés",
+"porque": "Elegiste D porque probablemente te fijaste en la edad, el título y la paciencia, y no comparaste A1 con B1.",
+"pregunta_guia": "¿Qué nivel de inglés pide el anuncio? ¿A1 es mayor o menor que B1?",
+"aprende": "En el MCER el orden es A1 < A2 < B1; A1 no cumple el requisito de nivel intermedio."
+}
+},
+"explicacion": "Paso 1: requisitos: 18 años o más, diploma de bachiller, inglés B1 y disponibilidad de martes a sábado de 2:00 a 6:00 p. m. Paso 2: Lucía tiene 19 años, es bachiller, tiene B1 y estudia en las mañanas, así que tiene las tardes libres: cumple todo. Paso 3: Tomás es menor de edad y no tiene diploma; Andrea trabaja en el horario del empleo; Martín tiene inglés A1. Paso 4: la respuesta es A.",
+"estrategia_icfes": "En la Parte 6 el ICFES pide inferir combinando varios datos. Haz una lista rápida de condiciones y verifica cada opción contra todas; los distractores cumplen casi todo, pero fallan en un detalle.",
+"tip": "Tacha mentalmente: edad ✓, título ✓, inglés ✓, horario ✓. Si falta uno, descarta.",
+"truco": "Inferir = sumar pistas: la correcta cumple TODO, las demás fallan en UNA cosa.",
+"temas": [
+"comprensión inferencial",
+"requisitos",
+"inclusión digital"
+],
+"gemela": {
+"contexto": "Read the text: «Weekend lifeguard needed at a public pool in Cali. Requirements: at least 18 years old, first-aid certificate, available Saturdays and Sundays 8 a.m. – 1 p.m.»",
+"enunciado": "Who could get this job?",
+"opciones": {
+"A": "Sofía, 20, a first-aid certificate, works every Saturday morning.",
+"B": "Diego, 16, a first-aid certificate, free at weekends.",
+"C": "Camilo, 19, no first-aid certificate, free at weekends.",
+"D": "Paula, 23, a first-aid certificate, free on weekend mornings."
+},
+"correcta": "D",
+"explicacion": "Paula cumple edad, certificado y horario. Sofía trabaja los sábados en la mañana, Diego es menor de edad y Camilo no tiene certificado."
+}
+},
+{
+"id": "P11-ING-D043",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 6 · Comprensión inferencial",
+"parte": 6,
+"mcer": "B+",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica la posición, la actitud y los valores del autor en textos de opinión y testimonios.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico el punto de vista del autor y valoro los textos que leo a partir de mis conocimientos y del contexto.",
+"afirmacion": "Comprende el sentido global de un texto e infiere la actitud y los valores del autor.",
+"evidencia": "Infiere la actitud actual de la autora frente al error, distinguiéndola de lo que sintió en el pasado.",
+"grupo": "P11-ING-D-T8",
+"contexto": "Read the blog post and answer the questions.\n\nBugs, coffee and second chances – by Daniela Hurtado\n\nTwo years ago, I was a SENA student in software development who was terrified of speaking English. Today I work from my apartment in Cali as a software tester for a company based in Texas. My job is basically to find mistakes – we call them bugs – before customers do.\n\nIn my first week, I made a terrible mistake: I approved an update that had a serious bug, and the app stopped working for three hours. I wanted to disappear. But my team leader, Mark, simply asked me to write a report explaining what had happened and what I would do differently next time. That report became our team's checklist, and we still use it every day.\n\nSound familiar? Maybe you also think that a mistake means you are not good enough. In my job, a mistake that is found and understood is valuable information. If you are a student thinking about a tech career, don't wait until your English is perfect. Join online communities, read documentation and ask questions, even if your grammar isn't perfect. Every bug I find reminds me of that first week.",
+"enunciado": "What is Daniela's attitude towards mistakes now?",
+"opciones": {
+"A": "She thinks they should be hidden from team leaders.",
+"B": "She sees them as a source of learning and improvement.",
+"C": "She believes they only happen to people who are beginners.",
+"D": "She considers them proof that a person is not good enough."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Contradecir lo narrado en el texto",
+"porque": "Elegiste A porque probablemente pensaste que, después de un error grave, lo normal es ocultarlo.",
+"pregunta_guia": "¿Qué hizo Daniela con su error: lo ocultó o escribió un informe sobre él?",
+"aprende": "Las inferencias deben apoyarse en el texto: Daniela reportó su error y eso mejoró el trabajo del equipo."
+},
+"C": {
+"error": "Generalizar a partir de un detalle",
+"porque": "Elegiste C porque probablemente te fijaste en que su error ocurrió en su primera semana.",
+"pregunta_guia": "Si su trabajo diario es encontrar errores, ¿cree ella que los errores solo los cometen los principiantes?",
+"aprende": "Un dato concreto (su error fue en la primera semana) no autoriza una conclusión general que el texto no sostiene."
+},
+"D": {
+"error": "Confundir la actitud pasada con la actual",
+"porque": "Elegiste D porque probablemente leíste «a mistake means you are not good enough» y no notaste que la autora presenta esa idea para rechazarla.",
+"pregunta_guia": "¿Esa frase expresa lo que Daniela piensa hoy o lo que ella cree que piensan algunos lectores (y que ella misma sintió al principio)?",
+"aprende": "Distingue la voz de la autora de las ideas que ella cita para contradecirlas; la pregunta dice «now»."
+}
+},
+"explicacion": "Paso 1: la pregunta pide su actitud actual («now»). Paso 2: en el pasado se sintió muy mal («I wanted to disappear»), pero su error se convirtió en la lista de chequeo del equipo. Paso 3: hoy afirma que «a mistake that is found and understood is valuable information». Paso 4: concluye que ve los errores como fuente de aprendizaje y mejora (B). A contradice lo que hizo, C generaliza sin base y D es la idea que ella rechaza.",
+"estrategia_icfes": "En las preguntas de actitud del autor, el ICFES suele incluir como distractor una idea que el texto menciona pero que el autor critica, o lo que el autor sentía antes. Busca las frases en las que el autor da su propia valoración y fíjate en los marcadores de tiempo (then / now).",
+"tip": "Pregúntate: ¿quién dice esto en el texto y en qué momento?",
+"truco": "Actitud = lo que el autor CONCLUYE, no lo que SINTIÓ al inicio.",
+"temas": [
+"actitud del autor",
+"aprender del error",
+"inglés en tecnología"
+],
+"gemela": {
+"contexto": "Read the text: «When I started my bakery in Palmira, my first cakes were a disaster. At first I wanted to quit. Now I keep a notebook with every failed recipe, because each one taught me something about temperatures and ingredients.»",
+"enunciado": "What is the writer's attitude towards failure now?",
+"opciones": {
+"A": "She wants to quit when a recipe fails.",
+"B": "She hides her failed recipes from customers.",
+"C": "She thinks failed recipes are useful lessons.",
+"D": "She believes only beginners make bad cakes."
+},
+"correcta": "C",
+"explicacion": "Hoy guarda las recetas fallidas «because each one taught me something»: las ve como lecciones útiles. Querer renunciar fue su reacción inicial."
+}
+},
+{
+"id": "P11-ING-D044",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 6 · Comprensión inferencial",
+"parte": 6,
+"mcer": "B+",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica el propósito, el destinatario y el contexto de producción de textos auténticos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico el propósito, el público y el contexto de los textos que leo, y valoro su contenido.",
+"afirmacion": "Comprende el sentido global de un texto e infiere a quién va dirigido según su contenido y su registro.",
+"evidencia": "Infiere el destinatario principal de un texto a partir de los consejos que da y de las marcas de interlocución.",
+"grupo": "P11-ING-D-T8",
+"contexto": "Read the blog post and answer the questions.\n\nBugs, coffee and second chances – by Daniela Hurtado\n\nTwo years ago, I was a SENA student in software development who was terrified of speaking English. Today I work from my apartment in Cali as a software tester for a company based in Texas. My job is basically to find mistakes – we call them bugs – before customers do.\n\nIn my first week, I made a terrible mistake: I approved an update that had a serious bug, and the app stopped working for three hours. I wanted to disappear. But my team leader, Mark, simply asked me to write a report explaining what had happened and what I would do differently next time. That report became our team's checklist, and we still use it every day.\n\nSound familiar? Maybe you also think that a mistake means you are not good enough. In my job, a mistake that is found and understood is valuable information. If you are a student thinking about a tech career, don't wait until your English is perfect. Join online communities, read documentation and ask questions, even if your grammar isn't perfect. Every bug I find reminds me of that first week.",
+"enunciado": "Who is the blog post mainly written for?",
+"opciones": {
+"A": "her team leader and colleagues in Texas",
+"B": "customers who use the company's app",
+"C": "young people who are interested in tech careers",
+"D": "experienced engineers who want to find new jobs"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir a las personas mencionadas con los destinatarios",
+"porque": "Elegiste A porque probablemente pensaste que, como Mark y la empresa aparecen en la historia, el texto es para ellos.",
+"pregunta_guia": "¿Daniela le daría a su propio jefe el consejo «don't wait until your English is perfect»?",
+"aprende": "Que una persona aparezca en un texto no significa que sea su destinataria; mira a quién se dirigen los consejos."
+},
+"B": {
+"error": "Tomar un detalle del trabajo como el público",
+"porque": "Elegiste B porque probablemente te fijaste en que la app falló y afectó a los clientes.",
+"pregunta_guia": "¿El texto da información o disculpas a los clientes, o da consejos sobre cómo empezar una carrera?",
+"aprende": "El destinatario se deduce del propósito global del texto, no de un episodio de la historia."
+},
+"D": {
+"error": "No considerar el nivel de los consejos",
+"porque": "Elegiste D porque probablemente pensaste que un texto sobre software se dirige a ingenieros.",
+"pregunta_guia": "¿Unos ingenieros con experiencia necesitarían consejos como «join online communities» o «don't wait until your English is perfect»?",
+"aprende": "El tipo de consejo revela el perfil del lector: aquí son principiantes y estudiantes."
+}
+},
+"explicacion": "Paso 1: busca a quién se dirige la autora con «you»: «If you are a student thinking about a tech career…». Paso 2: sus consejos (no esperar a tener un inglés perfecto, unirse a comunidades, hacer preguntas) son para principiantes. Paso 3: su propia historia (de estudiante del SENA a probadora de software) sirve de ejemplo para ese público. Paso 4: el texto se dirige a jóvenes interesados en carreras tecnológicas (C). Mark, los clientes y los ingenieros expertos no son el público de esos consejos.",
+"estrategia_icfes": "Para inferir el destinatario, el ICFES espera que observes: a quién se habla directamente (you, if you are…), qué tipo de consejos o información se da y qué conocimientos previos supone el texto.",
+"tip": "La frase «If you are a … » casi siempre revela el público objetivo.",
+"truco": "Destinatario = la persona a quien van dirigidos los CONSEJOS.",
+"temas": [
+"destinatario",
+"propósito del texto",
+"carreras tecnológicas"
+],
+"gemela": {
+"contexto": "Read the text: «Starting your first semester at university? Don't panic! Make a weekly timetable, find a study group and visit the library during your first week. Trust me, I was as lost as you are now.»",
+"enunciado": "Who is this text mainly written for?",
+"opciones": {
+"A": "university librarians",
+"B": "new university students",
+"C": "professors who make timetables",
+"D": "parents of school children"
+},
+"correcta": "B",
+"explicacion": "La pregunta inicial («Starting your first semester…?») y los consejos van dirigidos a estudiantes que empiezan la universidad."
+}
+},
+{
+"id": "P11-ING-D045",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 6 · Comprensión inferencial",
+"parte": 6,
+"mcer": "B1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce los recursos lingüísticos que usa un autor para acercarse al lector y adecuar el registro de un texto.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11: identifico el propósito del autor y los recursos lingüísticos que utiliza según el público y la situación comunicativa.",
+"afirmacion": "Reconoce el registro de un texto y la intención comunicativa de los recursos que usa el autor.",
+"evidencia": "Infiere la función de las preguntas retóricas y de la segunda persona en un texto informal.",
+"grupo": "P11-ING-D-T8",
+"contexto": "Read the blog post and answer the questions.\n\nBugs, coffee and second chances – by Daniela Hurtado\n\nTwo years ago, I was a SENA student in software development who was terrified of speaking English. Today I work from my apartment in Cali as a software tester for a company based in Texas. My job is basically to find mistakes – we call them bugs – before customers do.\n\nIn my first week, I made a terrible mistake: I approved an update that had a serious bug, and the app stopped working for three hours. I wanted to disappear. But my team leader, Mark, simply asked me to write a report explaining what had happened and what I would do differently next time. That report became our team's checklist, and we still use it every day.\n\nSound familiar? Maybe you also think that a mistake means you are not good enough. In my job, a mistake that is found and understood is valuable information. If you are a student thinking about a tech career, don't wait until your English is perfect. Join online communities, read documentation and ask questions, even if your grammar isn't perfect. Every bug I find reminds me of that first week.",
+"enunciado": "Why does Daniela write «Sound familiar?» and address the reader as «you»?",
+"opciones": {
+"A": "to create a friendly, close connection with her readers",
+"B": "to ask readers to send her their answers by email",
+"C": "to show that the text is an official company report",
+"D": "to check whether readers understood the grammar"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Tomar una pregunta retórica como pregunta real",
+"porque": "Elegiste B porque probablemente pensaste que toda pregunta espera una respuesta del lector.",
+"pregunta_guia": "¿Daniela da alguna dirección o pide que le escriban? ¿Espera de verdad una respuesta?",
+"aprende": "Una pregunta retórica no busca respuesta: busca que el lector se identifique o reflexione."
+},
+"C": {
+"error": "No reconocer el registro informal",
+"porque": "Elegiste C porque probablemente asociaste el tema laboral (empresa, informe) con un texto oficial.",
+"pregunta_guia": "¿Un informe oficial usaría frases como «I wanted to disappear» o «Sound familiar?»?",
+"aprende": "Las preguntas directas, la primera y la segunda persona y las expresiones emocionales indican un registro informal y personal, propio de un blog."
+},
+"D": {
+"error": "Confundir el propósito del texto con el de un ejercicio",
+"porque": "Elegiste D porque probablemente pensaste que las preguntas en inglés sirven para evaluar.",
+"pregunta_guia": "¿El blog de Daniela es un examen de inglés o un testimonio con consejos?",
+"aprende": "Interpreta los recursos del autor según el tipo de texto y su propósito comunicativo."
+}
+},
+"explicacion": "Paso 1: «Sound familiar?» es una pregunta retórica: no espera respuesta. Paso 2: con ella y con el uso de «you», Daniela invita al lector a identificarse con su experiencia. Paso 3: el texto es un blog personal de registro informal, con el propósito de motivar. Paso 4: la función es crear una conexión cercana y amistosa con los lectores (A). No pide respuestas por correo, no es un informe oficial y no evalúa gramática.",
+"estrategia_icfes": "El ICFES pregunta por la función de ciertas expresiones en el texto (preguntas retóricas, uso de «you», ejemplos personales). Relaciona el recurso con el tipo de texto (blog, informe, aviso) y con su propósito (informar, motivar, convencer).",
+"tip": "Blog + «you» + preguntas sin respuesta = el autor quiere acercarse al lector.",
+"truco": "Pregunta retórica = «¿te suena?»: busca complicidad, no respuesta.",
+"temas": [
+"registro informal",
+"preguntas retóricas",
+"intención del autor"
+],
+"gemela": {
+"contexto": "Read the text: «Tired of spending all your money on snacks? You're not alone. Here are three simple ways to start saving this month.»",
+"enunciado": "Why does the writer begin with a question and use «you»?",
+"opciones": {
+"A": "to show that the text is a bank contract",
+"B": "to ask readers to answer in the comments",
+"C": "to test readers on vocabulary about money",
+"D": "to make readers feel the text speaks to them"
+},
+"correcta": "D",
+"explicacion": "La pregunta retórica y el «you» buscan que el lector se identifique con el problema antes de leer los consejos."
+}
+}
+]

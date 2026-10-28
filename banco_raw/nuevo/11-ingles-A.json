@@ -1,0 +1,2927 @@
+[
+{
+"id": "P11-ING-A001",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información específica en textos cortos y avisos de su entorno relacionados con viajes y servicios.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona las palabras clave de un aviso con el contexto en el que se usa.",
+"contexto": "PLEASE KEEP YOUR SEATBELT FASTENED WHILE THE SIGN IS ON",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "In a restaurant.",
+"B": "On a plane.",
+"C": "In a library.",
+"D": "In a supermarket."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Elegir un lugar sin relación con las palabras clave",
+"porque": "Elegiste A porque probablemente leíste «sign» y pensaste en el letrero de un restaurante.",
+"pregunta_guia": "¿En un restaurante te piden abrocharte algo mientras una luz está encendida?",
+"aprende": "«Seatbelt» (cinturón de seguridad) solo tiene sentido en un medio de transporte."
+},
+"C": {
+"error": "Asociar «keep» con silencio",
+"porque": "Elegiste C porque probablemente relacionaste «please keep…» con avisos como «please keep quiet» de una biblioteca.",
+"pregunta_guia": "¿Qué palabra viene después de «keep» en este aviso: «quiet» o «seatbelt»?",
+"aprende": "No te quedes con el verbo; la palabra clave del aviso es el sustantivo «seatbelt»."
+},
+"D": {
+"error": "Responder sin identificar el vocabulario",
+"porque": "Elegiste D porque probablemente no reconociste «seatbelt» y escogiste un lugar público cualquiera.",
+"pregunta_guia": "Divide la palabra: «seat» (asiento) + «belt» (cinturón). ¿Dónde hay asientos con cinturón?",
+"aprende": "Las palabras compuestas se entienden uniendo sus partes: seat + belt = cinturón del asiento."
+}
+},
+"explicacion": "Paso 1: identifica la palabra clave: «seatbelt» = cinturón de seguridad. Paso 2: «while the sign is on» = mientras la señal esté encendida. Paso 3: el lugar donde hay una señal luminosa que indica abrocharse el cinturón es un avión. Restaurante, biblioteca y supermercado no tienen cinturones de seguridad.",
+"estrategia_icfes": "En la Parte 1 el ICFES muestra un aviso real y pregunta dónde se puede ver. Subraya la palabra más específica del aviso (sustantivo o verbo poco común) y pregúntate en qué lugar se usa SIEMPRE esa palabra.",
+"tip": "Busca la palabra que solo pertenece a un lugar; las palabras generales (please, keep) no deciden.",
+"truco": "Palabra compuesta = suma de partes: seat (asiento) + belt (cinturón).",
+"temas": [
+"avisos",
+"viajes",
+"palabras compuestas"
+],
+"gemela": {
+"contexto": "MIND THE GAP BETWEEN THE TRAIN AND THE PLATFORM",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "At a cinema.",
+"B": "At a hospital.",
+"C": "At a museum.",
+"D": "At a train station."
+},
+"correcta": "D",
+"explicacion": "«Train» (tren) y «platform» (andén) solo aparecen juntos en una estación de tren; «mind the gap» advierte sobre el espacio entre el tren y el andén."
+}
+},
+{
+"id": "P11-ING-A002",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende el propósito de avisos, instrucciones y señales en lugares públicos y de trabajo.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico el propósito de un texto y lo relaciono con la situación en que aparece.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Reconoce la restricción que expresa un aviso de acceso.",
+"contexto": "STAFF ONLY BEYOND THIS POINT",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "Everybody can go in here.",
+"B": "Workers must leave now.",
+"C": "Visitors can find workers here.",
+"D": "Only employees can go past here."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Ignorar la palabra «only»",
+"porque": "Elegiste A porque probablemente no tuviste en cuenta «only», que restringe el acceso.",
+"pregunta_guia": "Si un aviso dice «solo X», ¿todo el mundo puede pasar?",
+"aprende": "«Only» limita: «staff only» = solo el personal."
+},
+"B": {
+"error": "Interpretar el aviso como una orden al personal",
+"porque": "Elegiste B porque probablemente viste «staff» y pensaste que el aviso le da una orden a los trabajadores.",
+"pregunta_guia": "¿El aviso habla de salir o de quién puede pasar de ese punto?",
+"aprende": "«Beyond this point» = más allá de este punto; el aviso indica hasta dónde pueden pasar las personas."
+},
+"C": {
+"error": "Confundir restricción con información",
+"porque": "Elegiste C porque probablemente entendiste que en ese lugar se puede encontrar al personal para pedir ayuda.",
+"pregunta_guia": "¿El aviso invita a los visitantes o les impide el paso?",
+"aprende": "Un aviso con «only» es una restricción, no una invitación."
+}
+},
+"explicacion": "Paso 1: «staff» = personal, empleados. Paso 2: «only» = solamente. Paso 3: «beyond this point» = más allá de este punto. Paso 4: el aviso dice que solo los empleados pueden pasar de allí: opción D. A contradice «only»; B y C cambian la intención del aviso.",
+"estrategia_icfes": "Cuando el ICFES pregunta qué significa un aviso, las opciones parafrasean el mensaje con otras palabras. Traduce primero la idea del aviso y luego busca la opción que dice lo mismo con sinónimos (staff = employees, beyond = past).",
+"tip": "Busca la paráfrasis: el ICFES casi nunca repite las mismas palabras del aviso en la respuesta correcta.",
+"truco": "«X only» = solo X. Staff = employees = workers.",
+"temas": [
+"avisos",
+"restricciones",
+"sinónimos"
+],
+"gemela": {
+"contexto": "NO ENTRY — AUTHORIZED PERSONNEL ONLY",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Only people with permission can enter.",
+"B": "Nobody works in this area.",
+"C": "Everyone is welcome to enter.",
+"D": "People must leave by this door."
+},
+"correcta": "A",
+"explicacion": "«Authorized personnel only» = solo personal autorizado; es decir, solo quienes tienen permiso pueden entrar."
+}
+},
+{
+"id": "P11-ING-A003",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información específica en textos cortos de su entorno escolar y comunitario.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona vocabulario específico de un aviso (due date, fine) con el lugar donde se usa.",
+"contexto": "Return books by the due date or pay a fine of $500 per day.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "In a library.",
+"B": "In a bank.",
+"C": "In a stadium.",
+"D": "In a bakery."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Asociar «pay» y «$» con un banco",
+"porque": "Elegiste B porque probablemente viste «pay» y el signo $ y pensaste en dinero, es decir, en un banco.",
+"pregunta_guia": "¿Qué objeto hay que devolver según el aviso? ¿Se presta en un banco?",
+"aprende": "El dinero aparece en muchos avisos; la palabra que decide aquí es «books»."
+},
+"C": {
+"error": "Elegir un lugar público sin justificación",
+"porque": "Elegiste C porque probablemente no comprendiste «return» ni «due date» y escogiste un lugar al azar.",
+"pregunta_guia": "«Return» significa devolver. ¿Qué se devuelve en un estadio?",
+"aprende": "Return = devolver; due date = fecha límite de entrega; fine = multa."
+},
+"D": {
+"error": "Confundir «books» con otro producto",
+"porque": "Elegiste D porque probablemente pensaste que en una panadería también se paga por día o confundiste palabras parecidas.",
+"pregunta_guia": "¿Una panadería presta productos que después hay que devolver?",
+"aprende": "Prestar y devolver con fecha límite es propio de una biblioteca."
+}
+},
+"explicacion": "Paso 1: «return books» = devolver libros. Paso 2: «due date» = fecha límite. Paso 3: «fine» = multa (no «fino»). Paso 4: el lugar que presta libros y cobra multa por entregarlos tarde es una biblioteca. Banco, estadio y panadería no prestan libros.",
+"estrategia_icfes": "En avisos con varias palabras, el ICFES incluye una pista que lleva a un distractor (aquí «pay $» lleva a «bank»). Identifica la acción central (return books) antes de decidir.",
+"tip": "Pregúntate: ¿cuál es la ACCIÓN que pide el aviso? Esa acción define el lugar.",
+"truco": "«Fine» en avisos casi siempre es multa: «Fine for late return» = multa por entrega tardía.",
+"temas": [
+"avisos",
+"biblioteca",
+"vocabulario escolar"
+],
+"gemela": {
+"contexto": "Please return your trays to the counter when you finish eating.",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "At a post office.",
+"B": "At a gym.",
+"C": "At a school cafeteria.",
+"D": "At a bookshop."
+},
+"correcta": "C",
+"explicacion": "«Trays» (bandejas) y «finish eating» (terminar de comer) indican un lugar donde se come y se devuelve la bandeja: la cafetería del colegio."
+}
+},
+{
+"id": "P11-ING-A004",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A-",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende instrucciones y prohibiciones sencillas en avisos de lugares públicos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: comprendo instrucciones escritas para llevar a cabo actividades cotidianas.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Reconoce una prohibición expresada con «Do not».",
+"contexto": "Zoológico de Cali — DO NOT FEED THE ANIMALS",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "You can buy food for the animals here.",
+"B": "The animals are very hungry now.",
+"C": "Don't give any food to the animals.",
+"D": "The animals eat at this time of day."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Ignorar la negación",
+"porque": "Elegiste A porque probablemente leíste «feed» y «animals» sin notar el «DO NOT» del inicio.",
+"pregunta_guia": "¿Qué cambia en la frase cuando empieza con «Do not»?",
+"aprende": "«Do not + verbo» expresa una prohibición: no hagas eso."
+},
+"B": {
+"error": "Inferir algo que el aviso no dice",
+"porque": "Elegiste B porque probablemente pensaste que, si se habla de comida, los animales tienen hambre.",
+"pregunta_guia": "¿El aviso describe a los animales o da una instrucción a los visitantes?",
+"aprende": "Los avisos suelen dar instrucciones; no describen el estado de nadie."
+},
+"D": {
+"error": "Confundir prohibición con horario",
+"porque": "Elegiste D porque probablemente relacionaste «feed» con la hora de comer de los animales.",
+"pregunta_guia": "¿Ves alguna hora en el aviso?",
+"aprende": "Si el aviso no menciona tiempo, la respuesta no puede tratar de horarios."
+}
+},
+"explicacion": "Paso 1: «Do not» = no. Paso 2: «feed» = alimentar, dar de comer. Paso 3: el aviso prohíbe a los visitantes darles comida a los animales: opción C. A contradice la prohibición, B y D agregan información que no está en el aviso.",
+"estrategia_icfes": "En avisos de prohibición, el ICFES ofrece distractores que eliminan la negación o que inventan información. Identifica primero si el aviso prohíbe, permite o informa.",
+"tip": "Mira la primera palabra del aviso: «Do not», «No», «Please» cambian todo el sentido.",
+"truco": "Feed = dar comida (food → feed).",
+"temas": [
+"avisos",
+"prohibiciones",
+"imperativo negativo"
+],
+"gemela": {
+"contexto": "Parque del Perro — PLEASE DO NOT WALK ON THE GRASS",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "You can play on the grass.",
+"B": "Don't step on the grass.",
+"C": "The grass is new and green.",
+"D": "Cut the grass every week."
+},
+"correcta": "B",
+"explicacion": "«Do not walk on the grass» = no camines sobre el césped; «don't step on» es una paráfrasis."
+}
+},
+{
+"id": "P11-ING-A005",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información específica sobre horarios y normas en textos cortos de lugares recreativos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona palabras clave (swimming, lifeguard) con el lugar donde se ubica un aviso.",
+"contexto": "Swimming after 6 p.m. is not allowed. Lifeguard on duty from 8 a.m. to 6 p.m.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "In a hotel restaurant.",
+"B": "At a bus stop.",
+"C": "At a swimming pool.",
+"D": "In a classroom."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Asociar «hotel» con el horario",
+"porque": "Elegiste A porque probablemente pensaste que un hotel tiene horarios y piscina, y escogiste la opción que menciona hotel.",
+"pregunta_guia": "¿El aviso habla de comer o de nadar?",
+"aprende": "Lee el lugar exacto de la opción: «hotel restaurant» es un restaurante, no una piscina."
+},
+"B": {
+"error": "Fijarse solo en los horarios",
+"porque": "Elegiste B porque probablemente viste las horas (8 a.m., 6 p.m.) y pensaste en el horario de un bus.",
+"pregunta_guia": "¿Qué actividad tiene horario según el aviso?",
+"aprende": "Los horarios aparecen en muchos avisos; la actividad (swimming) decide el lugar."
+},
+"D": {
+"error": "No reconocer «lifeguard»",
+"porque": "Elegiste D porque probablemente entendiste «on duty» como el deber de alguien en el colegio.",
+"pregunta_guia": "«Lifeguard» = salvavidas. ¿Dónde trabaja un salvavidas?",
+"aprende": "Lifeguard on duty = salvavidas de turno, propio de piscinas y playas."
+}
+},
+"explicacion": "Paso 1: «swimming» = nadar. Paso 2: «is not allowed» = no está permitido. Paso 3: «lifeguard on duty» = salvavidas de turno. Paso 4: un salvavidas y la norma de nadar solo en cierto horario indican una piscina. Las demás opciones no tienen relación con nadar.",
+"estrategia_icfes": "El ICFES mezcla datos que aparecen en muchos avisos (horas, precios) con palabras específicas. Ignora los datos comunes y concéntrate en la palabra exclusiva del lugar.",
+"tip": "Las horas y los precios casi nunca deciden la respuesta en la Parte 1.",
+"truco": "Life (vida) + guard (guardia) = salvavidas.",
+"temas": [
+"avisos",
+"normas",
+"recreación"
+],
+"gemela": {
+"contexto": "Shoes off before stepping on the mats. Please bring your own towel.",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "At a yoga studio.",
+"B": "At a bank.",
+"C": "In a car park.",
+"D": "At a post office."
+},
+"correcta": "A",
+"explicacion": "«Mats» (colchonetas), quitarse los zapatos y traer toalla son normas de un estudio de yoga."
+}
+},
+{
+"id": "P11-ING-A006",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario de uso frecuente en etiquetas y avisos de productos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Reconoce el significado de «fragile» y «handle» para ubicar el aviso.",
+"contexto": "FRAGILE — HANDLE WITH CARE",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "On a box.",
+"B": "On a door.",
+"C": "On a menu.",
+"D": "On a bus."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir «handle» sustantivo con verbo",
+"porque": "Elegiste B porque probablemente sabías que «handle» también es la manija de una puerta.",
+"pregunta_guia": "En «handle with care», ¿«handle» es un objeto o una acción?",
+"aprende": "Handle (verbo) = manipular; «handle with care» = manipular con cuidado."
+},
+"C": {
+"error": "Elegir sin entender «fragile»",
+"porque": "Elegiste C porque probablemente no reconociste «fragile» y escogiste un lugar con texto escrito.",
+"pregunta_guia": "«Fragile» se parece a una palabra en español. ¿Cuál?",
+"aprende": "Fragile = frágil (cognado). Se escribe en cajas con objetos que se rompen."
+},
+"D": {
+"error": "Asociar «care» con seguridad vial",
+"porque": "Elegiste D porque probablemente relacionaste «with care» con conducir con cuidado.",
+"pregunta_guia": "¿Qué es lo frágil en un bus? ¿Qué se manipula con las manos?",
+"aprende": "«Fragile» describe un objeto que puede romperse, no un vehículo."
+}
+},
+"explicacion": "Paso 1: «fragile» es un cognado de «frágil». Paso 2: «handle with care» = manipular con cuidado. Paso 3: estas palabras aparecen en cajas o paquetes con objetos que se pueden romper. Puerta, menú y bus no son objetos frágiles que se manipulan.",
+"estrategia_icfes": "Aprovecha los cognados (palabras parecidas al español: fragile, attention, information) porque te dan la idea central del aviso en segundos.",
+"tip": "Primero busca palabras que se parezcan al español; pero cuidado con los falsos cognados.",
+"truco": "Handle = mano en acción → manipular.",
+"temas": [
+"avisos",
+"etiquetas",
+"cognados"
+],
+"gemela": {
+"contexto": "KEEP REFRIGERATED AFTER OPENING",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "On a T-shirt.",
+"B": "On a bottle of juice.",
+"C": "On a school bag.",
+"D": "On a bicycle."
+},
+"correcta": "B",
+"explicacion": "«Refrigerated» (refrigerado) y «after opening» (después de abrir) se refieren a un alimento o bebida: una botella de jugo."
+}
+},
+{
+"id": "P11-ING-A007",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A-",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información en textos cortos relacionados con comida, precios y servicios de su ciudad.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona la expresión «today's special» y nombres de platos con el lugar donde se ofrece comida.",
+"contexto": "TODAY'S SPECIAL: Sancocho de gallina with rice and avocado — $18.000",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "In a pharmacy.",
+"B": "In a hardware store.",
+"C": "In a bus terminal.",
+"D": "In a restaurant."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Interpretar «special» como oferta de cualquier tienda",
+"porque": "Elegiste A porque probablemente entendiste «special» como una oferta y pensaste en una promoción de farmacia.",
+"pregunta_guia": "¿Lo que se ofrece en el aviso se come o se usa como medicina?",
+"aprende": "«Today's special» = plato del día, expresión propia de restaurantes."
+},
+"B": {
+"error": "Elegir sin leer el producto",
+"porque": "Elegiste B porque probablemente te fijaste en el precio y no en lo que se ofrece.",
+"pregunta_guia": "¿Qué se vende en una ferretería? ¿Se parece a «sancocho with rice»?",
+"aprende": "El producto ofrecido define el lugar, no el precio."
+},
+"C": {
+"error": "Asociar un lugar con comida de paso",
+"porque": "Elegiste C porque probablemente pensaste que en una terminal también venden comida.",
+"pregunta_guia": "¿Cuál de las opciones es un lugar cuya función principal es servir platos de comida?",
+"aprende": "Busca el lugar más directo y típico para el aviso, no uno posible pero secundario."
+}
+},
+"explicacion": "Paso 1: «today's special» = plato especial del día. Paso 2: sancocho con arroz y aguacate es un plato de comida. Paso 3: el lugar donde se anuncia el plato del día es un restaurante. Farmacia y ferretería no venden comida; en la terminal no es lo típico ni la función del lugar.",
+"estrategia_icfes": "Si dos opciones parecen posibles, el ICFES espera la más típica y directa. Pregúntate: ¿dónde se escribe NORMALMENTE este aviso?",
+"tip": "Elige el lugar cuya función principal coincide con el aviso.",
+"truco": "Special of the day / today's special = menú del día.",
+"temas": [
+"avisos",
+"comida",
+"restaurante"
+],
+"gemela": {
+"contexto": "2 FOR 1 ON ALL SHAMPOOS THIS WEEK",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "At a cinema.",
+"B": "At a hospital.",
+"C": "At a supermarket.",
+"D": "At a church."
+},
+"correcta": "C",
+"explicacion": "«2 for 1» es una promoción (pague 1 lleve 2) de un producto (shampoo): se ve en un supermercado."
+}
+},
+{
+"id": "P11-ING-A008",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende instrucciones escritas que incluyen verbos frasales de uso frecuente.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: comprendo instrucciones escritas para llevar a cabo actividades cotidianas.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Reconoce el significado del verbo frasal «switch off» en una instrucción.",
+"contexto": "Please switch off your mobile phone before the film starts.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "You can use your phone if you are quiet.",
+"B": "Turn off your phone before the film.",
+"C": "You can buy a new phone here.",
+"D": "Charge your phone before the film."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Suavizar la instrucción",
+"porque": "Elegiste A porque probablemente pensaste que el aviso solo pide no hacer ruido con el teléfono.",
+"pregunta_guia": "¿El aviso dice «silence» o «switch off»?",
+"aprende": "Switch off = apagar por completo, no solo silenciar."
+},
+"C": {
+"error": "Asociar «mobile phone» con venta",
+"porque": "Elegiste C porque probablemente reconociste «mobile phone» y pensaste en una tienda de celulares.",
+"pregunta_guia": "¿Qué verbo acompaña a «mobile phone» en el aviso?",
+"aprende": "Lee el verbo: él dice qué hay que hacer con el objeto."
+},
+"D": {
+"error": "Confundir «switch off» con «charge»",
+"porque": "Elegiste D porque probablemente asociaste «switch» con electricidad y pensaste en cargar el teléfono.",
+"pregunta_guia": "¿«Off» indica encender, cargar o apagar?",
+"aprende": "Switch on = encender; switch off = apagar. La partícula cambia el significado."
+}
+},
+"explicacion": "Paso 1: «switch off» es un verbo frasal = apagar. Paso 2: «before the film starts» = antes de que empiece la película. Paso 3: «turn off» es sinónimo de «switch off», por eso B es la paráfrasis correcta. A suaviza la orden, C y D cambian la acción.",
+"estrategia_icfes": "Los verbos frasales (switch off, turn on, put away) son muy frecuentes en avisos. El ICFES suele reemplazarlos por un sinónimo en la opción correcta: memoriza pares como switch off = turn off.",
+"tip": "Mira la partícula (on/off/up/down): ella define el significado del verbo frasal.",
+"truco": "OFF = apagado (como en los botones ON/OFF).",
+"temas": [
+"avisos",
+"verbos frasales",
+"cine"
+],
+"gemela": {
+"contexto": "Museo La Tertulia — Please do not use flash when taking photos.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Photos are not allowed at all.",
+"B": "You must buy photos at the shop.",
+"C": "Use your flash in dark rooms.",
+"D": "You can take photos, but without flash."
+},
+"correcta": "D",
+"explicacion": "El aviso no prohíbe las fotos; solo prohíbe el flash. Por eso D es la paráfrasis exacta."
+}
+},
+{
+"id": "P11-ING-A009",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce expresiones fijas de uso frecuente en avisos y señales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Reconoce el significado de la expresión fija «out of order».",
+"contexto": "Sign on an elevator: OUT OF ORDER",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "The machine is not working.",
+"B": "The machine is new.",
+"C": "People must wait in a line.",
+"D": "Use the buttons in order."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Adivinar sin conocer la expresión",
+"porque": "Elegiste B porque probablemente no conocías la expresión y pensaste que un letrero en el ascensor anuncia algo nuevo.",
+"pregunta_guia": "«Out of» significa «fuera de». ¿Qué significa estar «fuera de orden» para una máquina?",
+"aprende": "«Out of order» = fuera de servicio, dañado."
+},
+"C": {
+"error": "Asociar «order» con fila",
+"porque": "Elegiste C porque probablemente relacionaste «order» con hacer fila en orden.",
+"pregunta_guia": "¿El aviso habla de las personas o de la máquina?",
+"aprende": "Las expresiones fijas no se traducen palabra por palabra."
+},
+"D": {
+"error": "Traducción literal",
+"porque": "Elegiste D porque probablemente tradujiste «order» como «orden» de secuencia (1, 2, 3).",
+"pregunta_guia": "¿Por qué «out of» indicaría una secuencia correcta?",
+"aprende": "«In order» = en orden; «out of order» = averiado. Son expresiones distintas."
+}
+},
+"explicacion": "Paso 1: «out of order» es una expresión fija. Paso 2: significa que una máquina (ascensor, cajero, baño) no funciona. Paso 3: la opción A lo dice con otras palabras. B, C y D surgen de traducir «order» literalmente.",
+"estrategia_icfes": "El ICFES evalúa expresiones fijas muy comunes en señales: out of order, sold out, no vacancies, keep out. Apréndelas como bloques completos.",
+"tip": "Si la traducción literal no tiene sentido, probablemente es una expresión fija.",
+"truco": "Out of order = fuera de servicio (como «fuera de combate»).",
+"temas": [
+"avisos",
+"expresiones fijas",
+"falsas traducciones"
+],
+"gemela": {
+"contexto": "Concert poster: Grupo Niche at Estadio Pascual Guerrero — SOLD OUT",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Tickets are very cheap.",
+"B": "There are no more tickets.",
+"C": "The concert is cancelled.",
+"D": "Tickets are on sale tomorrow."
+},
+"correcta": "B",
+"explicacion": "«Sold out» = agotado; ya se vendieron todas las boletas."
+}
+},
+{
+"id": "P11-ING-A010",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende información sobre servicios turísticos y de alojamiento en textos cortos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico el propósito de un texto y lo relaciono con la situación en que aparece.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona expresiones de servicio (check-out, reception) con el lugar donde se ubica un aviso.",
+"contexto": "Check-out time is 12:00 noon. Late check-out is available at reception.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "At a school.",
+"B": "In a hospital waiting room.",
+"C": "In a hotel room.",
+"D": "At a train station."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Asociar «reception» con la entrada del colegio",
+"porque": "Elegiste A porque probablemente pensaste que un colegio también tiene recepción y horario de salida.",
+"pregunta_guia": "¿Qué significa «check-out» en el contexto de un alojamiento?",
+"aprende": "Check-in / check-out = registrar la llegada / la salida de un hotel."
+},
+"B": {
+"error": "Asociar «late» y «reception» con citas médicas",
+"porque": "Elegiste B porque probablemente relacionaste «reception» y la hora con una sala de espera.",
+"pregunta_guia": "¿En la sala de espera de un hospital se habla de la hora de entregar la habitación?",
+"aprende": "«Late check-out» = salida tardía de la habitación, servicio típico de hotel."
+},
+"D": {
+"error": "Confundir horario de salida con salida de trenes",
+"porque": "Elegiste D porque probablemente entendiste «check-out time» como la hora de salida de un tren.",
+"pregunta_guia": "¿Un tren tiene «recepción» donde pides salir más tarde?",
+"aprende": "La hora de un tren se dice «departure time», no «check-out time»."
+}
+},
+"explicacion": "Paso 1: «check-out time» = hora de salida (entregar la habitación). Paso 2: «late check-out» = salida tardía. Paso 3: «reception» = recepción del hotel. Paso 4: el aviso se encuentra en la habitación de un hotel. Colegio, hospital y estación no usan «check-out» con este sentido.",
+"estrategia_icfes": "En la Parte 1 de nivel A2 el ICFES usa vocabulario de servicios (check-in, reception, departures). Relaciona cada expresión con su servicio típico.",
+"tip": "Departure = salida de transporte; check-out = salida de hotel.",
+"truco": "Check-IN al llegar, check-OUT al irte.",
+"temas": [
+"avisos",
+"hotel",
+"turismo"
+],
+"gemela": {
+"contexto": "Please take a number and wait until it appears on the screen.",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "At a bank.",
+"B": "In a forest.",
+"C": "On a beach.",
+"D": "At a football match."
+},
+"correcta": "A",
+"explicacion": "Tomar un turno (number) y esperar a que aparezca en una pantalla es típico de un banco u oficina de atención."
+}
+},
+{
+"id": "P11-ING-A011",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce convenciones culturales y de cortesía en textos escritos de uso público.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico elementos culturales presentes en textos sencillos.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público según las convenciones culturales de la lengua.",
+"evidencia": "Interpreta una petición indirecta y cortés como una norma de comportamiento.",
+"contexto": "We kindly ask our guests to refrain from smoking anywhere on the premises.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "Guests can smoke in special areas.",
+"B": "Smoking is not allowed in any part of the place.",
+"C": "Guests should ask before they smoke.",
+"D": "Cigarettes are sold at the front desk."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "No reconocer el alcance de «anywhere»",
+"porque": "Elegiste A porque probablemente pensaste que, al ser una petición amable, existen zonas para fumar.",
+"pregunta_guia": "¿Qué significa «anywhere on the premises»: en algunas partes o en cualquier parte?",
+"aprende": "«Anywhere» en una prohibición = en ninguna parte; «premises» = las instalaciones del lugar."
+},
+"C": {
+"error": "Interpretar la cortesía como un permiso",
+"porque": "Elegiste C porque probablemente leíste «we kindly ask» y entendiste que hay que pedir permiso para fumar.",
+"pregunta_guia": "¿Quién le pide algo a quién en el aviso? ¿Qué le pide?",
+"aprende": "En inglés formal, «we kindly ask you to refrain from…» es una manera cortés de prohibir."
+},
+"D": {
+"error": "Asociar «smoking» con venta de cigarrillos",
+"porque": "Elegiste D porque probablemente reconociste la idea de fumar y pensaste en un producto que se vende.",
+"pregunta_guia": "¿El aviso habla de comprar algo o de una norma?",
+"aprende": "Identifica la intención del aviso (norma) antes de elegir."
+}
+},
+"explicacion": "Paso 1: «we kindly ask» = les pedimos amablemente (fórmula de cortesía). Paso 2: «refrain from smoking» = abstenerse de fumar. Paso 3: «anywhere on the premises» = en cualquier lugar de las instalaciones. Paso 4: el aviso prohíbe fumar en todo el lugar, de forma cortés: opción B.",
+"estrategia_icfes": "El ICFES incluye avisos formales en los que la prohibición está «suavizada» con cortesía (we kindly ask, guests are requested). Detrás de la cortesía está la norma: tradúcela a una frase simple.",
+"tip": "Fórmulas como «kindly», «please refrain from» o «are requested to» indican normas, no sugerencias opcionales.",
+"truco": "Refrain from = abstenerse de = NO hacerlo.",
+"temas": [
+"avisos",
+"registro formal",
+"cortesía"
+],
+"gemela": {
+"contexto": "Passengers are requested to remain seated until the bus comes to a complete stop.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Passengers can stand whenever they want.",
+"B": "Passengers must ask the driver to stop.",
+"C": "Passengers should not stand up until the bus stops.",
+"D": "Passengers must sit in the front seats."
+},
+"correcta": "C",
+"explicacion": "«Are requested to remain seated» es una forma cortés de ordenar permanecer sentado hasta que el bus se detenga por completo."
+}
+},
+{
+"id": "P11-ING-A012",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información específica en textos cortos sobre salud y servicios.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona palabras clave (prescription, pharmacist) con el lugar donde se ubica un aviso.",
+"contexto": "Prescriptions ready in 15 minutes. Ask the pharmacist for advice.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "At a chemist's.",
+"B": "At a bookshop.",
+"C": "At a petrol station.",
+"D": "At a fast food restaurant."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Asociar «prescriptions» con algo escrito",
+"porque": "Elegiste B porque probablemente pensaste que «prescriptions» son textos o documentos escritos.",
+"pregunta_guia": "«Prescription» = fórmula médica. ¿Dónde se entregan las medicinas de una fórmula?",
+"aprende": "Prescription = receta o fórmula médica."
+},
+"C": {
+"error": "Fijarse solo en el tiempo de espera",
+"porque": "Elegiste C porque probablemente te fijaste en «ready in 15 minutes» y pensaste en un servicio rápido de carros.",
+"pregunta_guia": "¿Qué estará listo en 15 minutos según el aviso?",
+"aprende": "El tiempo de espera no define el lugar; lo define lo que se entrega."
+},
+"D": {
+"error": "Asociar «ready in minutes» con comida rápida",
+"porque": "Elegiste D porque probablemente relacionaste «ready in 15 minutes» con un pedido de comida.",
+"pregunta_guia": "¿Hay un «pharmacist» en un restaurante de comida rápida?",
+"aprende": "Pharmacist = farmaceuta; trabaja en una farmacia (chemist's / pharmacy / drugstore)."
+}
+},
+"explicacion": "Paso 1: «prescriptions» = fórmulas médicas. Paso 2: «pharmacist» = farmaceuta. Paso 3: «chemist's» es la palabra británica para farmacia. Paso 4: el aviso está en una farmacia. Las otras opciones no despachan fórmulas médicas.",
+"estrategia_icfes": "El ICFES puede usar sinónimos o variantes británicas y americanas en las opciones (chemist's = pharmacy = drugstore). Conocer estos pares evita descartar la respuesta correcta.",
+"tip": "Si no reconoces una opción, descarta las que con seguridad no corresponden.",
+"truco": "Pharmacy (EE. UU.: drugstore) = chemist's (Reino Unido).",
+"temas": [
+"avisos",
+"salud",
+"inglés británico y americano"
+],
+"gemela": {
+"contexto": "Visiting hours: 2 p.m. to 4 p.m. Maximum two visitors per patient.",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "At a gym.",
+"B": "At a museum.",
+"C": "At a hospital.",
+"D": "At an airport."
+},
+"correcta": "C",
+"explicacion": "«Visiting hours» y «patient» (paciente) indican un hospital o clínica."
+}
+},
+{
+"id": "P11-ING-A013",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende avisos que expresan obligación y prohibición mediante verbos modales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: comprendo instrucciones escritas para llevar a cabo actividades cotidianas.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Diferencia obligación (must) y ausencia de obligación (don't have to) en un aviso.",
+"contexto": "Ecoparque — Children under 12 must be accompanied by an adult. Adults don't have to pay on Sundays.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "Children under 12 can't enter on Sundays.",
+"B": "Adults must pay more on Sundays.",
+"C": "Children under 12 can come alone on Sundays.",
+"D": "Adults can enter for free on Sundays."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Mezclar las dos normas",
+"porque": "Elegiste A porque probablemente uniste la regla de los niños con la palabra «Sundays» de la otra frase.",
+"pregunta_guia": "¿La palabra «Sundays» está en la oración de los niños o en la de los adultos?",
+"aprende": "Lee cada oración del aviso por separado: cada una tiene su sujeto y su norma."
+},
+"B": {
+"error": "Confundir «don't have to» con «must»",
+"porque": "Elegiste B porque probablemente viste «have to pay» y no tuviste en cuenta el «don't».",
+"pregunta_guia": "¿«Don't have to pay» significa que tienes que pagar o que no es necesario?",
+"aprende": "Don't have to = no es necesario; must = es obligatorio."
+},
+"C": {
+"error": "Invertir la obligación de los niños",
+"porque": "Elegiste C porque probablemente pensaste que los domingos la regla cambia también para los niños.",
+"pregunta_guia": "¿El aviso dice que la regla de los niños tiene alguna excepción?",
+"aprende": "«Must be accompanied» = deben venir acompañados siempre, sin excepción en el aviso."
+}
+},
+"explicacion": "Paso 1: «children under 12 must be accompanied by an adult» = los menores de 12 deben venir con un adulto. Paso 2: «adults don't have to pay on Sundays» = los adultos no tienen que pagar los domingos. Paso 3: la opción D («pueden entrar gratis los domingos») parafrasea la segunda norma. A y C mezclan o contradicen la primera; B invierte «don't have to».",
+"estrategia_icfes": "Cuando el aviso tiene dos normas, el ICFES construye distractores mezclándolas. Separa las oraciones y verifica sujeto, modal y condición en cada opción.",
+"tip": "Must = obligación; mustn't = prohibición; don't have to = no es necesario.",
+"truco": "DON'T HAVE TO = «no hace falta», no «está prohibido».",
+"temas": [
+"avisos",
+"modales",
+"obligación"
+],
+"gemela": {
+"contexto": "Visitors don't have to book in advance, but they must show an ID at the entrance.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "You need an ID, but no reservation.",
+"B": "You need a reservation and an ID.",
+"C": "You can't enter without a reservation.",
+"D": "You don't need any document to enter."
+},
+"correcta": "A",
+"explicacion": "«Don't have to book» = no es necesario reservar; «must show an ID» = es obligatorio mostrar documento."
+}
+},
+{
+"id": "P11-ING-A014",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información específica en textos cortos sobre transporte y viajes.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona vocabulario de aeropuerto (boarding pass, gate) con el lugar del aviso.",
+"contexto": "Aeropuerto Alfonso Bonilla Aragón — Have your boarding pass ready. Gate closes 20 minutes before departure.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "At a car park entrance.",
+"B": "Near the boarding area.",
+"C": "At a football stadium.",
+"D": "In a shopping centre."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Asociar «gate» con portón de parqueadero",
+"porque": "Elegiste A porque probablemente sabías que «gate» es portón y pensaste en la entrada de un parqueadero.",
+"pregunta_guia": "¿Qué documento hay que tener listo antes de pasar por esa «gate»?",
+"aprende": "En un aeropuerto, «gate» = sala o puerta de embarque."
+},
+"C": {
+"error": "Relacionar «pass» con una boleta de estadio",
+"porque": "Elegiste C porque probablemente entendiste «pass» como una entrada a un evento.",
+"pregunta_guia": "¿Qué tipo de «pass» es un «boarding pass»? ¿Para abordar qué?",
+"aprende": "Boarding pass = pase de abordar (avión)."
+},
+"D": {
+"error": "Elegir un lugar dentro del aeropuerto equivocado",
+"porque": "Elegiste D porque probablemente pensaste que los aeropuertos tienen tiendas y escogiste un centro comercial.",
+"pregunta_guia": "¿Dónde exactamente se cierra una puerta 20 minutos antes de la salida?",
+"aprende": "El aviso describe el momento de abordar, que ocurre en la zona de embarque."
+}
+},
+"explicacion": "Paso 1: «boarding pass» = pase de abordar. Paso 2: «gate» = puerta de embarque. Paso 3: «departure» = salida del vuelo. Paso 4: el aviso está cerca de la zona de embarque del aeropuerto. Parqueadero, estadio y centro comercial no exigen pase de abordar.",
+"estrategia_icfes": "Aunque el aviso nombre un lugar grande (un aeropuerto), el ICFES puede preguntar por el punto exacto. Busca la opción que mejor encaja con la acción que describe el aviso.",
+"tip": "Combina dos pistas (boarding pass + gate) para estar seguro.",
+"truco": "Board = subir a un transporte; boarding pass = pase para subir.",
+"temas": [
+"avisos",
+"aeropuerto",
+"viajes"
+],
+"gemela": {
+"contexto": "Mio Cali — Please have your card ready before you reach the turnstile.",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "At a cinema screen.",
+"B": "In a hospital room.",
+"C": "At a hair salon.",
+"D": "At a bus station entrance."
+},
+"correcta": "D",
+"explicacion": "«Turnstile» (torniquete) y tener la tarjeta lista indican la entrada a una estación del sistema de buses MIO."
+}
+},
+{
+"id": "P11-ING-A015",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "B1",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: infiere el propósito y la información implícita en textos cortos auténticos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico el propósito de un texto y lo relaciono con la situación en que aparece.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Infiere la consecuencia práctica de un aviso que expresa condición y excepción.",
+"contexto": "Items may be exchanged within 30 days with receipt. Sale items are non-refundable.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "You can get your money back for any item.",
+"B": "You can change sale items without a receipt.",
+"C": "You can't get your money back for discounted items.",
+"D": "You must buy something new within 30 days."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Ignorar la excepción",
+"porque": "Elegiste A porque probablemente leíste la primera oración y no la segunda, que pone una excepción.",
+"pregunta_guia": "¿Qué dice la segunda oración sobre los «sale items»?",
+"aprende": "En avisos con dos oraciones, la segunda suele limitar la primera."
+},
+"B": {
+"error": "Confundir «exchanged» con condiciones libres",
+"porque": "Elegiste B porque probablemente no viste la condición «with receipt».",
+"pregunta_guia": "¿Qué documento exige el aviso para hacer un cambio?",
+"aprende": "«With receipt» = con factura; es una condición obligatoria."
+},
+"D": {
+"error": "Malinterpretar «within 30 days»",
+"porque": "Elegiste D porque probablemente entendiste que en 30 días hay que comprar algo más.",
+"pregunta_guia": "¿Para hacer qué cosa es el plazo de «within 30 days»?",
+"aprende": "Within + tiempo = dentro de ese plazo; aquí es el plazo para cambiar un producto."
+}
+},
+"explicacion": "Paso 1: «items may be exchanged within 30 days with receipt» = los productos se pueden cambiar dentro de 30 días con factura. Paso 2: «sale items» = productos en rebaja. Paso 3: «non-refundable» = no se devuelve el dinero. Paso 4: la opción C dice que no se reembolsan los artículos con descuento (discounted = sale). A ignora la excepción, B elimina la condición de la factura, D malinterpreta el plazo.",
+"estrategia_icfes": "En avisos de nivel B1 el ICFES combina condición (with receipt), plazo (within 30 days) y excepción (sale items are non-…). Verifica en cada opción esas tres piezas.",
+"tip": "Prefijo «non-» o «un-» = negación: non-refundable = no reembolsable.",
+"truco": "Sale item = discounted item = artículo en rebaja.",
+"temas": [
+"avisos",
+"compras",
+"condiciones y excepciones"
+],
+"gemela": {
+"contexto": "Free delivery on orders over $80.000. Orders placed after 5 p.m. will arrive the next day.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Every order arrives on the same day.",
+"B": "A $100.000 order is delivered at no cost.",
+"C": "Delivery costs $80.000 after 5 p.m.",
+"D": "You can't order after 5 p.m."
+},
+"correcta": "B",
+"explicacion": "$100.000 supera $80.000, así que el domicilio es gratis. Los pedidos después de las 5 p.m. llegan al día siguiente (sí se pueden hacer)."
+}
+},
+{
+"id": "P11-ING-A016",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información específica en textos cortos de su entorno escolar.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso público.",
+"evidencia": "Relaciona instrucciones de seguridad (goggles, chemicals) con el lugar donde se aplican.",
+"contexto": "Wear safety goggles at all times. Never taste chemicals.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "In a school canteen.",
+"B": "In a music room.",
+"C": "In a gym.",
+"D": "In a science lab."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Asociar «taste» con comida",
+"porque": "Elegiste A porque probablemente viste «taste» (probar) y pensaste en la cafetería.",
+"pregunta_guia": "¿Qué es lo que NUNCA se debe probar según el aviso?",
+"aprende": "«Never taste chemicals» = nunca pruebes sustancias químicas; norma de laboratorio."
+},
+"B": {
+"error": "Elegir un aula al azar",
+"porque": "Elegiste B porque probablemente identificaste que es un aviso escolar pero no reconociste «goggles».",
+"pregunta_guia": "«Goggles» = gafas protectoras. ¿En qué salón se necesitan?",
+"aprende": "Safety goggles = gafas de seguridad, propias del laboratorio."
+},
+"C": {
+"error": "Asociar «safety» con deporte",
+"porque": "Elegiste C porque probablemente pensaste en normas de seguridad para hacer ejercicio.",
+"pregunta_guia": "¿En el gimnasio hay «chemicals» que alguien podría probar?",
+"aprende": "La combinación goggles + chemicals solo encaja en un laboratorio."
+}
+},
+"explicacion": "Paso 1: «wear safety goggles» = usar gafas de seguridad. Paso 2: «at all times» = siempre. Paso 3: «never taste chemicals» = nunca probar sustancias químicas. Paso 4: estas normas son de un laboratorio de ciencias.",
+"estrategia_icfes": "En avisos escolares el ICFES ofrece varios espacios del colegio. Identifica el objeto o la sustancia que solo existe en uno de ellos.",
+"tip": "Busca dos pistas que coincidan en un mismo lugar.",
+"truco": "Chemicals = químicos → laboratorio (lab).",
+"temas": [
+"avisos",
+"colegio",
+"seguridad"
+],
+"gemela": {
+"contexto": "Please put the instruments back in their cases after rehearsal.",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "In a music room.",
+"B": "In a kitchen.",
+"C": "In a science lab.",
+"D": "In a garage."
+},
+"correcta": "A",
+"explicacion": "«Instruments» (instrumentos) y «rehearsal» (ensayo) indican el salón de música."
+}
+},
+{
+"id": "P11-ING-A017",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce la voz pasiva en avisos e instrucciones de uso frecuente.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico relaciones de significado expresadas en textos sobre temas de mi interés.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Interpreta un aviso en voz pasiva con una consecuencia (will be towed).",
+"contexto": "Unauthorized vehicles will be towed away at the owner's expense.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "Owners will receive money for parking here.",
+"B": "Cars without permission will be removed and owners pay.",
+"C": "Owners can wash their cars here.",
+"D": "Only new cars can park here."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Invertir el sentido de «at the owner's expense»",
+"porque": "Elegiste A porque probablemente viste «owner» y «expense» y pensaste que el dueño recibe dinero.",
+"pregunta_guia": "«Expense» es gasto. ¿Quién paga el gasto: el dueño o el parqueadero?",
+"aprende": "At the owner's expense = por cuenta del dueño; el dueño paga."
+},
+"C": {
+"error": "Adivinar con «vehicles»",
+"porque": "Elegiste C porque probablemente reconociste «vehicles» pero no «towed away».",
+"pregunta_guia": "«Tow away» = remolcar (llevarse con grúa). ¿Tiene que ver con lavar?",
+"aprende": "Tow away = llevarse un vehículo con grúa."
+},
+"D": {
+"error": "Confundir «unauthorized» con «viejo»",
+"porque": "Elegiste D porque probablemente pensaste que «unauthorized» se refiere a una característica del carro, como la edad.",
+"pregunta_guia": "Quita el prefijo «un-»: ¿qué significa «authorized»?",
+"aprende": "Unauthorized = no autorizado, sin permiso."
+}
+},
+"explicacion": "Paso 1: «unauthorized vehicles» = vehículos no autorizados. Paso 2: «will be towed away» (voz pasiva) = serán llevados por la grúa. Paso 3: «at the owner's expense» = a costa del dueño. Paso 4: B lo parafrasea: los carros sin permiso serán retirados y el dueño paga.",
+"estrategia_icfes": "Los avisos de advertencia usan voz pasiva (will be + participio) para describir consecuencias. Identifica qué le pasará a quién y quién asume el costo.",
+"tip": "«Will be + participio» = consecuencia que le ocurre al sujeto.",
+"truco": "UN + authorized = NO autorizado.",
+"temas": [
+"avisos",
+"voz pasiva",
+"advertencias"
+],
+"gemela": {
+"contexto": "Bags left unattended will be removed by security.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Security will watch your bag for you.",
+"B": "You can leave your bag here safely.",
+"C": "Security will take away bags with nobody near them.",
+"D": "You must give your bag to security."
+},
+"correcta": "C",
+"explicacion": "«Unattended» = sin nadie a cargo; «will be removed» = serán retiradas. Seguridad se llevará las maletas que estén solas."
+}
+},
+{
+"id": "P11-ING-A018",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce el registro y la intención de mensajes escritos en diferentes contextos sociales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico elementos culturales presentes en textos sencillos.",
+"afirmacion": "Identifica el lugar o la situación en la que se encuentra un aviso según su registro y sus convenciones.",
+"evidencia": "Relaciona un mensaje informal y personal con el soporte en el que se escribe.",
+"contexto": "Mom, gone to Sara's house to do the project. Back at 7. Love, Juan.",
+"enunciado": "Where can you see this notice?",
+"opciones": {
+"A": "On a school board.",
+"B": "In a newspaper.",
+"C": "On the fridge at home.",
+"D": "On a shop window."
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Asociar «project» con el colegio",
+"porque": "Elegiste A porque probablemente viste la palabra «project» y pensaste en una cartelera escolar.",
+"pregunta_guia": "¿A quién va dirigido el mensaje y quién lo firma?",
+"aprende": "Un mensaje que empieza con «Mom» y termina con «Love» es una nota familiar."
+},
+"B": {
+"error": "No reconocer el registro informal",
+"porque": "Elegiste B porque probablemente no tuviste en cuenta que el mensaje es personal y omite palabras («gone to…»).",
+"pregunta_guia": "¿Un periódico publica mensajes de un hijo para su mamá?",
+"aprende": "Las notas personales omiten el sujeto (I have gone → gone) y usan saludos familiares."
+},
+"D": {
+"error": "Pensar en un aviso de horario de tienda",
+"porque": "Elegiste D porque probablemente asociaste «back at 7» con el aviso «volvemos a las 7» de una tienda.",
+"pregunta_guia": "Una tienda, ¿firmaría «Love, Juan» y escribiría «Mom»?",
+"aprende": "Mira el saludo y la despedida: indican quién escribe y a quién."
+}
+},
+"explicacion": "Paso 1: el mensaje va dirigido a «Mom» y lo firma «Love, Juan». Paso 2: es informal y omite palabras («gone to» = I have gone to). Paso 3: un mensaje familiar de este tipo se deja, por ejemplo, en la nevera de la casa. Cartelera escolar, periódico y vitrina son espacios públicos.",
+"estrategia_icfes": "La Parte 1 incluye notas personales, mensajes de texto y etiquetas. El saludo, la despedida y el tono informal te dicen si el texto es privado o público.",
+"tip": "«Love», «See you», «xx» = mensaje personal; «Customers», «Visitors» = aviso público.",
+"truco": "Quién escribe + a quién escribe = dónde está la nota.",
+"temas": [
+"avisos",
+"notas personales",
+"registro informal"
+],
+"gemela": {
+"contexto": "Dear customers, we are closed for staff training. We reopen tomorrow at 9 a.m.",
+"enunciado": "Where would you probably find this sign?",
+"opciones": {
+"A": "On a shop door.",
+"B": "In a birthday card.",
+"C": "In a personal diary.",
+"D": "On a family photo."
+},
+"correcta": "A",
+"explicacion": "«Dear customers» (clientes) y «we reopen» indican un aviso público de un negocio, pegado en la puerta de la tienda."
+}
+},
+{
+"id": "P11-ING-A019",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende información sobre el cuidado del medio ambiente en textos cortos.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico el propósito de un texto y lo relaciono con la situación en que aparece.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Identifica la instrucción ambiental de un aviso de reciclaje.",
+"contexto": "Río Pance — PLASTIC BOTTLES AND CANS ONLY. Please take all other rubbish home with you.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "Put only bottles and cans here; carry the rest of your rubbish away.",
+"B": "You can throw any kind of rubbish in the river.",
+"C": "Bottles and cans are sold here.",
+"D": "Take your bottles and cans home."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Ignorar «only»",
+"porque": "Elegiste B porque probablemente no viste «only» ni la segunda instrucción.",
+"pregunta_guia": "¿El aviso permite cualquier basura o solo cierto tipo?",
+"aprende": "«Only» restringe; la segunda oración pide llevarse lo demás."
+},
+"C": {
+"error": "Asociar productos con venta",
+"porque": "Elegiste C porque probablemente reconociste «bottles and cans» y pensaste que el aviso las ofrece.",
+"pregunta_guia": "¿Ves algún precio o verbo de venta en el aviso?",
+"aprende": "Un aviso en una caneca indica qué se deposita, no qué se vende."
+},
+"D": {
+"error": "Invertir las instrucciones",
+"porque": "Elegiste D porque probablemente confundiste qué va en la caneca y qué hay que llevarse a casa.",
+"pregunta_guia": "Según el aviso, ¿qué se lleva a casa: las botellas o «all other rubbish»?",
+"aprende": "«All other» = todo lo demás, es decir, lo que NO es botella ni lata."
+}
+},
+"explicacion": "Paso 1: «plastic bottles and cans only» = solo botellas plásticas y latas (en esa caneca). Paso 2: «take all other rubbish home» = llévate a casa toda la otra basura. Paso 3: A parafrasea las dos instrucciones. B ignora la restricción, C inventa una venta y D invierte las instrucciones.",
+"estrategia_icfes": "Cuando el aviso tiene dos instrucciones, la opción correcta suele recoger ambas. Revisa que la opción no invierta qué va con qué.",
+"tip": "Rubbish (británico) = trash/garbage (americano) = basura.",
+"truco": "All OTHER = todo lo QUE NO se mencionó antes.",
+"temas": [
+"avisos",
+"medio ambiente",
+"reciclaje"
+],
+"gemela": {
+"contexto": "Save water: turn off the tap while you brush your teeth.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Brush your teeth with more water.",
+"B": "The water here is not safe to drink.",
+"C": "Close the tap when you are not using the water.",
+"D": "Buy water before brushing your teeth."
+},
+"correcta": "C",
+"explicacion": "«Turn off the tap» = cerrar la llave; el aviso pide no dejar correr el agua mientras te cepillas."
+}
+},
+{
+"id": "P11-ING-A020",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "B1",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: comprende textos auténticos cortos que incluyen expresiones idiomáticas y estructuras condicionales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico relaciones de significado expresadas en textos sobre temas de mi interés.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Interpreta una estructura condicional con «unless» en un aviso.",
+"contexto": "Tickets are non-transferable and will not be accepted unless the name matches your ID.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "Any person can use the ticket.",
+"B": "Your ticket is valid only if it has your correct name.",
+"C": "Tickets with your name will not be accepted.",
+"D": "You can change the name on the ticket at the door."
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "No reconocer «non-transferable»",
+"porque": "Elegiste A porque probablemente no comprendiste «non-transferable» (no se puede pasar a otra persona).",
+"pregunta_guia": "Si algo es «transferable» se puede pasar a otro. ¿Qué agrega «non-»?",
+"aprende": "Non-transferable = intransferible; solo lo usa su dueño."
+},
+"C": {
+"error": "Interpretar «unless» como «if»",
+"porque": "Elegiste C porque probablemente leíste «unless» como «si» y entendiste lo contrario.",
+"pregunta_guia": "«Unless» = a menos que. ¿En qué caso SÍ se acepta el boleto?",
+"aprende": "Unless = if not. «Not accepted unless the name matches» = solo se acepta si el nombre coincide."
+},
+"D": {
+"error": "Inventar una solución que el aviso no ofrece",
+"porque": "Elegiste D porque probablemente pensaste que siempre es posible corregir el nombre en la entrada.",
+"pregunta_guia": "¿El aviso menciona algún cambio posible en la puerta?",
+"aprende": "No agregues información que el aviso no dice."
+}
+},
+"explicacion": "Paso 1: «non-transferable» = intransferible. Paso 2: «will not be accepted unless the name matches your ID» = no se aceptará a menos que el nombre coincida con tu documento. Paso 3: «unless» = si no; por tanto, el boleto solo vale si tiene tu nombre correcto: opción B. A contradice «non-transferable», C invierte «unless» y D inventa información.",
+"estrategia_icfes": "Las palabras de condición (unless, only if, as long as) son trampas frecuentes del ICFES en nivel B1. Reformula «not … unless X» como «solo si X».",
+"tip": "NOT + UNLESS = ONLY IF.",
+"truco": "Unless = «a menos que» = «si no».",
+"temas": [
+"avisos",
+"condicionales",
+"unless"
+],
+"gemela": {
+"contexto": "You cannot enter the exam room unless you have your student card.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Students without a card can enter first.",
+"B": "You can show your card after the exam.",
+"C": "The student card is not necessary.",
+"D": "Only students with their card can enter."
+},
+"correcta": "D",
+"explicacion": "«Cannot enter unless you have your card» = solo puedes entrar si tienes el carné."
+}
+},
+{
+"id": "P11-ING-A021",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: identifica información específica en textos cortos sobre eventos culturales de su ciudad.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico el propósito de un texto y lo relaciono con la situación en que aparece.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Interpreta un aviso de cambio de fecha y la validez de las entradas.",
+"contexto": "Festival de Música del Pacífico Petronio Álvarez — Due to heavy rain, tonight's concert has been postponed until Saturday. Your tickets are still valid.",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "The concert has been cancelled and tickets are refunded.",
+"B": "The concert will start earlier because of the rain.",
+"C": "People must buy new tickets for Saturday.",
+"D": "The concert will happen later and the same tickets work."
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir «postponed» con «cancelled»",
+"porque": "Elegiste A porque probablemente entendiste «postponed» como cancelado.",
+"pregunta_guia": "Si el concierto se hace «until Saturday», ¿se canceló o se cambió de fecha?",
+"aprende": "Postpone = aplazar (se hace después); cancel = cancelar (no se hace)."
+},
+"B": {
+"error": "Confundir aplazar con adelantar",
+"porque": "Elegiste B porque probablemente leíste que la lluvia cambia el horario, pero no la dirección del cambio.",
+"pregunta_guia": "¿El sábado es antes o después de «tonight»?",
+"aprende": "Postpone = mover hacia más tarde; bring forward = adelantar."
+},
+"C": {
+"error": "Ignorar «still valid»",
+"porque": "Elegiste C porque probablemente pensaste que una nueva fecha requiere una nueva boleta.",
+"pregunta_guia": "¿Qué significa «your tickets are still valid»?",
+"aprende": "Still valid = todavía son válidas; no hay que comprar otras."
+}
+},
+"explicacion": "Paso 1: «due to heavy rain» = debido a la fuerte lluvia. Paso 2: «has been postponed until Saturday» = se aplazó hasta el sábado. Paso 3: «your tickets are still valid» = las boletas siguen siendo válidas. Paso 4: D lo parafrasea. A confunde aplazar con cancelar, B confunde la dirección del cambio y C ignora «still valid».",
+"estrategia_icfes": "En avisos de cambios (postponed, cancelled, delayed, moved), el ICFES pone una opción para cada verbo parecido. Asegúrate de distinguirlos con precisión.",
+"tip": "Postponed = más tarde; cancelled = nunca; delayed = con retraso.",
+"truco": "POST = después (como «posponer»).",
+"temas": [
+"avisos",
+"eventos culturales",
+"postpone vs cancel"
+],
+"gemela": {
+"contexto": "Flight AV 9312 to Bogotá is delayed. New departure time: 3:45 p.m.",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "The flight will leave later than planned.",
+"B": "The flight has been cancelled.",
+"C": "The flight is leaving early.",
+"D": "The flight is going to another city."
+},
+"correcta": "A",
+"explicacion": "«Delayed» = retrasado; el vuelo saldrá más tarde (3:45 p.m.), no se canceló ni cambió de destino."
+}
+},
+{
+"id": "P11-ING-A022",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 1 · Avisos",
+"parte": 1,
+"mcer": "A-",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario básico en avisos de su entorno inmediato.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Comprende el significado y la intención de avisos de uso público.",
+"evidencia": "Reconoce el significado de una advertencia breve (wet floor).",
+"contexto": "CAUTION: WET FLOOR",
+"enunciado": "What does this notice say?",
+"opciones": {
+"A": "Be careful, you can slip here.",
+"B": "Please clean the floor now.",
+"C": "The floor is new and beautiful.",
+"D": "You can swim in this area."
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Interpretar la advertencia como una orden de limpieza",
+"porque": "Elegiste B porque probablemente pensaste que, si el piso está mojado, el aviso pide limpiarlo.",
+"pregunta_guia": "¿«Caution» es una orden de trabajo o una advertencia?",
+"aprende": "Caution = precaución; el aviso advierte un peligro."
+},
+"C": {
+"error": "No reconocer «wet»",
+"porque": "Elegiste C porque probablemente reconociste «floor» pero no «wet».",
+"pregunta_guia": "«Wet» = mojado. ¿Qué peligro tiene un piso mojado?",
+"aprende": "Wet floor = piso mojado → riesgo de resbalar."
+},
+"D": {
+"error": "Asociar «wet» con agua para nadar",
+"porque": "Elegiste D porque probablemente relacionaste «wet» con agua y pensaste en una piscina.",
+"pregunta_guia": "¿El aviso dice «pool» o «floor»?",
+"aprende": "Wet describe el piso; el aviso no habla de nadar."
+}
+},
+"explicacion": "Paso 1: «caution» = precaución, cuidado. Paso 2: «wet floor» = piso mojado. Paso 3: el aviso advierte que te puedes resbalar: opción A. B lo convierte en una orden, C ignora «wet» y D lo asocia con nadar.",
+"estrategia_icfes": "Los avisos de advertencia (caution, danger, warning) piden cuidado frente a un riesgo. La opción correcta suele nombrar el riesgo con otras palabras (slip, fall, get hurt).",
+"tip": "Caution / Warning / Danger = cuidado, hay un riesgo.",
+"truco": "Wet floor → slip (resbalar).",
+"temas": [
+"avisos",
+"advertencias",
+"vocabulario básico"
+],
+"gemela": {
+"contexto": "DANGER: HIGH VOLTAGE",
+"enunciado": "What does this sign mean?",
+"opciones": {
+"A": "Lights are cheap here.",
+"B": "You can charge your phone here.",
+"C": "Turn on the lights, please.",
+"D": "Electricity here can hurt you."
+},
+"correcta": "D",
+"explicacion": "«Danger» = peligro; «high voltage» = alto voltaje. La electricidad puede hacerte daño."
+}
+},
+{
+"id": "P11-ING-A023",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A1",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce y usa vocabulario relacionado con profesiones y oficios.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición sencilla.",
+"evidencia": "Relaciona la descripción de una profesión con la palabra correspondiente.",
+"contexto": "Read the description: This person checks and takes care of your teeth.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "nurse",
+"B": "surgeon",
+"C": "dentist",
+"D": "vet"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Elegir una profesión de salud general",
+"porque": "Elegiste A porque probablemente pensaste en alguien que cuida la salud de las personas.",
+"pregunta_guia": "¿Qué parte del cuerpo menciona la descripción?",
+"aprende": "Nurse = enfermero(a); cuida pacientes en general, no los dientes en particular."
+},
+"B": {
+"error": "Asociar salud con operaciones",
+"porque": "Elegiste B porque probablemente pensaste en un médico que opera.",
+"pregunta_guia": "¿La descripción habla de operar o de revisar los dientes?",
+"aprende": "Surgeon = cirujano; dentist = odontólogo."
+},
+"D": {
+"error": "Confundir «vet» con médico de personas",
+"porque": "Elegiste D porque probablemente no recordaste que «vet» atiende animales.",
+"pregunta_guia": "¿A quién atiende un «vet»: a personas o a animales?",
+"aprende": "Vet (veterinarian) = veterinario."
+}
+},
+"explicacion": "Paso 1: palabra clave «teeth» = dientes. Paso 2: la persona que revisa y cuida los dientes es el odontólogo: «dentist». Paso 3: nurse (enfermero), surgeon (cirujano) y vet (veterinario) son profesiones de salud, pero no se especializan en los dientes.",
+"estrategia_icfes": "En la Parte 2 el ICFES da una descripción y una lista de palabras de la misma categoría (profesiones, lugares, objetos). Busca el detalle que solo una palabra cumple.",
+"tip": "Todas las opciones son del mismo campo: el detalle específico (teeth) decide.",
+"truco": "Dent- = diente: dentist, dental.",
+"temas": [
+"vocabulario",
+"profesiones",
+"salud"
+],
+"gemela": {
+"contexto": "Read the description: This person drives people around the city and they pay for each trip.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "pilot",
+"B": "taxi driver",
+"C": "mechanic",
+"D": "tour guide"
+},
+"correcta": "B",
+"explicacion": "Quien conduce a las personas por la ciudad y cobra por viaje es el «taxi driver»; el piloto vuela, el mecánico repara y el guía turístico explica."
+}
+},
+{
+"id": "P11-ING-A024",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario de objetos personales y de manejo del dinero.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición sencilla.",
+"evidencia": "Relaciona la descripción de un objeto personal con la palabra correspondiente.",
+"contexto": "Read the description: A small, flat object where you keep your money, ID and cards. You usually carry it in your pocket.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "backpack",
+"B": "suitcase",
+"C": "locker",
+"D": "wallet"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Ignorar el tamaño",
+"porque": "Elegiste A porque probablemente pensaste en algo donde se guardan cosas personales.",
+"pregunta_guia": "¿Un «backpack» cabe en el bolsillo?",
+"aprende": "Backpack = morral; es grande y se lleva en la espalda."
+},
+"B": {
+"error": "Asociar con viajes",
+"porque": "Elegiste B porque probablemente pensaste en guardar documentos para un viaje.",
+"pregunta_guia": "La descripción dice «small» y «pocket». ¿Una maleta es así?",
+"aprende": "Suitcase = maleta de viaje."
+},
+"C": {
+"error": "Asociar «keep» con casillero",
+"porque": "Elegiste C porque probablemente relacionaste «keep your things» con el casillero del colegio.",
+"pregunta_guia": "¿Un casillero se puede llevar en el bolsillo?",
+"aprende": "Locker = casillero; es fijo, no se lleva contigo."
+}
+},
+"explicacion": "Paso 1: «small, flat» = pequeño y plano. Paso 2: guarda «money, ID and cards» = dinero, documento y tarjetas. Paso 3: «carry it in your pocket» = se lleva en el bolsillo. Paso 4: es la billetera: «wallet». Morral, maleta y casillero sirven para guardar cosas, pero no cumplen el tamaño ni el bolsillo.",
+"estrategia_icfes": "Las descripciones de la Parte 2 tienen varias pistas (tamaño, uso, lugar). Usa TODAS: una sola pista puede servir para varias opciones.",
+"tip": "Subraya cada característica y elimina las opciones que no cumplan alguna.",
+"truco": "Wallet → money; backpack → back (espalda).",
+"temas": [
+"vocabulario",
+"objetos personales",
+"dinero"
+],
+"gemela": {
+"contexto": "Read the description: A plastic card from the bank that you use to take money out of a cash machine.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "debit card",
+"B": "receipt",
+"C": "coin",
+"D": "price tag"
+},
+"correcta": "A",
+"explicacion": "La tarjeta plástica del banco con la que sacas dinero del cajero es la «debit card»; receipt es el recibo, coin una moneda y price tag la etiqueta de precio."
+}
+},
+{
+"id": "P11-ING-A025",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con el clima, el ambiente y sus problemas.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico relaciones de significado expresadas en textos sobre temas de mi interés.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un fenómeno climático con la palabra correspondiente.",
+"contexto": "Read the description: A long period of time with little or no rain. It is a big problem for sugar cane farmers in the Valle del Cauca.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "drought",
+"B": "flood",
+"C": "storm",
+"D": "landslide"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Elegir el fenómeno opuesto",
+"porque": "Elegiste B porque probablemente reconociste que se habla de un problema climático y de lluvia, pero no viste «little or no rain».",
+"pregunta_guia": "¿La descripción habla de mucha lluvia o de falta de lluvia?",
+"aprende": "Flood = inundación (demasiada agua); drought = sequía (falta de agua)."
+},
+"C": {
+"error": "Asociar clima malo con tormenta",
+"porque": "Elegiste C porque probablemente pensaste en cualquier problema del clima.",
+"pregunta_guia": "¿Una tormenta dura un «long period» sin lluvia?",
+"aprende": "Storm = tormenta, con lluvia y viento fuertes, de corta duración."
+},
+"D": {
+"error": "Elegir un desastre natural sin relación",
+"porque": "Elegiste D porque probablemente asociaste «problem» y «farmers» con un desastre en el campo.",
+"pregunta_guia": "¿Un derrumbe tiene que ver con la falta de lluvia?",
+"aprende": "Landslide = derrumbe, normalmente causado por exceso de lluvia."
+}
+},
+"explicacion": "Paso 1: «a long period of time» = un periodo largo. Paso 2: «little or no rain» = poca o ninguna lluvia. Paso 3: eso es una sequía: «drought». Flood, storm y landslide son fenómenos asociados a exceso de lluvia, no a su ausencia.",
+"estrategia_icfes": "En nivel B1 el ICFES usa vocabulario de temas globales (ambiente, salud, tecnología). Los distractores son palabras del mismo campo; identifica la característica que las diferencia.",
+"tip": "En descripciones con «little or no» / «too much», fíjate en la cantidad: es la pista clave.",
+"truco": "Drought = dry (seco) + long time.",
+"temas": [
+"vocabulario",
+"clima",
+"medio ambiente"
+],
+"gemela": {
+"contexto": "Read the description: When a river gets too much water and covers streets and houses.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "drought",
+"B": "earthquake",
+"C": "flood",
+"D": "wildfire"
+},
+"correcta": "C",
+"explicacion": "Cuando un río se desborda y cubre calles y casas ocurre una inundación: «flood»."
+}
+},
+{
+"id": "P11-ING-A026",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con el trabajo y la economía personal.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un concepto financiero básico con la palabra correspondiente.",
+"contexto": "Read the description: The fixed amount of money that a company pays you every month for your work.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "tip",
+"B": "change",
+"C": "salary",
+"D": "loan"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Ignorar «fixed» y «every month»",
+"porque": "Elegiste A porque probablemente pensaste en dinero que recibes por tu trabajo.",
+"pregunta_guia": "¿Una propina es una cantidad fija que paga la empresa cada mes?",
+"aprende": "Tip = propina; la da el cliente, es voluntaria y variable."
+},
+"B": {
+"error": "Confundir «change» con dinero recibido",
+"porque": "Elegiste B porque probablemente recordaste que «change» es dinero que te devuelven.",
+"pregunta_guia": "¿Cuándo recibes «change»: al trabajar o al pagar con un billete grande?",
+"aprende": "Change = las vueltas (el cambio) al pagar."
+},
+"D": {
+"error": "Confundir ingreso con préstamo",
+"porque": "Elegiste D porque probablemente pensaste en dinero que entrega una entidad.",
+"pregunta_guia": "¿Un préstamo se recibe por trabajar o hay que devolverlo?",
+"aprende": "Loan = préstamo; se devuelve con intereses."
+}
+},
+"explicacion": "Paso 1: «fixed amount of money» = cantidad fija de dinero. Paso 2: «a company pays you every month» = la empresa te paga cada mes. Paso 3: «for your work» = por tu trabajo. Paso 4: es el salario: «salary». Tip (propina), change (vueltas) y loan (préstamo) también son dinero, pero no cumplen todas las condiciones.",
+"estrategia_icfes": "Cuando todas las opciones son del mismo campo (dinero), el ICFES diferencia con detalles como quién paga, cada cuánto y por qué. Revisa las tres pistas.",
+"tip": "Pregunta a la descripción: ¿quién?, ¿cada cuánto?, ¿por qué?",
+"truco": "Salary → sal: en la antigua Roma pagaban con sal (salario).",
+"temas": [
+"vocabulario",
+"educación financiera",
+"trabajo"
+],
+"gemela": {
+"contexto": "Read the description: Money that you keep and do not spend, usually in a bank, for the future.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "savings",
+"B": "debt",
+"C": "bill",
+"D": "discount"
+},
+"correcta": "A",
+"explicacion": "El dinero que guardas y no gastas para el futuro son los ahorros: «savings». Debt es deuda, bill es factura y discount es descuento."
+}
+},
+{
+"id": "P11-ING-A027",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con el campo, la geografía y la economía de su región.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un lugar rural con la palabra correspondiente.",
+"contexto": "Read the description: A very large area of land where one crop, such as sugar cane or coffee, is grown to sell.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "garden",
+"B": "jungle",
+"C": "square",
+"D": "plantation"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Ignorar el tamaño y el propósito comercial",
+"porque": "Elegiste A porque probablemente pensaste en un lugar donde se siembran plantas.",
+"pregunta_guia": "¿Un jardín es «very large» y se cultiva para vender?",
+"aprende": "Garden = jardín o huerta pequeña de una casa."
+},
+"B": {
+"error": "Asociar mucha vegetación con selva",
+"porque": "Elegiste B porque probablemente pensaste en un área grande llena de plantas.",
+"pregunta_guia": "¿En la selva alguien siembra un solo cultivo para vender?",
+"aprende": "Jungle = selva; vegetación natural, no cultivada."
+},
+"C": {
+"error": "Confundir área de tierra con espacio urbano",
+"porque": "Elegiste C porque probablemente relacionaste «area» con una plaza.",
+"pregunta_guia": "¿En una plaza se siembra caña de azúcar?",
+"aprende": "Square = plaza de una ciudad o pueblo."
+}
+},
+"explicacion": "Paso 1: «very large area of land» = gran extensión de tierra. Paso 2: «one crop… is grown» = se cultiva un solo producto. Paso 3: «to sell» = para la venta. Paso 4: es una «plantation» (plantación), como los cañaduzales del Valle. Garden es pequeño, jungle es natural y square es urbano.",
+"estrategia_icfes": "Identifica en la descripción el tamaño, el uso y si es natural o hecho por personas. Con esas tres pistas descartas las palabras del mismo campo semántico.",
+"tip": "Crop = cultivo; grown = cultivado (participio de grow).",
+"truco": "Plantation = plantar a gran escala.",
+"temas": [
+"vocabulario",
+"campo",
+"región del Valle"
+],
+"gemela": {
+"contexto": "Read the description: A small piece of land surrounded by water, like Gorgona in the Pacific.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "valley",
+"B": "island",
+"C": "mountain",
+"D": "desert"
+},
+"correcta": "B",
+"explicacion": "Una porción de tierra rodeada de agua es una isla: «island»."
+}
+},
+{
+"id": "P11-ING-A028",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con los medios de comunicación.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un oficio de los medios con la palabra correspondiente.",
+"contexto": "Read the description: A person who finds information about events and writes news stories for a newspaper or a website.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "presenter",
+"B": "journalist",
+"C": "photographer",
+"D": "publisher"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir quien escribe con quien presenta",
+"porque": "Elegiste A porque probablemente pensaste en la persona que da las noticias en televisión.",
+"pregunta_guia": "¿La descripción habla de escribir o de presentar en TV?",
+"aprende": "Presenter = presentador(a) de radio o televisión."
+},
+"C": {
+"error": "Asociar noticias con imágenes",
+"porque": "Elegiste C porque probablemente pensaste en quien trabaja en un periódico tomando imágenes.",
+"pregunta_guia": "¿Qué produce esta persona según la descripción: fotos o «news stories»?",
+"aprende": "Photographer = fotógrafo; journalist = periodista."
+},
+"D": {
+"error": "Confundir publicar con escribir",
+"porque": "Elegiste D porque probablemente asociaste «newspaper» con la empresa que publica.",
+"pregunta_guia": "¿Un «publisher» investiga y escribe las noticias o es dueño de la publicación?",
+"aprende": "Publisher = editorial o editor propietario; no es quien escribe la noticia."
+}
+},
+"explicacion": "Paso 1: «finds information about events» = investiga los hechos. Paso 2: «writes news stories» = escribe noticias. Paso 3: la persona que hace eso es el periodista: «journalist». Presenter presenta, photographer toma fotos y publisher publica.",
+"estrategia_icfes": "El ICFES pone oficios relacionados del mismo sector. Concéntrate en el VERBO de la descripción (writes, drives, repairs): indica qué hace exactamente la persona.",
+"tip": "El verbo principal de la descripción define la profesión.",
+"truco": "Journal = diario → journalist = quien escribe en el diario.",
+"temas": [
+"vocabulario",
+"medios de comunicación",
+"profesiones"
+],
+"gemela": {
+"contexto": "Read the description: A person who repairs cars and engines.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "plumber",
+"B": "electrician",
+"C": "carpenter",
+"D": "mechanic"
+},
+"correcta": "D",
+"explicacion": "Quien repara carros y motores es el mecánico: «mechanic». Plumber arregla tuberías, electrician instalaciones eléctricas y carpenter trabaja la madera."
+}
+},
+{
+"id": "P11-ING-A029",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A-",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con la casa y la cocina.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición sencilla.",
+"evidencia": "Relaciona la descripción de un utensilio de cocina con la palabra correspondiente.",
+"contexto": "Read the description: You use this in the kitchen to cook food in hot oil, for example patacones or eggs.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "frying pan",
+"B": "fridge",
+"C": "oven",
+"D": "kettle"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Elegir cualquier objeto de cocina",
+"porque": "Elegiste B porque probablemente reconociste que es un objeto de la cocina.",
+"pregunta_guia": "¿La nevera calienta o enfría la comida?",
+"aprende": "Fridge = nevera; enfría, no cocina."
+},
+"C": {
+"error": "Ignorar «hot oil»",
+"porque": "Elegiste C porque probablemente pensaste en algo que cocina con calor.",
+"pregunta_guia": "¿Los patacones se hacen en aceite caliente o al horno?",
+"aprende": "Oven = horno; frying pan = sartén para freír."
+},
+"D": {
+"error": "Asociar «hot» con hervir agua",
+"porque": "Elegiste D porque probablemente relacionaste «hot» con calentar.",
+"pregunta_guia": "¿Qué se calienta en un «kettle»: aceite o agua?",
+"aprende": "Kettle = hervidor de agua (para café o té)."
+}
+},
+"explicacion": "Paso 1: «cook food in hot oil» = cocinar en aceite caliente, es decir, freír. Paso 2: ejemplos: patacones o huevos fritos. Paso 3: el utensilio es la sartén: «frying pan». Fridge enfría, oven hornea y kettle hierve agua.",
+"estrategia_icfes": "Los ejemplos de la descripción (patacones, eggs) son pistas poderosas: imagina cómo se preparan y qué utensilio usas.",
+"tip": "Imagina la escena que describe el texto: te ayuda a encontrar la palabra.",
+"truco": "Fry = freír → frying pan = sartén.",
+"temas": [
+"vocabulario",
+"cocina",
+"casa"
+],
+"gemela": {
+"contexto": "Read the description: A piece of furniture with soft cushions where two or three people can sit in the living room.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "shelf",
+"B": "wardrobe",
+"C": "sofa",
+"D": "desk"
+},
+"correcta": "C",
+"explicacion": "El mueble con cojines donde se sientan dos o tres personas en la sala es el «sofa»."
+}
+},
+{
+"id": "P11-ING-A030",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario para expresar emociones y estados de ánimo.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico relaciones de significado expresadas en textos sobre temas de mi interés.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de una emoción con la palabra correspondiente.",
+"contexto": "Read the description: A feeling of being nervous and worried about something that may happen, like an important exam.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "boredom",
+"B": "pride",
+"C": "anxiety",
+"D": "jealousy"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir emociones negativas",
+"porque": "Elegiste A porque probablemente pensaste en una emoción desagradable relacionada con estudiar.",
+"pregunta_guia": "¿El aburrimiento te hace sentir nervioso por el futuro?",
+"aprende": "Boredom = aburrimiento (falta de interés)."
+},
+"B": {
+"error": "Asociar el examen con el resultado",
+"porque": "Elegiste B porque probablemente pensaste en lo que sientes después de sacar buena nota.",
+"pregunta_guia": "¿La descripción habla de algo que ya pasó o que «may happen»?",
+"aprende": "Pride = orgullo (después de lograr algo)."
+},
+"D": {
+"error": "Elegir sin precisar la causa",
+"porque": "Elegiste D porque probablemente reconociste una emoción negativa pero no su causa.",
+"pregunta_guia": "¿Los celos tienen que ver con un examen o con otra persona?",
+"aprende": "Jealousy = celos o envidia hacia alguien."
+}
+},
+"explicacion": "Paso 1: «nervous and worried» = nervioso y preocupado. Paso 2: «about something that may happen» = por algo que podría pasar. Paso 3: esa emoción es la ansiedad: «anxiety». Boredom es aburrimiento, pride es orgullo y jealousy son celos.",
+"estrategia_icfes": "Las emociones son un campo frecuente en nivel B1. Distingue cada emoción por su causa y su momento (antes/después de un hecho).",
+"tip": "Si la descripción habla del futuro («may happen»), piensa en emociones de anticipación.",
+"truco": "Anxiety ≈ ansiedad (cognado verdadero).",
+"temas": [
+"vocabulario",
+"emociones",
+"inteligencia emocional"
+],
+"gemela": {
+"contexto": "Read the description: The ability to understand how other people feel, as if you were in their situation.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "empathy",
+"B": "anger",
+"C": "shyness",
+"D": "laziness"
+},
+"correcta": "A",
+"explicacion": "La capacidad de entender cómo se sienten los demás, poniéndose en su lugar, es la empatía: «empathy»."
+}
+},
+{
+"id": "P11-ING-A031",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con la tecnología y el uso de dispositivos digitales.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de una acción digital con la palabra correspondiente.",
+"contexto": "Read the description: To copy a file, a song or an app from the internet to your phone or computer.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "upload",
+"B": "download",
+"C": "delete",
+"D": "share"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Invertir la dirección",
+"porque": "Elegiste A porque probablemente sabías que es una acción con archivos e internet, pero confundiste la dirección.",
+"pregunta_guia": "¿El archivo va DESDE internet hacia tu teléfono o desde tu teléfono hacia internet?",
+"aprende": "Download = de internet a tu dispositivo (down = abajo); upload = de tu dispositivo a internet (up = arriba)."
+},
+"C": {
+"error": "Elegir una acción con archivos sin leer «copy»",
+"porque": "Elegiste C porque probablemente reconociste una acción común con archivos.",
+"pregunta_guia": "«Delete» borra. ¿La descripción habla de borrar o de copiar?",
+"aprende": "Delete = borrar, eliminar."
+},
+"D": {
+"error": "Asociar con redes sociales",
+"porque": "Elegiste D porque probablemente pensaste en compartir un archivo por internet.",
+"pregunta_guia": "¿«Share» copia algo a tu teléfono o lo envía a otra persona?",
+"aprende": "Share = compartir con otros; download = descargar para ti."
+}
+},
+"explicacion": "Paso 1: «to copy… from the internet to your phone» = copiar de internet a tu teléfono. Paso 2: esa acción es descargar: «download». Paso 3: upload es subir (dirección contraria), delete es borrar y share es compartir.",
+"estrategia_icfes": "Con vocabulario de tecnología, el ICFES pone pares opuestos (upload/download, log in/log out). Identifica la DIRECCIÓN o el sentido de la acción antes de elegir.",
+"tip": "Fíjate en «from… to…»: indica la dirección.",
+"truco": "DOWN-load = baja de la nube a ti; UP-load = sube de ti a la nube.",
+"temas": [
+"vocabulario",
+"tecnología",
+"pares opuestos"
+],
+"gemela": {
+"contexto": "Read the description: A secret word or group of characters that you type to enter your account.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "username",
+"B": "screen",
+"C": "password",
+"D": "keyboard"
+},
+"correcta": "C",
+"explicacion": "La palabra secreta que escribes para entrar a tu cuenta es la contraseña: «password». Username es el nombre de usuario, que no es secreto."
+}
+},
+{
+"id": "P11-ING-A032",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A1",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario de lugares de la ciudad y sus servicios.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición sencilla.",
+"evidencia": "Relaciona la descripción de un lugar de la ciudad con la palabra correspondiente.",
+"contexto": "Read the description: A place where you can see old and important objects, paintings or sculptures.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "theatre",
+"B": "library",
+"C": "market",
+"D": "museum"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Asociar «see» con espectáculos",
+"porque": "Elegiste A porque probablemente relacionaste «see» con ver una obra.",
+"pregunta_guia": "¿En el teatro ves objetos antiguos o una obra actuada?",
+"aprende": "Theatre = teatro (obras, actuaciones)."
+},
+"B": {
+"error": "Asociar lo antiguo con libros",
+"porque": "Elegiste B porque probablemente pensaste en un lugar cultural con cosas antiguas.",
+"pregunta_guia": "¿Una biblioteca exhibe pinturas y esculturas?",
+"aprende": "Library = biblioteca (libros para leer o prestar)."
+},
+"C": {
+"error": "Asociar objetos antiguos con comprar",
+"porque": "Elegiste C porque probablemente pensaste en un mercado de pulgas donde venden cosas viejas.",
+"pregunta_guia": "¿La descripción dice «buy» o «see»?",
+"aprende": "Market = mercado (comprar y vender)."
+}
+},
+"explicacion": "Paso 1: «see old and important objects» = ver objetos antiguos e importantes. Paso 2: «paintings or sculptures» = pinturas o esculturas. Paso 3: ese lugar es el museo: «museum», como el Museo del Oro Calima en Cali. Theatre presenta obras, library presta libros y market vende productos.",
+"estrategia_icfes": "Para lugares, piensa qué ACCIÓN se hace allí (see, buy, read, watch). La acción de la descripción te lleva al lugar.",
+"tip": "Acción + objeto = lugar: see + paintings = museum.",
+"truco": "Museum ≈ museo (cognado).",
+"temas": [
+"vocabulario",
+"lugares de la ciudad",
+"cultura"
+],
+"gemela": {
+"contexto": "Read the description: A place where you go to send letters and packages.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "post office",
+"B": "bank",
+"C": "police station",
+"D": "bakery"
+},
+"correcta": "A",
+"explicacion": "El lugar al que vas a enviar cartas y paquetes es la oficina de correo: «post office»."
+}
+},
+{
+"id": "P11-ING-A033",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con la educación superior y el mundo laboral.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico relaciones de significado expresadas en textos sobre temas de mi interés.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un concepto académico con la palabra correspondiente.",
+"contexto": "Read the description: Money that a university or an organization gives a good student to pay for his or her studies. The student does not have to pay it back.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "scholarship",
+"B": "fee",
+"C": "degree",
+"D": "loan"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir dinero que se paga con dinero que se recibe",
+"porque": "Elegiste B porque probablemente pensaste en el dinero relacionado con estudiar.",
+"pregunta_guia": "¿El estudiante recibe ese dinero o lo paga a la universidad?",
+"aprende": "Fee = cuota, matrícula o tarifa que se paga."
+},
+"C": {
+"error": "Asociar universidad con título",
+"porque": "Elegiste C porque probablemente pensaste en lo que obtiene un buen estudiante de la universidad.",
+"pregunta_guia": "¿Un título es dinero?",
+"aprende": "Degree = título universitario."
+},
+"D": {
+"error": "Ignorar «does not have to pay it back»",
+"porque": "Elegiste D porque probablemente pensaste en dinero que recibes para estudiar, como un crédito del ICETEX.",
+"pregunta_guia": "Un préstamo, ¿hay que devolverlo o no?",
+"aprende": "Loan = préstamo, se devuelve; scholarship = beca, no se devuelve."
+}
+},
+"explicacion": "Paso 1: «money… gives a good student» = dinero que se da a un buen estudiante. Paso 2: «to pay for his or her studies» = para pagar sus estudios. Paso 3: «does not have to pay it back» = no lo tiene que devolver. Paso 4: es una beca: «scholarship». Fee se paga, degree es un título y loan se devuelve.",
+"estrategia_icfes": "En nivel B1 la última oración de la descripción suele ser la que distingue la respuesta de su distractor más cercano (aquí, «does not have to pay it back» separa beca de préstamo).",
+"tip": "Lee la descripción hasta el final: la última pista elimina el distractor más fuerte.",
+"truco": "Scholar = estudioso → scholarship = beca para el estudioso.",
+"temas": [
+"vocabulario",
+"educación superior",
+"educación financiera"
+],
+"gemela": {
+"contexto": "Read the description: A period of time when a student works in a company to get experience, sometimes without pay.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "retirement",
+"B": "holiday",
+"C": "internship",
+"D": "interview"
+},
+"correcta": "C",
+"explicacion": "El periodo en que un estudiante trabaja en una empresa para ganar experiencia es la pasantía o práctica: «internship»."
+}
+},
+{
+"id": "P11-ING-A034",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: selecciona el vocabulario adecuado según la situación comunicativa.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, escritura: uso vocabulario adecuado para darle coherencia a mis textos.",
+"afirmacion": "Reconoce el significado de palabras a partir de su uso en una situación comunicativa.",
+"evidencia": "Selecciona la palabra que corresponde a una acción descrita en una situación concreta.",
+"contexto": "Read the description: What you do when you say «sorry» to someone because you did something wrong.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "complain",
+"B": "thank",
+"C": "apologize",
+"D": "forgive"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir disculparse con quejarse",
+"porque": "Elegiste A porque probablemente pensaste en una situación en la que algo salió mal.",
+"pregunta_guia": "¿Quien se queja reconoce su propio error o el error de otro?",
+"aprende": "Complain = quejarse (por algo que otro hizo mal)."
+},
+"B": {
+"error": "Elegir otra expresión de cortesía",
+"porque": "Elegiste B porque probablemente reconociste una función social de cortesía, pero no la correcta.",
+"pregunta_guia": "¿Qué palabra usas al agradecer: «sorry» o «thank you»?",
+"aprende": "Thank = agradecer; apologize = pedir disculpas."
+},
+"D": {
+"error": "Confundir quien pide perdón con quien perdona",
+"porque": "Elegiste D porque probablemente relacionaste «sorry» con perdón, pero desde el lado de la otra persona.",
+"pregunta_guia": "¿Quién dice «sorry»: el que se equivocó o el que perdona?",
+"aprende": "Forgive = perdonar (lo hace quien recibe la disculpa)."
+}
+},
+"explicacion": "Paso 1: decir «sorry» porque hiciste algo mal = reconocer tu error. Paso 2: esa acción es disculparse: «apologize». Paso 3: complain es quejarse (de otro), thank es agradecer y forgive es perdonar (la respuesta del otro).",
+"estrategia_icfes": "Algunas descripciones de la Parte 2 definen funciones comunicativas (pedir disculpas, quejarse, invitar). Identifica QUIÉN hace la acción y con qué intención.",
+"tip": "Ubica el papel de la persona: ¿pide perdón o perdona?",
+"truco": "Apologize → «apología»: defenderse explicándose; en inglés, pedir disculpas.",
+"temas": [
+"vocabulario",
+"funciones comunicativas",
+"cortesía"
+],
+"gemela": {
+"contexto": "Read the description: What you do when you tell a store that a product is broken and you are not happy with it.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "complain",
+"B": "celebrate",
+"C": "agree",
+"D": "apologize"
+},
+"correcta": "A",
+"explicacion": "Decirle a una tienda que el producto está dañado y que no estás satisfecho es quejarse: «complain»."
+}
+},
+{
+"id": "P11-ING-A035",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A-",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario básico sobre ropa y accesorios.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición sencilla.",
+"evidencia": "Relaciona la descripción de una prenda con la palabra correspondiente.",
+"contexto": "Read the description: You wear this on your head to protect you from the sun.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "scarf",
+"B": "cap",
+"C": "gloves",
+"D": "belt"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Asociar con protección del clima",
+"porque": "Elegiste A porque probablemente pensaste en una prenda que protege del clima.",
+"pregunta_guia": "¿La bufanda se usa en la cabeza para el sol o en el cuello para el frío?",
+"aprende": "Scarf = bufanda (cuello)."
+},
+"C": {
+"error": "No reconocer la parte del cuerpo",
+"porque": "Elegiste C porque probablemente no reconociste «head».",
+"pregunta_guia": "¿Los guantes se usan en la cabeza o en las manos?",
+"aprende": "Gloves = guantes (manos); head = cabeza."
+},
+"D": {
+"error": "Elegir un accesorio al azar",
+"porque": "Elegiste D porque probablemente reconociste un accesorio, pero no su uso.",
+"pregunta_guia": "¿Un cinturón protege del sol?",
+"aprende": "Belt = cinturón (cintura)."
+}
+},
+"explicacion": "Paso 1: «on your head» = en la cabeza. Paso 2: «protect you from the sun» = protegerte del sol. Paso 3: es una gorra: «cap». Scarf va en el cuello, gloves en las manos y belt en la cintura.",
+"estrategia_icfes": "Para prendas y objetos, ubica la parte del cuerpo o el lugar que menciona la descripción: elimina de inmediato las opciones que no coinciden.",
+"tip": "Head (cabeza), neck (cuello), hands (manos), waist (cintura).",
+"truco": "Cap = gorra (como la «capucha» que cubre la cabeza).",
+"temas": [
+"vocabulario",
+"ropa",
+"partes del cuerpo"
+],
+"gemela": {
+"contexto": "Read the description: You wear these on your feet when you play football.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "socks",
+"B": "shorts",
+"C": "boots",
+"D": "gloves"
+},
+"correcta": "C",
+"explicacion": "Lo que llevas en los pies para jugar fútbol son los guayos: «football boots» (boots)."
+}
+},
+{
+"id": "P11-ING-A036",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce diferencias culturales y de variedad en el vocabulario del inglés.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico elementos culturales presentes en textos sencillos.",
+"afirmacion": "Reconoce el significado de palabras propias de variedades del inglés a partir de una definición.",
+"evidencia": "Relaciona una descripción con la palabra del inglés británico que la nombra.",
+"contexto": "Read the description: In British English, this is a tall building with many apartments where different families live.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "cottage",
+"B": "garage",
+"C": "lift",
+"D": "block of flats"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Elegir otro tipo de vivienda",
+"porque": "Elegiste A porque probablemente sabías que «cottage» es un tipo de casa.",
+"pregunta_guia": "¿Una «cottage» es alta y tiene muchos apartamentos?",
+"aprende": "Cottage = casita de campo, pequeña."
+},
+"B": {
+"error": "Asociar edificio con parqueadero",
+"porque": "Elegiste B porque probablemente relacionaste «building» con el garaje de un edificio.",
+"pregunta_guia": "¿En un garaje viven familias?",
+"aprende": "Garage = garaje (para carros)."
+},
+"C": {
+"error": "Elegir otra palabra británica relacionada",
+"porque": "Elegiste C porque probablemente recordaste que «lift» es una palabra británica de los edificios altos.",
+"pregunta_guia": "¿Un «lift» es el edificio completo o la máquina que sube y baja?",
+"aprende": "Lift (británico) = elevator (americano) = ascensor."
+}
+},
+"explicacion": "Paso 1: «tall building with many apartments» = edificio alto con muchos apartamentos. Paso 2: en inglés británico, «flat» = apartamento. Paso 3: un edificio de apartamentos es un «block of flats» (en inglés americano, «apartment building»). Cottage es una casa pequeña, garage es para carros y lift es el ascensor.",
+"estrategia_icfes": "El ICFES usa materiales con inglés británico y americano. Conocer pares como flat/apartment, lift/elevator o rubbish/trash te permite reconocer la palabra aunque no sea la que usas.",
+"tip": "Si la descripción menciona «British English», espera la variante británica.",
+"truco": "UK flat = US apartment; UK lift = US elevator.",
+"temas": [
+"vocabulario",
+"inglés británico y americano",
+"vivienda"
+],
+"gemela": {
+"contexto": "Read the description: In American English, the money you get back when you pay with a big bill is called «change», and the money you leave for a waiter is called this.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "tax",
+"B": "tip",
+"C": "fare",
+"D": "fine"
+},
+"correcta": "B",
+"explicacion": "El dinero que le dejas al mesero es la propina: «tip». Tax es impuesto, fare es tarifa de transporte y fine es multa."
+}
+},
+{
+"id": "P11-ING-A037",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con el deporte y la recreación.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de una persona del ámbito deportivo con la palabra correspondiente.",
+"contexto": "Read the description: The person who controls a football match and makes sure that players follow the rules.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "coach",
+"B": "referee",
+"C": "goalkeeper",
+"D": "fan"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir dirigir el equipo con dirigir el partido",
+"porque": "Elegiste A porque probablemente pensaste en la persona que da instrucciones en un partido.",
+"pregunta_guia": "¿El entrenador controla a los dos equipos y hace cumplir las reglas?",
+"aprende": "Coach = entrenador; prepara a su equipo, no controla el partido."
+},
+"C": {
+"error": "Elegir un jugador",
+"porque": "Elegiste C porque probablemente reconociste un rol de fútbol con una función especial.",
+"pregunta_guia": "¿El arquero hace cumplir las reglas a los demás jugadores?",
+"aprende": "Goalkeeper = arquero, portero."
+},
+"D": {
+"error": "Elegir a alguien relacionado con el partido",
+"porque": "Elegiste D porque probablemente pensaste en una persona que está en el estadio durante el partido.",
+"pregunta_guia": "¿Un hincha controla el partido?",
+"aprende": "Fan = hincha, aficionado."
+}
+},
+"explicacion": "Paso 1: «controls a football match» = controla el partido. Paso 2: «makes sure players follow the rules» = asegura que los jugadores cumplan las reglas. Paso 3: es el árbitro: «referee». Coach entrena, goalkeeper ataja y fan anima.",
+"estrategia_icfes": "Para personas, el ICFES ofrece roles del mismo contexto (deporte, salud, colegio). Identifica la función exacta que describe el verbo principal.",
+"tip": "Verbo clave: controls → referee; trains → coach; saves → goalkeeper.",
+"truco": "Referee = refe (como en el fútbol colombiano: «el réferi»).",
+"temas": [
+"vocabulario",
+"deporte",
+"roles"
+],
+"gemela": {
+"contexto": "Read the description: The person who trains a team and decides which players will play.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "referee",
+"B": "captain",
+"C": "fan",
+"D": "coach"
+},
+"correcta": "D",
+"explicacion": "La persona que entrena al equipo y decide quién juega es el entrenador: «coach»."
+}
+},
+{
+"id": "P11-ING-A038",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario académico relacionado con la investigación y las ciencias.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico relaciones de significado expresadas en textos sobre temas de mi interés.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un concepto del método científico con la palabra correspondiente.",
+"contexto": "Read the description: An idea that a scientist suggests to explain something, but that has not been proved yet with experiments.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "hypothesis",
+"B": "result",
+"C": "law",
+"D": "survey"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir el inicio con el final de la investigación",
+"porque": "Elegiste B porque probablemente pensaste en algo que se obtiene de un experimento.",
+"pregunta_guia": "¿Un resultado se obtiene antes o después del experimento?",
+"aprende": "Result = resultado; se obtiene después de experimentar."
+},
+"C": {
+"error": "Ignorar «not proved yet»",
+"porque": "Elegiste C porque probablemente pensaste en una idea científica que explica algo.",
+"pregunta_guia": "Una ley científica, ¿ya está comprobada o todavía no?",
+"aprende": "Law = ley científica, ya probada muchas veces."
+},
+"D": {
+"error": "Confundir idea con método",
+"porque": "Elegiste D porque probablemente asociaste investigación con recoger información.",
+"pregunta_guia": "¿Una encuesta es una idea o un instrumento para recoger datos?",
+"aprende": "Survey = encuesta."
+}
+},
+"explicacion": "Paso 1: «an idea that a scientist suggests to explain something» = una idea propuesta para explicar algo. Paso 2: «has not been proved yet» = aún no se ha comprobado. Paso 3: es la hipótesis: «hypothesis». Result viene después del experimento, law ya está comprobada y survey es un instrumento.",
+"estrategia_icfes": "En nivel B1 aparecen palabras académicas. Fíjate en marcadores de tiempo o estado («yet», «already», «still») que diferencian conceptos cercanos.",
+"tip": "«Not… yet» = todavía no: lo que no se ha comprobado aún.",
+"truco": "Hypothesis ≈ hipótesis (cognado).",
+"temas": [
+"vocabulario académico",
+"método científico",
+"STEAM"
+],
+"gemela": {
+"contexto": "Read the description: A test that scientists do in a controlled way to find out if an idea is true.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "theory",
+"B": "experiment",
+"C": "opinion",
+"D": "conclusion"
+},
+"correcta": "B",
+"explicacion": "La prueba controlada para comprobar si una idea es cierta es el experimento: «experiment»."
+}
+},
+{
+"id": "P11-ING-A039",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con la salud y el cuerpo humano.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un problema de salud con la palabra correspondiente.",
+"contexto": "Read the description: When your body temperature is higher than normal because you are sick.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "cough",
+"B": "headache",
+"C": "fever",
+"D": "sunburn"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Elegir otro síntoma de enfermedad",
+"porque": "Elegiste A porque probablemente reconociste que es un síntoma de gripa.",
+"pregunta_guia": "¿La tos tiene que ver con la temperatura del cuerpo?",
+"aprende": "Cough = tos."
+},
+"B": {
+"error": "Elegir un síntoma que suele acompañar la fiebre",
+"porque": "Elegiste B porque probablemente pensaste en lo que sientes cuando estás enfermo con temperatura.",
+"pregunta_guia": "¿La descripción habla de dolor o de temperatura?",
+"aprende": "Headache = dolor de cabeza."
+},
+"D": {
+"error": "Asociar calor con sol",
+"porque": "Elegiste D porque probablemente relacionaste «temperature higher» con el calor del sol.",
+"pregunta_guia": "¿La descripción dice que la causa es el sol o estar enfermo?",
+"aprende": "Sunburn = quemadura de sol."
+}
+},
+"explicacion": "Paso 1: «body temperature is higher than normal» = temperatura corporal más alta de lo normal. Paso 2: «because you are sick» = porque estás enfermo. Paso 3: es la fiebre: «fever». Cough es tos, headache es dolor de cabeza y sunburn es quemadura solar.",
+"estrategia_icfes": "Los síntomas suelen aparecer juntos en la vida real, por eso el ICFES los usa como distractores. Busca el síntoma que corresponde EXACTAMENTE a la descripción.",
+"tip": "Ache = dolor: headache, stomachache, toothache.",
+"truco": "Fever ≈ fiebre (empiezan con F y comparten sonido).",
+"temas": [
+"vocabulario",
+"salud",
+"síntomas"
+],
+"gemela": {
+"contexto": "Read the description: A pain in your stomach, for example after eating too much.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "stomachache",
+"B": "backache",
+"C": "sore throat",
+"D": "earache"
+},
+"correcta": "A",
+"explicacion": "El dolor en el estómago es «stomachache» (stomach + ache)."
+}
+},
+{
+"id": "P11-ING-A040",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: selecciona vocabulario adecuado para describir situaciones de viaje y transporte.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, escritura: uso vocabulario adecuado para darle coherencia a mis textos.",
+"afirmacion": "Reconoce el significado de palabras a partir de su uso en una situación comunicativa.",
+"evidencia": "Selecciona la palabra que nombra un documento o servicio en una situación de viaje.",
+"contexto": "Read the description: The official document with your photo that you need to travel to another country.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "ticket",
+"B": "map",
+"C": "luggage",
+"D": "passport"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir documento de identidad con boleto",
+"porque": "Elegiste A porque probablemente pensaste en algo necesario para viajar.",
+"pregunta_guia": "¿Un tiquete es un documento oficial con tu foto?",
+"aprende": "Ticket = tiquete o boleto; no es un documento oficial de identidad."
+},
+"B": {
+"error": "Elegir un objeto útil para viajar",
+"porque": "Elegiste B porque probablemente pensaste en lo que necesitas para orientarte en otro país.",
+"pregunta_guia": "¿Un mapa lleva tu foto y es oficial?",
+"aprende": "Map = mapa."
+},
+"C": {
+"error": "Asociar viaje con equipaje",
+"porque": "Elegiste C porque probablemente pensaste en lo que siempre llevas al viajar.",
+"pregunta_guia": "¿El equipaje es un documento?",
+"aprende": "Luggage = equipaje."
+}
+},
+"explicacion": "Paso 1: «official document with your photo» = documento oficial con foto. Paso 2: «to travel to another country» = para viajar a otro país. Paso 3: es el pasaporte: «passport». Ticket, map y luggage se relacionan con viajar, pero no son documentos oficiales de identidad.",
+"estrategia_icfes": "Cuando todas las opciones pertenecen a la misma situación (un viaje), la descripción incluye una característica única (official, with your photo). Encuéntrala.",
+"tip": "Pregúntate qué característica tiene SOLO una de las opciones.",
+"truco": "Pass + port = pasar por el puerto → pasaporte.",
+"temas": [
+"vocabulario",
+"viajes",
+"documentos"
+],
+"gemela": {
+"contexto": "Read the description: The bags and suitcases that you take with you on a trip.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "luggage",
+"B": "passport",
+"C": "souvenir",
+"D": "receipt"
+},
+"correcta": "A",
+"explicacion": "Las maletas y bolsos que llevas en un viaje son el equipaje: «luggage»."
+}
+},
+{
+"id": "P11-ING-A041",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A-",
+"nivel": 1,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario básico sobre alimentos y frutas de su región.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición sencilla.",
+"evidencia": "Relaciona la descripción de una fruta con la palabra correspondiente.",
+"contexto": "Read the description: A long yellow fruit. Monkeys love it, and in Colombia we also cook a green type of it.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "lemon",
+"B": "pineapple",
+"C": "mango",
+"D": "banana"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Fijarse solo en el color",
+"porque": "Elegiste A porque probablemente te fijaste en «yellow» y pensaste en el limón.",
+"pregunta_guia": "¿El limón es largo? ¿A los monos les encanta?",
+"aprende": "Lemon = limón; es amarillo pero pequeño y redondo."
+},
+"B": {
+"error": "Elegir otra fruta amarilla",
+"porque": "Elegiste B porque probablemente pensaste en una fruta amarilla tropical.",
+"pregunta_guia": "¿La piña es larga y se cocina verde?",
+"aprende": "Pineapple = piña."
+},
+"C": {
+"error": "Asociar fruta tropical que también se come verde",
+"porque": "Elegiste C porque probablemente recordaste que el mango también se come verde en Colombia.",
+"pregunta_guia": "¿El mango es largo? ¿Se cocina verde como el plátano?",
+"aprende": "Mango = mango; no es largo ni se cocina como el plátano verde."
+}
+},
+"explicacion": "Paso 1: «long yellow fruit» = fruta larga y amarilla. Paso 2: «monkeys love it» = a los monos les encanta. Paso 3: «we also cook a green type of it» = en Colombia cocinamos una variedad verde (el plátano). Paso 4: es el banano: «banana». Lemon, pineapple y mango no cumplen todas las pistas.",
+"estrategia_icfes": "Usa todas las pistas de la descripción: el color solo no basta; forma y uso eliminan las demás opciones.",
+"tip": "Combina forma + color + uso.",
+"truco": "Banana = banano; plantain = plátano para cocinar.",
+"temas": [
+"vocabulario",
+"alimentos",
+"frutas"
+],
+"gemela": {
+"contexto": "Read the description: A white drink that comes from cows.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "juice",
+"B": "milk",
+"C": "coffee",
+"D": "water"
+},
+"correcta": "B",
+"explicacion": "La bebida blanca que viene de las vacas es la leche: «milk»."
+}
+},
+{
+"id": "P11-ING-A042",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 2,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con compras y servicios en su comunidad.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+"afirmacion": "Reconoce el significado de palabras a partir de su uso en una situación comunicativa.",
+"evidencia": "Relaciona la descripción de un documento usado en una compra con la palabra correspondiente.",
+"contexto": "Read the description: A piece of paper the cashier gives you after you pay. It shows what you bought and how much it cost.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "receipt",
+"B": "recipe",
+"C": "coupon",
+"D": "menu"
+},
+"correcta": "A",
+"errores": {
+"B": {
+"error": "Confundir palabras de forma parecida",
+"porque": "Elegiste B porque probablemente confundiste «recipe» con «receipt», que se escriben de forma parecida.",
+"pregunta_guia": "«Recipe» explica cómo preparar un plato. ¿Eso te lo da el cajero?",
+"aprende": "Recipe = receta de cocina; receipt = recibo o factura."
+},
+"C": {
+"error": "Asociar papel de compra con descuento",
+"porque": "Elegiste C porque probablemente pensaste en un papel que se usa al comprar.",
+"pregunta_guia": "¿El cupón se recibe después de pagar y muestra lo que compraste?",
+"aprende": "Coupon = cupón de descuento; se usa antes o al pagar."
+},
+"D": {
+"error": "Asociar precios con la carta",
+"porque": "Elegiste D porque probablemente pensaste en un papel que muestra precios.",
+"pregunta_guia": "¿La carta muestra lo que YA compraste o lo que puedes pedir?",
+"aprende": "Menu = carta del restaurante, antes de pedir."
+}
+},
+"explicacion": "Paso 1: «piece of paper the cashier gives you after you pay» = papel que te da el cajero después de pagar. Paso 2: «shows what you bought and how much it cost» = muestra qué compraste y cuánto costó. Paso 3: es el recibo o factura: «receipt». Recipe es una receta (falso amigo de forma), coupon es un cupón y menu es la carta.",
+"estrategia_icfes": "El ICFES incluye palabras de escritura similar (receipt/recipe, quiet/quite) para ver si reconoces el vocabulario con precisión. Lee letra por letra las opciones parecidas.",
+"tip": "Receipt tiene una «p» que no se pronuncia: /rɪˈsiːt/.",
+"truco": "ReceiPT = Pago Terminado; reciPE = Preparar Ensalada.",
+"temas": [
+"vocabulario",
+"compras",
+"palabras parecidas"
+],
+"gemela": {
+"contexto": "Read the description: The money you get back when you pay with more money than the price.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "salary",
+"B": "tax",
+"C": "change",
+"D": "loan"
+},
+"correcta": "C",
+"explicacion": "Las vueltas que te devuelven cuando pagas con más dinero del precio son el «change»."
+}
+},
+{
+"id": "P11-ING-A043",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Sociolingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con la diversidad cultural y las tradiciones.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico elementos culturales presentes en textos sencillos.",
+"afirmacion": "Reconoce el significado de palabras relacionadas con la cultura a partir de una definición.",
+"evidencia": "Relaciona la descripción de un concepto cultural con la palabra correspondiente.",
+"contexto": "Read the description: The beliefs, customs and ways of life that people in a community pass from older to younger generations, like the marimba music of the Colombian Pacific.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "fashion",
+"B": "tradition",
+"C": "trend",
+"D": "invention"
+},
+"correcta": "B",
+"errores": {
+"A": {
+"error": "Confundir lo duradero con lo pasajero",
+"porque": "Elegiste A porque probablemente pensaste en costumbres que siguen muchas personas.",
+"pregunta_guia": "¿La moda pasa de abuelos a nietos o cambia cada temporada?",
+"aprende": "Fashion = moda; cambia rápido, no se hereda entre generaciones."
+},
+"C": {
+"error": "Confundir tradición con tendencia",
+"porque": "Elegiste C porque probablemente pensaste en algo que muchas personas hacen al mismo tiempo.",
+"pregunta_guia": "¿Una tendencia de redes sociales se transmite por generaciones?",
+"aprende": "Trend = tendencia; es reciente y temporal."
+},
+"D": {
+"error": "Asociar lo cultural con creación",
+"porque": "Elegiste D porque probablemente pensaste en algo que crea una comunidad.",
+"pregunta_guia": "¿La descripción habla de crear algo nuevo o de transmitir algo antiguo?",
+"aprende": "Invention = invento; algo nuevo, no heredado."
+}
+},
+"explicacion": "Paso 1: «beliefs, customs and ways of life» = creencias, costumbres y formas de vida. Paso 2: «pass from older to younger generations» = se transmiten de los mayores a los jóvenes. Paso 3: es la tradición: «tradition», como la música de marimba del Pacífico (Patrimonio Cultural Inmaterial de la Humanidad, UNESCO). Fashion y trend son pasajeras; invention es algo nuevo.",
+"estrategia_icfes": "En nivel B1 los distractores difieren en matices de tiempo (duradero vs. pasajero, antiguo vs. nuevo). Identifica en la descripción la pista temporal.",
+"tip": "«From generation to generation» = tradición, herencia.",
+"truco": "Tradition = lo que se «trae» del pasado.",
+"temas": [
+"vocabulario",
+"cultura",
+"Pacífico colombiano"
+],
+"gemela": {
+"contexto": "Read the description: A style or activity that becomes very popular for a short time, especially on social media.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "heritage",
+"B": "custom",
+"C": "tradition",
+"D": "trend"
+},
+"correcta": "D",
+"explicacion": "Algo que se vuelve muy popular por poco tiempo, sobre todo en redes, es una tendencia: «trend»."
+}
+},
+{
+"id": "P11-ING-A044",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Lingüística",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "A2",
+"nivel": 3,
+"dba": "Currículo sugerido de Inglés MEN 11°: reconoce vocabulario relacionado con el emprendimiento y los negocios.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, lectura: identifico relaciones de significado expresadas en textos sobre temas de mi interés.",
+"afirmacion": "Reconoce el significado de palabras a partir de una definición.",
+"evidencia": "Relaciona la descripción de un concepto de negocios con la palabra correspondiente.",
+"contexto": "Read the description: The money a business keeps after it pays all its costs, like ingredients, rent and salaries.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "price",
+"B": "income",
+"C": "profit",
+"D": "budget"
+},
+"correcta": "C",
+"errores": {
+"A": {
+"error": "Confundir precio con ganancia",
+"porque": "Elegiste A porque probablemente pensaste en el dinero que cobra el negocio por un producto.",
+"pregunta_guia": "¿El precio es lo que cobras o lo que te queda después de pagar todo?",
+"aprende": "Price = precio de venta de un producto."
+},
+"B": {
+"error": "Confundir ingresos con utilidad",
+"porque": "Elegiste B porque probablemente pensaste en todo el dinero que entra al negocio.",
+"pregunta_guia": "¿Los ingresos ya tienen restados los costos?",
+"aprende": "Income = ingresos totales; profit = ingresos − costos (ganancia)."
+},
+"D": {
+"error": "Confundir plan con resultado",
+"porque": "Elegiste D porque probablemente asociaste dinero, costos y negocio con planear gastos.",
+"pregunta_guia": "¿Un presupuesto es el dinero que sobra o un plan de gastos?",
+"aprende": "Budget = presupuesto, un plan de cuánto se va a gastar."
+}
+},
+"explicacion": "Paso 1: «the money a business keeps» = el dinero que le queda al negocio. Paso 2: «after it pays all its costs» = después de pagar todos sus costos. Paso 3: eso es la ganancia o utilidad: «profit» (profit = income − costs). Price es el precio, income son los ingresos sin restar costos y budget es el presupuesto.",
+"estrategia_icfes": "Con vocabulario de negocios (educación financiera), el ICFES pone términos que se confunden en español también. Aplica la lógica: ¿se cobra, entra, queda o se planea?",
+"tip": "After it pays = después de restar: eso es lo que queda.",
+"truco": "Profit = Pro-fit: lo que te queda «a favor».",
+"temas": [
+"vocabulario",
+"emprendimiento",
+"educación financiera"
+],
+"gemela": {
+"contexto": "Read the description: A plan that shows how much money you will earn and spend in a month.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "budget",
+"B": "profit",
+"C": "price",
+"D": "tip"
+},
+"correcta": "A",
+"explicacion": "El plan de cuánto vas a ganar y gastar en un mes es el presupuesto: «budget»."
+}
+},
+{
+"id": "P11-ING-A045",
+"area": "ingles",
+"grado": 11,
+"prueba": "Saber 11 · Inglés",
+"competencia": "Pragmática",
+"componente": "Parte 2 · Vocabulario",
+"parte": 2,
+"mcer": "B1",
+"nivel": 4,
+"dba": "Currículo sugerido de Inglés MEN 11°: selecciona vocabulario preciso para describir actitudes y comportamientos en la convivencia.",
+"lineamiento": "Estándares Básicos de Competencias en Lenguas Extranjeras: Inglés (Guía 22), grados 10–11, escritura: uso vocabulario adecuado para darle coherencia a mis textos.",
+"afirmacion": "Reconoce el significado de palabras a partir de su uso en una situación comunicativa.",
+"evidencia": "Relaciona la descripción de un rasgo de carácter con el adjetivo correspondiente.",
+"contexto": "Read the description: A person who keeps trying and does not give up, even when something is difficult or they make mistakes.",
+"enunciado": "Which word matches the description?",
+"opciones": {
+"A": "stubborn",
+"B": "lazy",
+"C": "careless",
+"D": "persistent"
+},
+"correcta": "D",
+"errores": {
+"A": {
+"error": "Confundir connotación positiva con negativa",
+"porque": "Elegiste A porque probablemente pensaste en alguien que no cambia de idea ni se rinde.",
+"pregunta_guia": "«Stubborn» describe a alguien terco que no escucha a otros. ¿La descripción tiene tono negativo o positivo?",
+"aprende": "Stubborn = terco (negativo); persistent = perseverante (positivo)."
+},
+"B": {
+"error": "Elegir el rasgo opuesto",
+"porque": "Elegiste B porque probablemente no comprendiste «does not give up».",
+"pregunta_guia": "«Give up» = rendirse. ¿Una persona perezosa sigue intentando?",
+"aprende": "Lazy = perezoso; es lo contrario de esforzarse."
+},
+"C": {
+"error": "Asociar «mistakes» con descuido",
+"porque": "Elegiste C porque probablemente viste «make mistakes» y pensaste en alguien descuidado.",
+"pregunta_guia": "¿La descripción se centra en cometer errores o en seguir intentando a pesar de ellos?",
+"aprende": "Careless = descuidado; la descripción habla de perseverar después del error."
+}
+},
+"explicacion": "Paso 1: «keeps trying» = sigue intentando. Paso 2: «does not give up» = no se rinde. Paso 3: «even when… they make mistakes» = aun cuando comete errores. Paso 4: es una persona perseverante: «persistent». Stubborn tiene connotación negativa (terco), lazy es lo opuesto y careless se refiere al descuido. Como dice CENTEC: el error no nos detiene, nos enseña.",
+"estrategia_icfes": "En nivel B1 el ICFES evalúa matices de connotación: dos palabras pueden describir conductas parecidas, pero una es positiva y otra negativa. Lee el tono de la descripción.",
+"tip": "Pregúntate si la descripción elogia o critica a la persona.",
+"truco": "Persistent = persiste = no se rinde.",
+"temas": [
+"vocabulario",
+"rasgos de personalidad",
+"inteligencia emocional"
+],
+"gemela": {
+"contexto": "Read the description: A person who is not afraid to do something difficult or dangerous.",
+"enunciado": "Which word best fits the description?",
+"opciones": {
+"A": "shy",
+"B": "brave",
+"C": "rude",
+"D": "bored"
+},
+"correcta": "B",
+"explicacion": "Una persona que no tiene miedo de hacer algo difícil o peligroso es valiente: «brave»."
+}
+}
+]
